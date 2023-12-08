@@ -1,21 +1,21 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/navbar';
-import Servicos from '../public/serviços.png';
-import Image from 'next/image';
-import Treinamento3 from '../public/Treinamento3.jpg';
-
-
-export default function Home() {
-  
-  return (
-   <>
-   <Navbar/>
-   <main >
+<header>
+    <Image src="imagens/AUDMED LOGOTIPO.png" alt="">    
+    <ul>
+        <li ><a href="home.html">Home</a></li>
+        <li><a href="about.html">A Audmed</a> </li>
+        <li><a href="service.html">Serviços</a> </li>
+        <li><a href="training.html">Treinamentos</a> </li>
+        <li><a href="blog.html">Blog</a> </li>
+        <li><a href="contact.html">Contato</a> </li>
+        <li className="li"><a href="https://sistema.soc.com.br/WebSoc/">Área do Cliente</a> </li>
+    </ul>
+    </header>
+    <main >
         <section id="background">
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
                 <h2 >MEDICINA E SEGURANÇA DO TRABALHO</h2>
-                <p className='text-white text-2xl'>Nós cuidamos da saúde do seu funcionário</p>
+                <p >Nós cuidamos da saúde do seu funcionário</p>
             </div> 
         </div>
         </section>
@@ -23,12 +23,13 @@ export default function Home() {
             <div className="container">
                 <div className="col-md-4"  >
                     <div className="card1">
-                    <div className="carrd">  
+                    <div className="caard">  
                         <h2>Atendimento</h2>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-                        <ul className='list-none p-0 m-0'>
+                        <ul>
+                        
                         <li>
                         Segunda à Sexta
-                        <span className='ml-20'>07:00 - 17:00</span>
+                        <span >07:00 - 17:00</span>
                         </li>
                         </ul>
                     </div>
@@ -36,18 +37,18 @@ export default function Home() {
                 </div>
                 <div className="col-md-4 card2 ">
                     <div className="caard">
-                    <h2 className='mt-8'>Bem vindo a Audmed</h2>
-                    <p className='relative -mt-6'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
+                    <h2 >Bem vindo a Audmed</h2>
+                    <p >Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
                 </div>
                 </div>
                 <div className="col-md-4 card3">
-                <div className="carrd" >
+                <div className="caard" >
                         <h2 >Contato</h2>
                         <p className="opacity-6" >Estamos ansiosos pelo seu contato. Ligue agora e fale com um de nossos consultores</p>  
-                <div className='text-xl -mt-4'>
+                <div >
 <i className="fa-solid fa-phone" ></i> <b>(19) 3894-5066</b>
 </div>     
-<div className='text-xl -mt-2'>
+<div>
 <i className="fa-brands fa-whatsapp fa-xl"></i> <b>(19) 99249-2716</b>
 </div>  
 </div>                  
@@ -69,21 +70,21 @@ export default function Home() {
         <div className="roww">
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <a href="pcmso-service.html"><Image src={Servicos} alt="Serviço" /></a>
+            <a href="pcmso-service.html"><Image className="img" src="imagens/serviços.png" alt=""></a>
             <a href="pcmso-service.html"><h3 className="h3desc">PCMSO - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL.</h3></a>
             <p>O Programa de Controle Médico de Saúde Ocupacional (PCMSO) tem como objetivo a promoção e a preservação da saúde dos trabalhadores</p>
         </div>      
     </div>
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <a href="ppra-service.html"><Image className="img" src={Servicos} alt=""/></a>
+            <a href="ppra-service.html"><Image className="img" src="imagens/serviços.png" alt=""></a>
             <a href="ppra-service.html"><h3 className="h3desc">PPRA - PROGRAMA DE PREVENÇÂO DE RISCOS AMBIENTAIS</h3></a>
             <p>O Programa de Prevenção de Riscos Ambientais (PPRA) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
         </div> 
     </div>     
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <a href="ltcat-service.html"><Image className="img" src={Servicos} alt="" /></a>
+            <a href="ltcat-service.html"><Image className="img" src="imagens/serviços.png" alt=""></a>
             <a href="ltcat-service.html"><h3 className="h3desc">LTCAT - LAUDO TÉCNICO DAS CONDIÇÕES AMBIENTAIS DE TRABALHO</h3></a>
             <p>O LTCAT (Laudo Técnico de Condições Ambientais do Trabalho) é um documento com fins previdenciários, elaborado por Engenheiro de Segurança do Trabalho.</p>
         </div>  
@@ -95,7 +96,7 @@ export default function Home() {
         <div className="col-md-6">
             <h2 >TREINAMENTOS</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre" src={Treinamento3} alt="" />
+                <Image className="imgtre" src="imagens/Treinamento3.jpg" alt="" >
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -110,7 +111,7 @@ export default function Home() {
         <div className="col-md-6">
             <h2>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre" src={Treinamento3} alt='' />
+                <Image className="imgtre" src="imagens/Treinamento3.jpg">
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">
@@ -131,7 +132,115 @@ export default function Home() {
     </div>
 </div>
 </section>
+<section id="fotoo">
+    <div className="foto" data-stellar-background-ratio="0.3">
+        <div className="container clearfix">
+            <div className="col-md-5 offset-md-6" >
+                  <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 20 ANOS</h2>
+                  <ul>
+                    <li>Conformidade com o e-Social</li>
+                    <li>Localização com fácil acesso</li>
+                    <li>Equipe de profissionais altamente capacitados</li>
+                    <li>Referencia no segmento em Indaiatuba e região</li>
+                </ul>
+                  
+            </div>
+        </div>
+    </div>
+    </section>
+    <div className="container" >
+        <h2 className='text-center font-thin text-3xl leading-6'>Empresas que confiam em nosso trabalho</h2>
+        <div className="cont">
+            <Image className="clientes" src="imagens/clientes/dhl.png" alt="">
+            <Image className="clientes" src="imagens/clientes/intralox.png" alt="">
+            <Image className="clientes" src="imagens/clientes/robiel.png" alt="">
+            <Image className="clientes" src="imagens/clientes/toyota.jpg" alt="">
+            <Image className="clientes" src="imagens/clientes/schott-logo.png" alt="">
+            <Image className="clientes" src="imagens/clientes/tk-logistica.jpg" alt="">
+            <Image className="clientes" src="imagens/clientes/lumegal.jpg" alt="">
+        </div>    
+    </div>
+<section id="final" className="col-md-6">
+    <div className="roww">
+    <div className="col-md-3" >
+        <Image src="imagens/AUDMED LOGOTIPO.png" alt="">
+
+    </div>
+    <div className="col-md-3">
+        <h4>
+            <b>Informações de contato</b>
+        </h4>
+        <p><i className="fa-solid fa-envelope fa-beat"></i>E-mail: adm@audmed.com.br</p>
+        <p><i className="fa-solid fa-phone fa-beat"></i>Telefone:(19) 3894-5066</p>
+        <p><i className="fa-brands fa-whatsapp fa-beat"></i>Whatsapp:(19) 99249-2716</p>
+        <p><i className="fa-solid fa-location-dot fa-beat"></i>Endereço: Rua Ademar de Barros, 491 - Centro - 13330-130 - Indaiatuba/SP </p>
+      
+    </div>
+    <div className="navegacao col-md-2" >
+        
+        <h4><b>Navegação</b></h4>
+        <ul typeof="circle" >
+        <li>
+        <a href="home.html">Home</a>
+        </li>
+        <li>
+        <a href="about.html">A Audmed</a>
+        </li>
+        <li>
+        <a href="service.html">Serviços</a>
+        </li>
+        <li>
+        <a href="training.html">Treinamentos</a>
+        </li>
+        <li>
+        <a href="https://sistema.soc.com.br/WebSoc/">Área do Cliente</a>
+        </li>
+        <li>
+        <a href="blog.html">Blog</a>
+        </li>
+        <li>
+        <a href="contact.html">Contato</a>
+        </li>
+        </ul>
+    </div>
+    <div className="col-md-3" >
+        <h4><b>Siga a Audmed</b></h4>
+        <p>Também postamos coisas legais aqui. Siga a AUDMED nas redes sociais.</p>
+        <a href="https://www.facebook.com/clinicaaudmed1"><i className="fa-brands fa-facebook fa-beat fa-3x" ></i></a>
+        <a href="https://www.instagram.com/audmed.indaiatuba/"><i className="fa-brands fa-instagram fa-beat fa-3x" ></i></a>
+    </div>
+    </div>
+</section>
 </main>
-   </>
+
+
+
+
+
+
+
+
+
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Image from 'next/image';
+import Logo from '../public/AUDMED LOGOTIPO.png';
+
+export default function Home() {
+  return (
+    <>
+      <header>
+        <Image src={Logo} alt="Audmed Logo" />    
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">A Audmed</a></li>
+          <li><a href="service.html">Serviços</a></li>
+          <li><a href="training.html">Treinamentos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contato</a></li>
+          <li className="li"><a href="https://sistema.soc.com.br/WebSoc/">Área do Cliente</a></li>
+        </ul>
+      </header>
+    </>
   );
 }
