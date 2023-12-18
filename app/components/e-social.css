@@ -1,0 +1,9 @@
+.sidebar-widgets-wrap .widget {
+    padding-top: 50px;
+    border-top: 1px solid #EEE;
+}
+
+.widget {
+    position: relative;
+    margin-top: 50px;
+}

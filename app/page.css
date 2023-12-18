@@ -51,7 +51,7 @@ li, p, b{
     text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 .anotação{
-    margin-top: 5rem;
+    margin-top: 40px;
 }
 #card{
     margin-top: -25rem;
@@ -114,16 +114,18 @@ p{
 
 .content-1 {
     position: relative;
-    padding: 80px 0;
+    padding: 30px 0;
 }
 .spancenter{
+    
     position: relative !important;
     float: none !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
 .heading-block {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    margin-top: 70px;
 }
 .heading-block h2{
     margin-bottom: 0;
@@ -153,10 +155,12 @@ p{
     content: '';
     display: block;
     margin-top: 30px;
-    width: 40px;
+    width: 80px;
     border-top: 2px solid #444;
+
 }.center .heading-block:after, .heading-block.center:after, .heading-block.title-center:after {
-    margin: 30px auto 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container p{
     line-height: 1.8;
@@ -186,6 +190,8 @@ p{
     max-width: 100%;
     overflow: clip;
     overflow-clip-margin: content-box;
+    margin-left: auto;
+    margin-right: auto;
 }
 .h3desc{
     font-size: 16px;
@@ -216,10 +222,13 @@ p{
     text-decoration: none;
 }
 .titulo::after{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
     content: '';
     display: block;
-    width: 40px;
-    border-top: 2px solid #444;
+    width: 80px;
+    border-top: 2px solid #777;
 }
 
 .list-group .badge {
@@ -227,6 +236,7 @@ p{
     background-color: #559823;
     margin-right: 10px;
 }
+
 .list-group-item:hover{
     background-color: #333;
 }
@@ -259,12 +269,17 @@ border-top-left-radius: 4px;
 }
 .text-uppercase{
     text-transform: uppercase;
+    color: #444;
+
+}
+.text-uppercases{
+    color: #444;
 }
 .foto{
     margin-top: 5rem;
-    padding: 80px 0px;
+    padding: 70px 0px ;
     left: 0; 
-    background-image: url(../public/clinica-médica.jpg);
+    background-image: url(../public/fundoo.jpg);
     background-position: 45% -135.037px;
     width: 100%;
     max-width: 100%;

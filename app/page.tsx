@@ -1,8 +1,21 @@
+"use client"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Servicos from '../public/serviços.png';
 import Image from 'next/image';
 import Treinamento3 from '../public/Treinamento3.jpg';
+import DHL from '../public/clientes/dhl.png';
+import Intralox from '../public/clientes/intralox.png';
+import Robiel from '../public/clientes/robiel.png';
+import Toyota from '../public/clientes/toyota.jpg';
+import Schott from '../public/clientes/schott-logo.png';
+import Tk from '../public/clientes/tk-logistica.jpg';
+import Lumegal from '../public/clientes/lumegal.jpg';
+import LogoClinica from '../public/AUDMED LOGOTIPO.png';
+import { InstagramIcon, FacebookIcon } from 'lucide-react';
+import Link from 'next/link';
+import Final from './components/final';
+
 
 
 export default function Home() {
@@ -14,8 +27,8 @@ export default function Home() {
         <section id="background">
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2 >MEDICINA E SEGURANÇA DO TRABALHO</h2>
-                <p className='text-white text-2xl'>Nós cuidamos da saúde do seu funcionário</p>
+                <h2>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <p className='text-white text-2xl -mt-6'>Nós cuidamos da saúde do seu funcionário</p>
             </div> 
         </div>
         </section>
@@ -28,7 +41,7 @@ export default function Home() {
                         <ul className='list-none p-0 m-0'>
                         <li>
                         Segunda à Sexta
-                        <span className='ml-20'>07:00 - 17:00</span>
+                        <span className='ml-20 text-sm text-white'>07:00 - 17:00</span>
                         </li>
                         </ul>
                     </div>
@@ -58,7 +71,7 @@ export default function Home() {
     <div className="content-1">
         <div className="container" >
             <div className="heading-block center">
-                <h2 >Como podemos te ajudar?</h2>
+                <h2>Como podemos te ajudar?</h2>
                 <span className="spancenter">Conheça nossas soluções, oferecemos diversos serviços e treinamentos em medicina e segurança do trabalho.</span>
             </div>
         </div>
@@ -69,28 +82,28 @@ export default function Home() {
         <div className="roww">
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <a href="pcmso-service.html"><Image src={Servicos} alt="Serviço" /></a>
-            <a href="pcmso-service.html"><h3 className="h3desc">PCMSO - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL.</h3></a>
+            <Link href="/servicos/pcmso"><Image className="img" src={Servicos} alt="Serviço" /></Link>
+            <Link href="/servicos/pcmso"><h3 className="h3desc">PCMSO - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL.</h3></Link>
             <p>O Programa de Controle Médico de Saúde Ocupacional (PCMSO) tem como objetivo a promoção e a preservação da saúde dos trabalhadores</p>
         </div>      
     </div>
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <a href="ppra-service.html"><Image className="img" src={Servicos} alt=""/></a>
-            <a href="ppra-service.html"><h3 className="h3desc">PPRA - PROGRAMA DE PREVENÇÂO DE RISCOS AMBIENTAIS</h3></a>
+            <Link href="/servicos/ppra"><Image className="img" src={Servicos} alt=""/></Link>
+            <Link href="/servicos/ppra"><h3 className="h3desc">PPRA - PROGRAMA DE PREVENÇÂO DE RISCOS AMBIENTAIS</h3></Link>
             <p>O Programa de Prevenção de Riscos Ambientais (PPRA) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
         </div> 
     </div>     
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <a href="ltcat-service.html"><Image className="img" src={Servicos} alt="" /></a>
-            <a href="ltcat-service.html"><h3 className="h3desc">LTCAT - LAUDO TÉCNICO DAS CONDIÇÕES AMBIENTAIS DE TRABALHO</h3></a>
+            <Link href="/servicos/ltcat"><Image className="img" src={Servicos} alt="" /></Link>
+            <Link href="/servicos/ltcat"><h3 className="h3desc">LTCAT - LAUDO TÉCNICO DAS <br /> CONDIÇÕES AMBIENTAIS DE TRABALHO</h3></Link>
             <p>O LTCAT (Laudo Técnico de Condições Ambientais do Trabalho) é um documento com fins previdenciários, elaborado por Engenheiro de Segurança do Trabalho.</p>
         </div>  
     </div>
     </div>
 </div>
-    <div className="container" >
+    <div className="container mt-20" >
     <div className="roww">
         <div className="col-md-6">
             <h2 >TREINAMENTOS</h2>
@@ -99,12 +112,12 @@ export default function Home() {
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
-                <a href="training-3.html" >Segurança do Trabalho em Altura</a></li>
+                <Link href="/treinamentos/8-seguranca-do-trabalho-em-altura" className='text-uppercase' >Segurança do Trabalho em Altura</Link></li>
                 <li className="list-group-item"><span className="badge badge-sucess">NR-05</span>
-                <a href="training-3.html" >Comissão Interna de Prevenção de Acidentes - CIPA</a></li>
+                <Link href="/treinamentos/9-comissao-interna-de-prevencao-de-acidentes-cipa" className='text-uppercase'>Comissão Interna de Prevenção de Acidentes - CIPA</Link></li>
             </ul>
             <div className="link">
-                <a href="training.html" >Saiba mais...</a>
+                <Link href="/treinamentos" className='text-uppercases'>Saiba mais...</Link>
             </div>
         </div>
         <div className="col-md-6">
@@ -114,23 +127,51 @@ export default function Home() {
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">
-                <a href="training-3.html" className="text-uppercase">E-SOCIAL: OBRIGAÇÃO QUE FACILITA OS DIREITOS DO TRABALHADOR</a></li>
+                <Link href="/blog/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className="text-uppercase">E-SOCIAL: OBRIGAÇÃO QUE FACILITA OS DIREITOS DO TRABALHADOR</Link></li>
                 <li className="list-group-item">
-                <a href="training-3.html" className="text-uppercase">SST: DICAS PARA EVITAR MULTAS NO E-SOCIAL</a></li>
+                <Link href="training-3.html" className="text-uppercase">SST: DICAS PARA EVITAR MULTAS NO E-SOCIAL</Link></li>
                 <li className="list-group-item">
-                <a href="training-3.html" className="text-uppercase">SAIBA QUAIS SÃO AS DÚVIDAS MAIS FREQUENTES SOBRE O E-SOCIAL PARA SST</a></li>
+                <Link href="training-3.html" className="text-uppercase">SAIBA QUAIS SÃO AS DÚVIDAS MAIS FREQUENTES SOBRE O E-SOCIAL PARA SST</Link></li>
                 <li className="list-group-item">
-                <a href="training-3.html" className="text-uppercase">CHECKLIST DE E-SOCIAL PARA CLÍNICAS DE SAÚDE OCUPACIONAL</a></li>
+                <Link href="training-3.html" className="text-uppercase">CHECKLIST DE E-SOCIAL PARA CLÍNICAS DE SAÚDE OCUPACIONAL</Link></li>
                 <li className="list-group-item">
-                <a href="training-3.html" className="text-uppercase">GESTÃO DE SEGURANÇA E SÁUDE OCUPACIONAL: DÁ IMPORTÂNCIA À APLICAÇÃO NAS EMPRESAS </a></li>
+                <Link href="training-3.html" className="text-uppercase">GESTÃO DE SEGURANÇA E SÁUDE OCUPACIONAL: DÁ IMPORTÂNCIA À APLICAÇÃO NAS EMPRESAS </Link></li>
             </ul>
             <div className="link">
-                <a href="training.html">Saiba mais...</a>
+                <Link href="/treinamentos" className='text-uppercases'>Saiba mais...</Link>
             </div>
         </div>
     </div>
 </div>
 </section>
+<section id="fotoo">
+        <div className="foto" data-stellar-background-ratio="0.3">
+            <div className="container clearfix">
+                <div className='col-md-5 offset-md-6 text-white mr-8'>
+                      <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 20 ANOS</h2>
+                      <ul className='text-black -mt-4 -ml-8'>
+                        <li>Conformidade com o e-Social</li>
+                        <li>Localização com fácil acesso</li>
+                        <li>Equipe de profissionais altamente capacitados</li>
+                        <li>Referencia no segmento em Indaiatuba e região</li>
+                    </ul>  
+                </div>
+            </div>
+        </div>
+</section>
+<div className='container mt-40'>
+    <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho</h2>
+    <div className="cont">
+       <Link href={'https://www.dhl.com/br-pt/home.html'}><Image className="clientes" src={DHL} alt="DHL Logo" /></Link>
+       <Link href={'https://www.intralox.com/pt'}><Image className="clientes" src={Intralox} alt="Intralox Logo" /></Link>
+       <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} alt="Robiel Logo" /></Link>
+       <Link href={'https://www.toyota.com.br/'}><Image className="clientes" src={Toyota} alt="Toyota Logo" /></Link>
+       <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} alt="Schott Logo" /></Link>
+       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes" src={Tk} alt="TK Logística Logo" /></Link>
+       <Link href={'https://www.lumegal.com.br/'}><Image className="clientes" src={Lumegal} alt="Lumegal Logo" /></Link>
+    </div>    
+</div>
+<Final/>
 </main>
    </>
   );
