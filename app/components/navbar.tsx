@@ -1,21 +1,80 @@
+import { useState } from 'react';
 import Image from 'next/image';
 import Logo from '../../public/AUDMED LOGOTIPO.png';
 import Link from 'next/link';
-export default function Navbar(){
-    return(
-<>
-<header>
-  <Image src={Logo} alt="Audmed Logo" />    
-  <ul>
-    <li><Link className='py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600' aria-current="page" href={'/'}>Home</Link></li>
-    <li><Link className='py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600' aria-current="page" href={'/sobre'}>A Audmed</Link></li>
-    <li><Link className='py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600' aria-current="page" href={'/servicos'}>Serviços</Link></li>
-    <li><Link className='py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600' aria-current="page" href={'/treinamentos'}>Treinamentos</Link></li>
-    <li><Link className='py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600' aria-current="page" href={'/blog'}>Blog</Link></li>
-    <li><Link className='py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600' aria-current="page" href={'/contatos'}>Contato</Link></li>
-    <li className="li"><Link href={"https://sistema.soc.com.br/WebSoc/"} target="_blank">Área do Cliente</Link></li>
-  </ul>
-</header>
-</>
-    )
+import Head from 'next/head';
+
+interface NavLinkProps {
+  href: string;
+  children: React.ReactNode;
 }
+
+const NavLink: React.FC<NavLinkProps> = ({ href, children }) => (
+  <Link href={href} className="NavLink py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600" aria-current="page">
+    {children}
+  </Link>
+);
+
+interface ExternalLinkProps {
+  href: string;
+  children: React.ReactNode;
+}
+
+const ExternalLink: React.FC<ExternalLinkProps> = ({ href, children }) => (
+  <Link href={href} target="_blank" rel="noopener noreferrer" className="ExternalLink py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:p-0 md:hover:text-green-600">
+    {children}
+  </Link>
+);
+
+const Navbar: React.FC = () => {
+  const [showMobileMenu, setShowMobileMenu] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setShowMobileMenu(!showMobileMenu);
+  };
+
+  return (
+    <>
+  
+      <header className="flex justify-between items-center p-4 md:px-8">
+        <div>
+          <Image src={Logo} alt="Audmed Logo" />
+        </div>
+        <nav className="md:flex items-center space-x-4">
+          <div className="md:hidden">
+            <button onClick={toggleMobileMenu} className='hamburguer'>☰</button>
+          </div>
+          {showMobileMenu && (
+            <div className="overlay">
+              <div className="mobile-menu">
+                <button className="close-button" onClick={toggleMobileMenu}>✕</button>
+                <div className="menu-content">
+                  {/* Renderizar links aqui para o menu móvel */}
+                  <NavLink href={'/'}>Home</NavLink>
+                  <NavLink href={'/sobre'}>A Audmed</NavLink>
+                  <NavLink href={'/servicos'}>Serviços</NavLink>
+                  <NavLink href={'/treinamentos'}>Treinamentos</NavLink>
+                  <NavLink href={'/blog'}>Blog</NavLink>
+                  <NavLink href={'/contatos'}>Contato</NavLink>
+                  <ExternalLink href={'https://sistema.soc.com.br/WebSoc/'}><p>Área do Cliente</p></ExternalLink>
+                </div>
+              </div>
+            </div>
+          )}
+          <div className="hidden md:flex items-center space-x-4">
+            {/* Renderizar links aqui para o menu grande */}
+            <NavLink href={'/'}>Home</NavLink>
+            <NavLink href={'/sobre'}>A Audmed</NavLink>
+            <NavLink href={'/servicos'}>Serviços</NavLink>
+            <NavLink href={'/treinamentos'}>Treinamentos</NavLink>
+            <NavLink href={'/blog'}>Blog</NavLink>
+            <NavLink href={'/contatos'}>Contato</NavLink>
+            <ExternalLink href={'https://sistema.soc.com.br/WebSoc/'}><p>Área do Cliente</p></ExternalLink>
+          </div>
+        </nav>
+      </header>
+    </>
+  );
+};
+
+export default Navbar;

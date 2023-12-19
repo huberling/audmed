@@ -15,6 +15,7 @@ import LogoClinica from '../public/AUDMED LOGOTIPO.png';
 import { InstagramIcon, FacebookIcon } from 'lucide-react';
 import Link from 'next/link';
 import Final from './components/final';
+import MyApp from './components/app';
 
 
 

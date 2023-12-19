@@ -46,6 +46,48 @@ body{
         float: none;
     }
 }
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-menu {
+    margin-top: -10rem;
+    padding: 5px;
+    background: #fff;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .close-button {
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    margin-left: 7rem;
+  }
+  .menu-content {
+    margin-top: -20px;
+    
+
+  }
+  .hamburguer{
+    margin-top: 1rem;
+    margin-right: -4rem;
+    font-size: 30px;
+  }
 header{
     position: fixed;
     top:0;
@@ -57,28 +99,26 @@ header{
     color: black;
 
 }
-header ul 
+header nav 
 {  
     z-index: 40;
     float: right;
     margin-top: -1rem;
     margin-right: 5rem;
 }
-header ul li {
+.NavLink {
     display: inline-block;  
-    margin-top:2rem;                                                                                                                                          font-size: 1.15rem;
-}
-header ul li a {
+    margin-top:2rem;      
     color:#444;
     text-decoration: none;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     font-size: 18px;
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: bold;                                                                                                                                    font-size: 1.15rem;
 }
+
 header img{
     height: 4rem; 
-    float: left;
     width: 8rem;
     margin-top:0.65rem;  
     margin-left: 4rem;
@@ -89,29 +129,42 @@ header img{
 header ul li:hover{
     color: #079800;
 }
-.li{
+.ExternalLink{
     position: relative;
     cursor: pointer;
     outline: none;
     white-space: nowrap;
-    margin-left: 1rem;
+    margin-left: 3.6rem;
     background-color: #59BA41;
     height: 2rem;
+    margin-top:1.65rem;  
     width: 11rem;
     border-radius: 3px;
     border-bottom: 3px solid rgba(0,0,0,0.15);
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-    color: white;
-}
-.li a{
-    color: white;
-}
-.li:hover{
-    background-color: #08a700;
-    color: white;
-}
+   }
+   .ExternalLink p{
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    margin-left: 1.25rem;
+    font-size: 18px;
+    margin-top:-0.5rem; 
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+   }
+   @media screen and (max-width:500px) {
+    .ExternalLink p{
+        text-align: center;
+        color: white; 
+        text-decoration: none;
+        margin-left: 0.7rem;
+        font-size: 18px;
+        margin-top:-0.5rem; 
+        font-family: 'Raleway', sans-serif;
+        font-weight:600;
+       }
+   }
+
 .breadcrumb{
     position: absolute !important;
     width: auto !important;

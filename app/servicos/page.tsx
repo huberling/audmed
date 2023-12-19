@@ -24,7 +24,7 @@ return(
         </ol>
         </div>
     </section>
-    <main id="descricao">            
+    <main id="descricao" >            
         <section id="content">
             <div className="titulo title">
             <h1>SERVIÇOS</h1>

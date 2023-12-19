@@ -36,8 +36,8 @@ export default function Contatos(){
                 <div className="title">
                     <h2>Entre em contato conosco</h2>
                 </div>
-                <div className="formpost w-11/12" >
-                    <form action="envio_email.php" method="post" className="roww">
+                <div className="formpost w-full md:w-11/12">
+      <form className="md:flex md:flex-wrap">
                         <div className='form-group col-md-3 ml-6'>
                             <label htmlFor="nome" className='font-semibold'>Nome:</label>
                             <input type="text" className="form-control" id="nome" name="nome" aria-describedby="telHelp" placeholder="Insira seu nome" />
@@ -59,8 +59,8 @@ export default function Contatos(){
                             <textarea className="form-control" name="mensagem" id="mensagem" aria-describedby="telHelp" rows={3} placeholder="Insira sua mensagem"></textarea>
                         </div>   
                     </form>
-                    <div>
-                        <input type="submit" value={"Enviar"} className="col-md-1 button ml-3 "/>
+                    <div >
+                        <input type="submit" value={"Enviar"} className="col-md-1 button ml-6 "/>
                       </div>  
                     </div>
                     <div className="endereco end col-md-2">
