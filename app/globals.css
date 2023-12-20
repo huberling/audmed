@@ -195,16 +195,7 @@ header ul li:hover{
     color:black;    
     font-family: 'Lato', sans-serif;
    }
-#page-title h1 {
-    padding: 0.75rem 2px 0 0 ;
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #444;
-    font-size: 28px;
-    text-transform: uppercase;
-    
-}   
+  
 .navegacao li a{
     text-decoration: none;
     color: black;  
@@ -305,7 +296,7 @@ a {
     position: relative;
 }
 #page-title h1 {
-    padding: 0.75rem 2px 0 0 ;  
+    padding: 0.75rem 2px 2rem 2rem ;  
     line-height: 1;
     font-weight: 600;
     letter-spacing: 1px;

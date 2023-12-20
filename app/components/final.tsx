@@ -17,10 +17,10 @@ export default function Final(){
         <section id="final" className="col-md-6">
         <div className="roww">
         <div className="col-md-3 mt-8 mb-16 ml-14">
-            <Image className='w-44 h-20 mt-16 inline-block ml-12' src={LogoClinica} alt="Logo Clinica"/>
+            <Image className='w-44 h-20 mt-16 inline-block ml-16' src={LogoClinica} alt="Logo Clinica"/>
     
         </div>
-        <div className="col-md-3 mt-16 -ml-8 mb-16 font-family: 'Lato', sans-serif">
+        <div className="col-md-3 mt-16 mb-16 font-family: 'Lato', sans-serif">
             <h4>
                 <b className='ml-5'>Informações de contato</b>
             </h4>
@@ -32,9 +32,9 @@ export default function Final(){
         </div>
         <div className="col-md-3 mt-16 mb-16 font-family: 'Lato', sans-serif">
             <h4><b className='ml-5'>Siga a Audmed</b></h4>
-            <p>Também postamos coisas legais aqui. Siga a AUDMED nas redes sociais.</p>
+            <p className='ml-5'>Também postamos coisas legais aqui. Siga a AUDMED nas redes sociais.</p>
             <div className='roww'> 
-            <Link href="https://www.facebook.com/clinicaaudmed1"><FacebookIcon size={56} className='ml-6'/></Link>
+            <Link href="https://www.facebook.com/clinicaaudmed1"><FacebookIcon size={56} className='ml-10'/></Link>
             <Link href="https://www.instagram.com/audmed.indaiatuba/" ><InstagramIcon size={56} className='ml-10'/></Link>
             </div>
         </div>

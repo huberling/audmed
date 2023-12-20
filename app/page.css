@@ -40,7 +40,6 @@ li, p, b{
 
 .anota h2 {
     position: relative;
-    font-size: 64px;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 700;
@@ -53,9 +52,7 @@ li, p, b{
 .anotação{
     margin-top: 40px;
 }
-#card{
-    margin-top: -25rem;
-}
+
 .card1 {
     background-color: #559823;
     height: 220px;

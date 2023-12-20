@@ -11,11 +11,8 @@ import Toyota from '../public/clientes/toyota.jpg';
 import Schott from '../public/clientes/schott-logo.png';
 import Tk from '../public/clientes/tk-logistica.jpg';
 import Lumegal from '../public/clientes/lumegal.jpg';
-import LogoClinica from '../public/AUDMED LOGOTIPO.png';
-import { InstagramIcon, FacebookIcon } from 'lucide-react';
 import Link from 'next/link';
 import Final from './components/final';
-import MyApp from './components/app';
 
 
 
@@ -23,17 +20,18 @@ export default function Home() {
   
   return (
    <>
+   
    <Navbar/>
    <main >
         <section id="background">
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2>MEDICINA E SEGURANÇA DO TRABALHO</h2>
-                <p className='text-white text-2xl -mt-6'>Nós cuidamos da saúde do seu funcionário</p>
+                <h2 className='text-center text-5xl md:text-6xl lg:text-6xl'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <p className='text-white text-2xl -mt-6 hidden md:inline-block lg:inline-block'>Nós cuidamos da saúde do seu funcionário</p>
             </div> 
         </div>
         </section>
-        <section id="card">
+        <section id="card" className='-mt-80 md:-mt-96 lg:-mt-96'>
             <div className="container">
                 <div className="col-md-4"  >
                     <div className="card1">
@@ -107,9 +105,9 @@ export default function Home() {
     <div className="container mt-20" >
     <div className="roww">
         <div className="col-md-6">
-            <h2 >TREINAMENTOS</h2>
+            <h2 className='ml-6 md:ml-3 lg:ml-3'>TREINAMENTOS</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre" src={Treinamento3} alt="" />
+                <Image className="imgtre ml-4" src={Treinamento3} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -122,9 +120,9 @@ export default function Home() {
             </div>
         </div>
         <div className="col-md-6">
-            <h2>e-Social</h2>
+            <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre" src={Treinamento3} alt='' />
+                <Image className="imgtre ml-4" src={Treinamento3} alt='' />
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">

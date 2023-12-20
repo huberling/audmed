@@ -10,7 +10,7 @@ interface NavLinkProps {
 }
 
 const NavLink: React.FC<NavLinkProps> = ({ href, children }) => (
-  <Link href={href} className="NavLink py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-600" aria-current="page">
+  <Link href={href} className="NavLink py-2 pl-3 pr-4 transition ease-in duration-100 hover:-translate-y-1 flex flex-row gap-1 rounded md:bg-transparent md:p-0 md:hover:text-green-700" aria-current="page">
     {children}
   </Link>
 );

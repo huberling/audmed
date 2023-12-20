@@ -17,16 +17,16 @@ export default function LtcatService(){
         <section id="page-title">
         <div className="sobre">
         <h1 className="container">Serviços</h1>
-        <ol className="breadcrumb">
+        <ol className="breadcrumb ">
             <li>
-                <Link href="/">Home</Link>
+                <Link href="/" className='hidden md:inline-block lg:inline-block'>Home</Link>
             </li>
-            <p className="pl-1 pr-1 text-gray-500">/</p>
-            <li className="ads">
+            <p className="pl-1 pr-1 text-gray-500 hidden md:inline-block lg:inline-block">/</p>
+            <li className="ads hidden md:inline-block lg:inline-block">
                <Link href="/servicos">Serviços</Link> 
             </li>
-            <p className="pl-1 pr-1 text-gray-400">/</p>
-            <li className="ads">
+            <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
+            <li className="ads hidden md:inline-block lg:inline-block">
                 LTCAT - Laudo Técnico das Condições Ambientais de Trabalho  
             </li>
         </ol>
@@ -36,12 +36,12 @@ export default function LtcatService(){
    <section id="content" className='mb-0'>
     <div className="content-padding">
         <div className="container roww clearflix">
-            <div className="col-md-2 -ml-8">
+        <div className="col-md-2 md:-ml-8 lg:-ml-8">
                 <h4 className='font-bold text-xl' >Outros Serviços:</h4>
                 <div className="outrosservice">
                     <ul style={listStyle} className='text-sm' >
                         <li className='mb-2'>
-                        <Link href="/servicos/ltcat" className='text-black'>
+                        <Link href="/servicos/pcmso" className='text-black'>
                         PCMSO - Programa de Controle Médico de Saúde Ocupacional</Link>
                         </li>
                         <li>
@@ -51,7 +51,7 @@ export default function LtcatService(){
                     </ul>
                 </div>
             </div>
-            <div className="col-md-10 ml-8"  >
+            <div className="col-md-10 ml-2"  >
                 <div className="semmarginbotton">
                     <div className="clearflix">
                         <div className='relative mt-0'>

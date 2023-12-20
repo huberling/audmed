@@ -15,12 +15,12 @@ export default function Contatos(){
             <h1 className="container">
                 Contato
             </h1> 
-            <ol className="breadcrumb">
-                <li>
-                    <Link href="/">Home</Link>
-                </li>
-                <p className="pl-1 pr-1 text-gray-400">/</p>
-                <li className="ads">
+            <ol className="breadcrumb ">
+            <li>
+                <Link href="/" className='hidden md:inline-block lg:inline-block'>Home</Link>
+            </li>
+            <p className="pl-1 pr-1 text-gray-500 hidden md:inline-block lg:inline-block">/</p>
+            <li className="ads hidden md:inline-block lg:inline-block">
                     Contato 
                 </li>
             </ol>
@@ -38,44 +38,44 @@ export default function Contatos(){
                 </div>
                 <div className="formpost w-full md:w-11/12">
       <form className="md:flex md:flex-wrap">
-                        <div className='form-group col-md-3 ml-6'>
+                        <div className='form-group col-md-3 lg:ml-6 md:ml-6'>
                             <label htmlFor="nome" className='font-semibold'>Nome:</label>
                             <input type="text" className="form-control" id="nome" name="nome" aria-describedby="telHelp" placeholder="Insira seu nome" />
                         </div>
-                        <div className='form-group col-md-3 ml-10'>
+                        <div className='form-group col-md-3 lg:ml-10 md:ml-10'>
                             <label htmlFor="email" className='font-semibold'>Email:</label>
                             <input type="email" className="form-control" name="email" id="email" aria-describedby="nomeHelp" placeholder="Insira seu Email" />
                         </div>
-                        <div className='form-group col-md-3 ml-10'>
+                        <div className='form-group col-md-3 ml-0 md:ml-10 lg:ml-10'>
                             <label htmlFor="telefone" className='font-semibold'>Telefone:</label>
                             <input type="text" className="form-control" id="telefone" name="telefone" aria-describedby="telHelp" placeholder="Insira seu numero de telefone" />
                         </div>
-                        <div className="form-group col-md-10 ml-6 mt-2">
+                        <div className="form-group col-md-10 lg:ml-6 md:ml-6 mt-2">
                             <label htmlFor="assunto" className='font-semibold'>Assunto:</label>
                             <input type="text" className="form-control" id="assunto" name="assunto" aria-describedby="telHelp" placeholder="Insira o assunto a ser tratato"/>
                         </div>                    
-                        <div className="form-group col-md-10 ml-6 mt-2 mb-4">
+                        <div className="form-group col-md-10 lg:ml-6 md:ml-6 mb-4">
                             <label htmlFor="mensagem" className='font-semibold'>Mensagem:</label>
                             <textarea className="form-control" name="mensagem" id="mensagem" aria-describedby="telHelp" rows={3} placeholder="Insira sua mensagem"></textarea>
                         </div>   
                     </form>
                     <div >
-                        <input type="submit" value={"Enviar"} className="col-md-1 button ml-6 "/>
+                        <input type="submit" value={"Enviar"} className="col-md-1 button md:ml-6 lg:ml-6"/>
                       </div>  
                     </div>
-                    <div className="endereco end col-md-2">
-                    <address >
-                        <strong className='font-semibold'><FontAwesomeIcon icon={faLocationDot} className='mr-1'/>Endereço:</strong>
+                    <div className="endereco end col-md-2 ">
+                    <address className='hidden md:inline-block lg:inline-block' >
+                        <strong className='font-semibold'><FontAwesomeIcon icon={faLocationDot} className='mr-1 '/>Endereço:</strong>
                         <br />
                         Rua Ademar de Barros, 491 
                         - Centro - 13330-130 - 
                         Indaiatuba/SP
                     </address>
-                    <address>
-                        <strong className='font-semibold'><FontAwesomeIcon icon={faPhone} className='mr-1'/>Telefone:</strong>
+                    <address className='hidden md:inline-block lg:inline-block'>
+                        <strong className='font-semibold '><FontAwesomeIcon icon={faPhone} className='mr-1'/>Telefone:</strong>
                         <Link href={'tel:+55193894-5066'}>+55 (19) 3894-5066</Link>
                     </address>
-                    <address>
+                    <address className='hidden md:inline-block lg:inline-block'>
                         <strong className='font-semibold'><FontAwesomeIcon icon={faEnvelope} className='mr-1'/>Email:</strong>
                         adm@audmed.com.br
                     </address>
