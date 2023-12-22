@@ -48,7 +48,7 @@ export default function PcmsoService(){
                             </ul>
                         </div>
                     </div>
-                    <div className="col-md-10 ml-8">
+                    <div className="col-md-10 ml-2">
                         <div className="semmarginbotton">
                             <div className="clearflix">
                                 <div className="relative mt-0">

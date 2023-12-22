@@ -26,7 +26,7 @@ export default function Home() {
         <section id="background">
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2 className='text-center text-5xl md:text-6xl lg:text-6xl'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <h2 className='ml-7 md:ml-0 lg:ml-0 text-5xl md:text-6xl lg:text-6xl'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
                 <p className='text-white text-2xl -mt-6 hidden md:inline-block lg:inline-block'>Nós cuidamos da saúde do seu funcionário</p>
             </div> 
         </div>

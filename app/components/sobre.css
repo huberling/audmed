@@ -13,11 +13,7 @@
     margin-bottom: 4rem;
     border: 1px solid black;
 }
-#page-title.sobre h1 {
-    font-weight: 600;
-    font-size: 14px;
-    color: #444;
-}
+
 .clearfix h2{
     color: black;
     font-weight: 600;
@@ -35,15 +31,7 @@
     width: 100%;
     position: relative;
 }
-#page-title h1 {
-    padding: 0.75rem 2px 0 0 ;  
-    line-height: 1;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #444;
-    font-size: 28px;
-    text-transform: uppercase;
-}   
+  
 .spancenter{
     position: relative !important;
     float: none !important;
@@ -92,12 +80,7 @@
     margin-top: 3rem;
     margin: 3rem auto;
 }
-.descritivos2.desc1,.desc2{
-    margin-left: 2.2rem;
-}
-.desc2{
-    margin-right: -25px;
-}
+
 .missao{
     display: inline-block;
     width: 100%;

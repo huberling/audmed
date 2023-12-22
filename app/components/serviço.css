@@ -54,11 +54,7 @@
     -o-transition: width .3s ease;
     transition: width .3s ease;
 }
-#page-title.sobre h1 {
-    font-weight: 600;
-    font-size: 18px;
-    color: #555555;
-}
+
 .titulo.title::after{
     margin: 30px auto 0;
 }

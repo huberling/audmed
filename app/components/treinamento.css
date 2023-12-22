@@ -23,11 +23,7 @@
 .titulo h1 + span {
     font-size: 18px;
 }}
-#page-title.sobre h1 {
-    font-weight: 600;
-    font-size: 18px;
-    color: #555555;
-}
+
 .titulo.title::after{
     margin: 30px auto 0;
 }

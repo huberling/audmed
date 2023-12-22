@@ -15,12 +15,12 @@ export default function eSocial(){
             <h1 className="container">
                 E-Social
             </h1> 
-            <ol className="breadcrumb">
-                <li>
-                    <Link href="/">Home</Link>
-                </li>
-                <p className="pl-1 pr-1 text-gray-400">/</p>
-                <li className="ads">
+            <ol className="breadcrumb ">
+            <li>
+                <Link href="/" className='hidden md:inline-block lg:inline-block'>Home</Link>
+            </li>
+            <p className="pl-1 pr-1 text-gray-500 hidden md:inline-block lg:inline-block">/</p>
+            <li className="ads hidden md:inline-block lg:inline-block">
                     E-Social 
                 </li>
             </ol>
