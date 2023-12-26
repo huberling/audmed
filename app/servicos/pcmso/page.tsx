@@ -53,7 +53,7 @@ export default function PcmsoService(){
                             <div className="clearflix">
                                 <div className="relative mt-0">
                                 <div className="entry-image alignleft">
-                                <Image src={Foto} alt=""/>
+                                <Image src={Foto} alt="" width={500}/>
                                 </div>
                                 <div>O Programa de Controle Médico de Saúde Ocupacional (PCMSO) tem como objetivo a promoção e a preservação da saúde dos trabalhadores. Este programa tem caráter de prevenção, rastreamento e diagnóstico precoce dos agravos à saúde relacionados ao trabalho, inclusive de natureza subclínica, além da constatação da existência de casos de doenças profissionais ou danos irreversíveis à saúde dos trabalhadores. </div>                            
                                 <div><br/></div>    

@@ -38,12 +38,7 @@ img.alignleft, div.alignleft {
     border-radius: 5px;
     
 }
-.entry-image img {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 17rem;
-}
+
 a img {
     border: none;
 }

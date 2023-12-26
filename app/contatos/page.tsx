@@ -115,9 +115,10 @@ const Contatos: React.FC = () => {
                     <address className='hidden md:inline-block lg:inline-block' >
                         <strong className='font-semibold'><FontAwesomeIcon icon={faLocationDot} className='mr-1 '/>Endereço:</strong>
                         <br />
-                        Rua Ademar de Barros, 491 
+                        <Link href="https://www.google.com/maps?q=Rua+Ademar+de+Barros,+491,+Centro,+13330-130,+Indaiatuba,+SP" target="_blank" rel="noopener noreferrer"> Rua Ademar de Barros, 491 
                         - Centro - 13330-130 - 
                         Indaiatuba/SP
+                        </Link>
                     </address>
                     <address className='hidden md:inline-block lg:inline-block'>
                         <strong className='font-semibold '><FontAwesomeIcon icon={faPhone} className='mr-1'/>Telefone:</strong>
@@ -125,7 +126,7 @@ const Contatos: React.FC = () => {
                     </address>
                     <address className='hidden md:inline-block lg:inline-block'>
                         <strong className='font-semibold'><FontAwesomeIcon icon={faEnvelope} className='mr-1'/>Email:</strong>
-                        adm@audmed.com.br
+                        <Link href="mailto:adm@audmed.com.br" target="_blank" rel="noopener noreferrer"> adm@audmed.com.br </Link>
                     </address>
                     </div>
                     </section>

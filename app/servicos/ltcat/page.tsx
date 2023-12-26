@@ -56,7 +56,7 @@ export default function LtcatService(){
                     <div className="clearflix">
                         <div className='relative mt-0'>
                         <div className="entry-image alignleft">
-                        <Image src={Foto} alt=""/>
+                        <Image src={Foto} alt="" width={500}/>
                         </div>
                         <p >O LTCAT (Laudo Técnico de Condições Ambientais do Trabalho) é um documento com fins previdenciários, elaborado por Engenheiro de Segurança do Trabalho e/ou Médico do trabalho, cujo objetivo é emitir um parecer conclusivo sobre as condições ambientais a que o funcionário foi exposto, devendo refletir a realidade no momento da inspeção.</p>
                         <p>Para isso, são realizadas avaliações qualitativas e quantitativas a fim de analisar os riscos físicos (ruído, calor, radiações, vibrações, pressões, temperatura extrermas ), químicos (poeiras, névoas, fumos, neblinas) e biológicos (bactérias, vírus, fungos, parasitas) presentes no ambiente.</p>    

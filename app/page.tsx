@@ -11,6 +11,7 @@ import Toyota from '../public/clientes/toyota.jpg';
 import Schott from '../public/clientes/schott-logo.png';
 import Tk from '../public/clientes/tk-logistica.jpg';
 import Lumegal from '../public/clientes/lumegal.jpg';
+import ESocial from '../public/esocial.jpg'
 import Link from 'next/link';
 import Final from './components/final';
 
@@ -122,7 +123,7 @@ export default function Home() {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre ml-4" src={Treinamento3} alt='' />
+                <Image className="imgtre ml-4" src={ESocial} alt='' />
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">

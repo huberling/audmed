@@ -28,7 +28,6 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({ href, children }) => (
 
  const Navbar: React.FC = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
-
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
   };

@@ -34,12 +34,7 @@ img.alignleft, div.alignleft {
     border-radius: 30px;
     
 }
-.entry-image img {
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 17rem;
-}
+
 a img {
     border: none;
 }

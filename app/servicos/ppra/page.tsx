@@ -54,7 +54,7 @@ export default function PpraService(){
                             <div className="clearflix">
                                 <div className="relative mt-0 ">
                                 <div className="entry-image alignleft">
-                                <Image src={Foto} alt="" />
+                                <Image src={Foto} alt="" width={500}/>
                                 </div>
                                 <div >O Programa de Prevenção de Riscos Ambientais (NR-9) (PPRA) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores, através da antecipação, reconhecimento, avaliação e consequente controle da ocorrência de riscos ambientais existentes ou que venham a existir no ambiente de trabalho, tendo em consideração a proteção do meio ambiente e dos recursos naturais.</div>                            
                     <div><br/></div>    
