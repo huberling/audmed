@@ -53,7 +53,7 @@ export default function Blog(){
                             <li><FontAwesomeIcon icon={faFolderOpen} className="mr-1"></FontAwesomeIcon>Dicas,e-SOCIAL</li>
                         </ul>
                             <div className="entry-image">
-                                <Link href="#"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador"/></Link>
+                                <Link href="#"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
                         <div className="entry-content notopmargin">
                             <h3 className='font-bold text-black mt-5'>Obrigações facilitarão os direitos do trabalhadores a serem cumpridos. Medida visa ações que envolvem os treinamentos e fiscalização dos ambientes.</h3>

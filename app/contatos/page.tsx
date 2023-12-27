@@ -7,6 +7,10 @@ import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-
 import Link from 'next/link';
 import { useState } from 'react';
 import React from 'react';
+import Image from 'next/image';
+import Whatts from '../../public/whatts.png'
+import Gmail from '../../public/gmail.png'
+import Telefone from '../../public/whatts.png'
 import handler from '../api/enviar-email';
 
 interface FormProps {
@@ -77,9 +81,61 @@ const Contatos: React.FC = () => {
                 </div>
             </section>
             <section id="contatos" className="container " >
-                <div className="title">
-                    <h2>Entre em contato conosco</h2>
+                <div className="titulo">
+                    <h1>Entre em contato conosco</h1>
                 </div>
+                <div className='roww'>
+  <div className="max-w-xs max-h-96 mt-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <Link href=""> 
+        <Image className="rounded-t-lg h-52 w-52 mx-auto " src={Whatts} alt="" />
+    </Link>
+    <div className="p-5">
+        <Link href=""> 
+            <h5 className="mb-2 -mt-11 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Envie uma mensagem via WhatsApp</h5>
+        </Link>
+        <Link href="https://wa.me/5519992492716" className="inline-flex items-center px-3 py-2 ml-7 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Enviar Mensagem
+             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </Link>
+    </div>
+</div>
+<div className="max-w-xs max-h-96 mt-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <Link href=""> 
+        <Image className="rounded-t-lg h-52 w-52 mx-auto " src={Gmail} alt=""  />
+    </Link>
+    <div className="p-5">
+        <Link href=""> 
+            <h5 className="mb-2 -mt-8 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Entre em contato conosco via Gmail</h5>
+        </Link>
+        <Link href="" className="inline-flex items-center px-3 py-2 ml-11 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+           Enviar Gmail
+             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </Link>
+    </div>
+</div>
+<div className="max-w-xs max-h-96 mt-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <Link href=""> 
+        <Image className="rounded-t-lg h-52 w-52 mx-auto " src={Gmail} alt=""  />
+    </Link>
+    <div className="p-5">
+        <Link href=""> 
+            <h5 className="mb-2 -mt-8 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nosso telefone para contato</h5>
+        </Link>
+        <Link href="" className="inline-flex items-center px-3 py-2 ml-8 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Realizar ligação
+             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </Link>
+    </div>
+</div>
+
+</div>
+</section>
                 <div className="formpost w-full md:w-11/12">
                     <form className="md:flex md:flex-wrap" onSubmit={handleSubmit}>
                         <div className='form-group col-md-3 lg:ml-6 md:ml-6'>
@@ -124,12 +180,12 @@ const Contatos: React.FC = () => {
                         <strong className='font-semibold '><FontAwesomeIcon icon={faPhone} className='mr-1'/>Telefone:</strong>
                         <Link href={'tel:+55193894-5066'}>+55 (19) 3894-5066</Link>
                     </address>
-                    <address className='hidden md:inline-block lg:inline-block'>
+                    <address className='hidden md:inline-block lg:inline-block'> 
                         <strong className='font-semibold'><FontAwesomeIcon icon={faEnvelope} className='mr-1'/>Email:</strong>
                         <Link href="mailto:adm@audmed.com.br" target="_blank" rel="noopener noreferrer"> adm@audmed.com.br </Link>
                     </address>
                     </div>
-                    </section>
+
         </main>
         <Final/>
         </>
