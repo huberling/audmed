@@ -14,14 +14,16 @@ import Lumegal from '../public/clientes/lumegal.jpg';
 import ESocial from '../public/esocial.jpg'
 import Link from 'next/link';
 import Final from './components/final';
+import CookieBanner from './components/cookiebanner';
+import React from 'react';
 
 
 
-export default function Home() {
+const Home:React.FC = ()=> {
   
   return (
    <>
-   
+ <CookieBanner/>
    <Navbar/>
    <main >
         <section id="background">
@@ -128,15 +130,7 @@ export default function Home() {
             <ul className="list-group" >
                 <li className="list-group-item">
                 <Link href="/blog/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className="text-uppercase">E-SOCIAL: OBRIGAÇÃO QUE FACILITA OS DIREITOS DO TRABALHADOR</Link></li>
-                <li className="list-group-item">
-                <Link href="training-3.html" className="text-uppercase">SST: DICAS PARA EVITAR MULTAS NO E-SOCIAL</Link></li>
-                <li className="list-group-item">
-                <Link href="training-3.html" className="text-uppercase">SAIBA QUAIS SÃO AS DÚVIDAS MAIS FREQUENTES SOBRE O E-SOCIAL PARA SST</Link></li>
-                <li className="list-group-item">
-                <Link href="training-3.html" className="text-uppercase">CHECKLIST DE E-SOCIAL PARA CLÍNICAS DE SAÚDE OCUPACIONAL</Link></li>
-                <li className="list-group-item">
-                <Link href="training-3.html" className="text-uppercase">GESTÃO DE SEGURANÇA E SÁUDE OCUPACIONAL: DÁ IMPORTÂNCIA À APLICAÇÃO NAS EMPRESAS </Link></li>
-            </ul>
+                </ul>
             <div className="link">
                 <Link href="/treinamentos" className='text-uppercases'>Saiba mais...</Link>
             </div>
@@ -173,6 +167,9 @@ export default function Home() {
 </div>
 <Final/>
 </main>
+
+
    </>
   );
 }
+export default Home;

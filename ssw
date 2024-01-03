@@ -1,0 +1,51 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+   <div className="formpost w-full md:w-11/12">
+                    <form className="md:flex md:flex-wrap" onSubmit={handleSubmit}>
+                        <div className='form-group col-md-3 lg:ml-6 md:ml-6'>
+                            <label htmlFor="nome" className='font-semibold'>Nome:</label>
+                            <input type="text" className="form-control" value={form.nome}
+          onChange={(e) => setForm({ ...form, nome: e.target.value })} id="nome" name="nome" aria-describedby="telHelp" placeholder="Insira seu nome" />
+                        </div>
+                        <div className='form-group col-md-3 lg:ml-10 md:ml-10'>
+                            <label htmlFor="email" className='font-semibold'>Email:</label>
+                            <input type="email" className="form-control" value={form.email}
+          onChange={(e) => setForm({ ...form, email: e.target.value })} name="email" id="email" aria-describedby="nomeHelp" placeholder="Insira seu Email" />
+                        </div>
+                        <div className='form-group col-md-3 ml-0 md:ml-10 lg:ml-10'>
+                            <label htmlFor="telefone" className='font-semibold'>Telefone:</label>
+                            <input type="text" className="form-control" value={form.telefone}
+          onChange={(e) => setForm({ ...form, telefone: e.target.value })} id="telefone" name="telefone" aria-describedby="telHelp" placeholder="Insira seu numero de telefone" />
+                        </div>
+                        <div className="form-group col-md-10 lg:ml-6 md:ml-6 mt-2">
+                            <label htmlFor="assunto" className='font-semibold'>Assunto:</label>
+                            <input type="text" className="form-control" value={form.assunto}
+          onChange={(e) => setForm({ ...form, assunto: e.target.value })} id="assunto" name="assunto" aria-describedby="telHelp" placeholder="Insira o assunto a ser tratato"/>
+                        </div>                    
+                        <div className="form-group col-md-10 lg:ml-6 md:ml-6 mb-4">
+                            <label htmlFor="mensagem" className='font-semibold'>Mensagem:</label>
+                            <textarea className="form-control" value={form.mensagem}  onChange={(e) => setForm({ ...form, mensagem: e.target.value })}
+                             name="mensagem" id="mensagem" aria-describedby="telHelp" rows={3} placeholder="Insira sua mensagem"></textarea>
+                        </div>   
+                    </form>
+                    <div >
+                    <input type="submit" value="Enviar" className="col-md-1 button md:ml-6 lg:ml-6" />                      </div>  
+                    </div>
+                    <div className="endereco end col-md-2 ">
+                    <address className='hidden md:inline-block lg:inline-block' >
+                        <strong className='font-semibold'><FontAwesomeIcon icon={faLocationDot} className='mr-1 '/>Endereço:</strong>
+                        <br />
+                        <Link href="https://www.google.com/maps?q=Rua+Ademar+de+Barros,+491,+Centro,+13330-130,+Indaiatuba,+SP" target="_blank" rel="noopener noreferrer"> Rua Ademar de Barros, 491 
+                        - Centro - 13330-130 - 
+                        Indaiatuba/SP
+                        </Link>
+                    </address>
+                    <address className='hidden md:inline-block lg:inline-block'>
+                        <strong className='font-semibold '><FontAwesomeIcon icon={faPhone} className='mr-1'/>Telefone:</strong>
+                        <Link href={'tel:+55193894-5066'}>+55 (19) 3894-5066</Link>
+                    </address>
+                    <address className='hidden md:inline-block lg:inline-block'> 
+                        <strong className='font-semibold'><FontAwesomeIcon icon={faEnvelope} className='mr-1'/>Email:</strong>
+                        <Link href="mailto:adm@audmed.com.br" target="_blank" rel="noopener noreferrer"> adm@audmed.com.br </Link>
+                    </address>
+                    </div>

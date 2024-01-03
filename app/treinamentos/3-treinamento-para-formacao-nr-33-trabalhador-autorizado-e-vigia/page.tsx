@@ -27,7 +27,7 @@ export default function Treinamento3(){
             </li>
             <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-                Treinamento para formação NR-33 Trabalhador Autorizado e Vigia
+                Brigada de Incêndio
                 </li>
             </ol>
             </div>
@@ -86,220 +86,73 @@ export default function Treinamento3(){
                             OBJETIVO
                         </span></div>
                         <div><br/></div>
-                        <div>Introduzir conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</div>    
-                        <div><br/></div>    
+                        <div>Treinamento continuado em manuseio e operação de equipamentos de combate a incêndios e explosões de profissional responsável por implantação, operação e manutenção de instalações elétricas em área de mineração.</div> 
+                        <div> Esta Norma Regulamentadora - NR estabelece medidas de prevenção contra incêndios nosambientes de trabalho.</div>    
+                       <div><br/></div>    
                         <div><span className='font-bold mt-5'>
                         PÚBLICO ALVO
                         </span></div>    
                         <div><br/></div>    
-                        <div>Indivíduos sem nenhuma experiência cuja atividade possa apresentar diversos níveis de complexidade.</div>    
+                        <div>Todas as empresas</div>    
                         <div><br/></div>    
                         <div><span className='font-bold'>
-                            PROGRAMA (PREVISTO NA NR 33)
+                            PROGRAMA (PREVISTO NA NR 23)
                         </span></div>  
                         <div><br/></div>  
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        Definições
+                        Introduções
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Reconhecimento, avaliação e controle de riscos;
+                            Aspectos Legais; 
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Funcionamento de equipamentos utilizados;
+                            Teoria do fogo; 
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Procedimentos e utilização da Permissão de Entrada e Trabalho;
+                            Propagação do fogo;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Noções de resgate e primeiros socorros;
+                            Classes de incêndio; 
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Identificação dos espaços confinados;
+                            Prevenção do incêndio; 
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Critérios de indicação e uso de equipamentos para controle de riscos;
+                            Método de extinção; 
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Conhecimentos sobre práticas seguras em espaços confinados;
+                            Agente extintotes;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Legislação de segurança e saúde no trabalho;
+                            EPI; Equipamentos de combate a incendio I e II;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Programa de proteção respiratória;
+                            Equipamentos de detecção, alarmes e comunicação;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Área classNameificada;
+                            Abandono de área;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Operações de salvamento.
-                        </div>
-                        <div> 
-                            <br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>E-MAIS:</span>
-                        </div>
-                        <div>   
-                            <br/>
+                            Pessoas com abilidades reduzidas;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Estatísticas;
+                            Riscos e Práticas de combate a incêndio.
                         </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Considerações iniciais e durante o trabalho;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Principais motivos de acidentes em espaço confinado;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Normas e aspectos legais;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            NBR 14606 Postos de Serviço - Entrada em Espaço Confinado;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            NBR 14787 – Espaço Confinado – Prevenção de Acidentes;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Funcionamento de equipamentos utilizados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição, classNameificação, exigências e obrigações dos EPIs;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cuidado com os equipamentos;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Apresentação e utilização de equipamentos de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Metodologia de trabalho e posicionamento.
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Regras de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição dos espaços confinados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Identificação dos espaços confinados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cadastramento e mapeamento;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Métodos de avaliação para cada contexto;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Riscos e medidas de controle;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Ações para entrada e permissões;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Metodologia de trabalho e posicionamento;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Exaustão e ventilação;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Testes atmosféricos com utilização de detector de gases;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição, classNameificação, exigências e obrigações dos EPIs;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cuidado com os equipamentos;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Apresentação e utilização de equipamentos de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Ancoragens;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Técnicas de resgate;
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>  
-                        <span className='font-bold'>ITENS INCLUSOS</span>
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>    - 
-                        <span className='whitespace-pre'>	</span>
-                            instrutor qualificado.
-                        </div>
-                        <div>     - 
-                        <span className='whitespace-pre'>	</span>
-                            EPIs e EPCs para os exercícios práticos.
-                        </div>
-                        <div>    - 
-                        <span className='whitespace-pre'>	</span>
-                            Material didático.
-                        </div>
-                        <div>     - 
-                        <span className='whitespace-pre'>	</span>
-                            Carteirinha e certificado de conclusão.
-                        </div>
-                        <div>     - 
-                        <span className='whitespace-pre'>	</span>
-                            Seguro de acidentes pessoais.
-                        </div>
-                        <div>                        
-                            <br/>
-                        </div>
-                        <span className='font-bold'>IN COMPANY</span>
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div> 
-                            Treinamentos oferecidos nas instalações do próprio cliente que se adéquam as reais necessidades de trabalho.
-                        </div>
+                       
                         <div>  
                             <br/>
                         </div>
@@ -311,7 +164,7 @@ export default function Treinamento3(){
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Carga horária: 16 horas
+                            Carga horária: 08 horas
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
@@ -319,7 +172,7 @@ export default function Treinamento3(){
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Validade: 01 anos
+                            Validade: 01 ano
                         </div>
                         <div>
                             <br/>
@@ -331,7 +184,7 @@ export default function Treinamento3(){
             </div>
             <div className="clear"></div>
         </div>       
-    
+    </div>
    </section>
         <Final/>
         </main>

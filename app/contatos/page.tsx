@@ -2,60 +2,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../components/navbar';
 import Final from '../components/final';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
-import { useState } from 'react';
 import React from 'react';
 import Image from 'next/image';
 import Whatts from '../../public/whatts.png'
 import Gmail from '../../public/gmail.png'
-import Telefone from '../../public/whatts.png'
-import handler from '../api/enviar-email';
+import Insta from '../../public/instagram.png'
+import Facebook from '../../public/facebook.png'
+import Telefone from '../../public/telefone.png'
+export default function Contatos(){
 
-interface FormProps {
-  nome: string;
-  email: string;
-  telefone: string;
-  assunto: string;
-  mensagem: string;
-}
-
-const Contatos: React.FC = () => {
-  const [form, setForm] = useState<FormProps>({
-    nome: '',
-    email: '',
-    telefone: '',
-    assunto: '',
-    mensagem: '',
-  });
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log('Iniciando envio do formulário...');
-    try {
-      const response = await fetch('/api/enviar-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json', 
-        },
-        body: JSON.stringify(form),
-      });
-
-      if (response.ok) {
-        // Lógica para lidar com o envio bem-sucedido
-        console.log('E-mail enviado com sucesso!');
-      } else {
-        // Lógica para lidar com erros no envio
-        console.error('Erro ao enviar e-mail:', response.statusText);
-      }
-    } catch (error) {
-      console.error('Erro ao enviar e-mail:', error);
-    }
-    console.log('Envio do formulário concluído.');
-
-  };
-    return(
+   return(
         <>
         <Navbar/>
         <section id="page-title">
@@ -82,7 +39,7 @@ const Contatos: React.FC = () => {
             </section>
             <section id="contatos" className="container " >
                 <div className="titulo">
-                    <h1>Entre em contato conosco</h1>
+                    <h1>ENTRE EM CONTATO CONOSCO</h1>
                 </div>
                 <div className='roww'>
   <div className="max-w-xs max-h-96 mt-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
@@ -93,10 +50,10 @@ const Contatos: React.FC = () => {
         <Link href=""> 
             <h5 className="mb-2 -mt-11 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Envie uma mensagem via WhatsApp</h5>
         </Link>
-        <Link href="https://wa.me/5519992492716" className="inline-flex items-center px-3 py-2 ml-7 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <Link href="https://wa.me/5519992492716" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-2 ml-7 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Enviar Mensagem
              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
         </Link>
     </div>
@@ -109,26 +66,58 @@ const Contatos: React.FC = () => {
         <Link href=""> 
             <h5 className="mb-2 -mt-8 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Entre em contato conosco via Gmail</h5>
         </Link>
-        <Link href="" className="inline-flex items-center px-3 py-2 ml-11 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <Link href="mailto:adm@audmed.com.br" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-3 py-2 ml-11 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
            Enviar Gmail
              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
         </Link>
     </div>
 </div>
 <div className="max-w-xs max-h-96 mt-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
     <Link href=""> 
-        <Image className="rounded-t-lg h-52 w-52 mx-auto " src={Gmail} alt=""  />
+        <Image className="rounded-t-lg mt-2 h-52 w-52 mx-auto " src={Telefone} alt=""  />
     </Link>
     <div className="p-5">
         <Link href=""> 
-            <h5 className="mb-2 -mt-8 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nosso telefone para contato</h5>
+            <h5 className="mb-2 -mt-8 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Nosso telefone para contato</h5>
         </Link>
-        <Link href="" className="inline-flex items-center px-3 py-2 ml-8 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+        <Link href={'tel:+55193894-5066'} rel="noopener noreferrer" className="inline-flex items-center px-3 py-2 ml-10 mt-1 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Realizar ligação
              <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </Link>
+    </div>
+</div>
+<div className="max-w-xs max-h-96 mt-20 mb-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <Link href=""> 
+        <Image className="rounded-t-lg mt-2 h-52 w-52 mx-auto " src={Insta} alt=""  />
+    </Link>
+    <div className="p-5">
+        <Link href=""> 
+            <h5 className="mb-2 -mt-8 text-2xl font-bold text-center tracking-tight text-gray-900 dark:text-white">Nos siga no Instagram</h5>
+        </Link>
+        <Link href="https://www.instagram.com/audmed.indaiatuba/" target='_blank' className="inline-flex items-center px-3 py-2 ml-9 mt-1 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Visualizar Perfil
+             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+            </svg>
+        </Link>
+    </div>
+</div>
+<div className="max-w-xs max-h-96 mb-20 mt-20 md:mr-20 md:ml-0 lg:ml-0 lg:mr-20 mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+    <Link href=""> 
+        <Image className="rounded-t-lg mt-2 h-52 w-52 mx-auto " src={Facebook} alt=""  />
+    </Link>
+    <div className="p-5">
+        <Link href=""> 
+            <h5 className="mb-2 -mt-8 text-2xl font-bold tracking-tight text-center text-gray-900 dark:text-white">Nos siga no Facebook</h5>
+        </Link>
+        <Link href="https://www.facebook.com/clinicaaudmed1" target='_blank' rel="noopener noreferrer" className="inline-flex items-center px-3 py-2 ml-9 mt-1 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+            Visualizar Perfil
+             <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
             </svg>
         </Link>
     </div>
@@ -136,59 +125,9 @@ const Contatos: React.FC = () => {
 
 </div>
 </section>
-                <div className="formpost w-full md:w-11/12">
-                    <form className="md:flex md:flex-wrap" onSubmit={handleSubmit}>
-                        <div className='form-group col-md-3 lg:ml-6 md:ml-6'>
-                            <label htmlFor="nome" className='font-semibold'>Nome:</label>
-                            <input type="text" className="form-control" value={form.nome}
-          onChange={(e) => setForm({ ...form, nome: e.target.value })} id="nome" name="nome" aria-describedby="telHelp" placeholder="Insira seu nome" />
-                        </div>
-                        <div className='form-group col-md-3 lg:ml-10 md:ml-10'>
-                            <label htmlFor="email" className='font-semibold'>Email:</label>
-                            <input type="email" className="form-control" value={form.email}
-          onChange={(e) => setForm({ ...form, email: e.target.value })} name="email" id="email" aria-describedby="nomeHelp" placeholder="Insira seu Email" />
-                        </div>
-                        <div className='form-group col-md-3 ml-0 md:ml-10 lg:ml-10'>
-                            <label htmlFor="telefone" className='font-semibold'>Telefone:</label>
-                            <input type="text" className="form-control" value={form.telefone}
-          onChange={(e) => setForm({ ...form, telefone: e.target.value })} id="telefone" name="telefone" aria-describedby="telHelp" placeholder="Insira seu numero de telefone" />
-                        </div>
-                        <div className="form-group col-md-10 lg:ml-6 md:ml-6 mt-2">
-                            <label htmlFor="assunto" className='font-semibold'>Assunto:</label>
-                            <input type="text" className="form-control" value={form.assunto}
-          onChange={(e) => setForm({ ...form, assunto: e.target.value })} id="assunto" name="assunto" aria-describedby="telHelp" placeholder="Insira o assunto a ser tratato"/>
-                        </div>                    
-                        <div className="form-group col-md-10 lg:ml-6 md:ml-6 mb-4">
-                            <label htmlFor="mensagem" className='font-semibold'>Mensagem:</label>
-                            <textarea className="form-control" value={form.mensagem}  onChange={(e) => setForm({ ...form, mensagem: e.target.value })}
-                             name="mensagem" id="mensagem" aria-describedby="telHelp" rows={3} placeholder="Insira sua mensagem"></textarea>
-                        </div>   
-                    </form>
-                    <div >
-                    <input type="submit" value="Enviar" className="col-md-1 button md:ml-6 lg:ml-6" />                      </div>  
-                    </div>
-                    <div className="endereco end col-md-2 ">
-                    <address className='hidden md:inline-block lg:inline-block' >
-                        <strong className='font-semibold'><FontAwesomeIcon icon={faLocationDot} className='mr-1 '/>Endereço:</strong>
-                        <br />
-                        <Link href="https://www.google.com/maps?q=Rua+Ademar+de+Barros,+491,+Centro,+13330-130,+Indaiatuba,+SP" target="_blank" rel="noopener noreferrer"> Rua Ademar de Barros, 491 
-                        - Centro - 13330-130 - 
-                        Indaiatuba/SP
-                        </Link>
-                    </address>
-                    <address className='hidden md:inline-block lg:inline-block'>
-                        <strong className='font-semibold '><FontAwesomeIcon icon={faPhone} className='mr-1'/>Telefone:</strong>
-                        <Link href={'tel:+55193894-5066'}>+55 (19) 3894-5066</Link>
-                    </address>
-                    <address className='hidden md:inline-block lg:inline-block'> 
-                        <strong className='font-semibold'><FontAwesomeIcon icon={faEnvelope} className='mr-1'/>Email:</strong>
-                        <Link href="mailto:adm@audmed.com.br" target="_blank" rel="noopener noreferrer"> adm@audmed.com.br </Link>
-                    </address>
-                    </div>
-
         </main>
         <Final/>
         </>
     )
 }
-export default Contatos;
+

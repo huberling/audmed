@@ -67,9 +67,9 @@ export default function Treinamentos(){
                         <Link href="/treinamentos/3-treinamento-para-formacao-nr-33-trabalhador-autorizado-e-vigia"><Image src={Treinamento3} className="bottommargin-sm" alt=""/></Link>
                     </div>
                     <Link href="/treinamentos/3-treinamento-para-formacao-nr-33-trabalhador-autorizado-e-vigia"><h4 className="text-lg text-black font-semibold"><span className="badge">
-                        NR-33
+                        NR-23
                     </span>
-                    Treinamento para formação NR-33 trabalhador autorizado e vigia</h4></Link>
+                    Brigada de Incêndio</h4></Link>
                 <p>Introduzir conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</p>                
             </div>
             </div>
@@ -79,9 +79,9 @@ export default function Treinamentos(){
                         <Link href="/treinamentos/4-treinamento-nr-33-espaco-confinado"><Image src={Treinamento4} className="bottommargin-sm" alt=""/></Link>
                     </div>
                     <Link href="/treinamentos/4-treinamento-nr-33-espaco-confinado"><h4 className="text-lg text-black font-semibold"><span className="badge">
-                        NR-33
+                        NR-13
                     </span>
-                    Treinamento NR-33 Espaço Confinado</h4></Link>
+                    Vasos de Pressão</h4></Link>
                 <p>Espaço confinado é qualquer área ou ambiente não projetado para ocupação humana contínua, que possua meios limitados de entrada e saída.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no" >
