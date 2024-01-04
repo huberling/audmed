@@ -91,8 +91,9 @@ export default function Treinamento4(){
                             instalação, inspeção, operação e manutenção, visando a segurança e saúde dos
                             trabalhadores.
                         </div>       
-                        <div><br/></div>
-                        
+                        <div>
+                            <br/>
+                        </div>
                         <div><span className='font-bold '>
                         PÚBLICO ALVO
                         </span></div>

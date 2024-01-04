@@ -6,6 +6,7 @@ const CookieBanner: React.FC = () => {
     const userDataCookie = getUserDataCookie();
   
     const handleAcceptCookies = () => {
+      const userData = getUserDataCookie();
       // Lógica para aceitar cookies, se necessário
       setUserDataCookie({ acceptedCookies: true });
     };
@@ -13,7 +14,7 @@ const CookieBanner: React.FC = () => {
     // Exibir o banner apenas se o cookie não foi aceito
     if (!userDataCookie?.acceptedCookies) {
       return (
-        <div className="fixed text-center left-0 bottom-0 p-2 w-full bg-gray-400">
+        <div className='cookies'>
           {/* Conteúdo do banner e botão de aceitar */}
           <button onClick={handleAcceptCookies}>Aceitar Cookies</button>
         </div>
