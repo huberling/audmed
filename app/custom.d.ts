@@ -6,6 +6,7 @@ declare module 'js-cookie' {
     }
   
     interface CookiesStatic {
+      getJSON(COOKIE_NAME: string): unknown;
       get(key: string): string | undefined;
       set(key: string, value: string, options?: CookieAttributes): void;
       remove(key: string, options?: CookieAttributes): void;
