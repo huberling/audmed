@@ -152,32 +152,9 @@ export default function Treinamento3(){
                             <span className='whitespace-pre'>	</span>
                             Riscos e Práticas de combate a incêndio.
                         </div>
-                       
                         <div>  
                             <br/>
                         </div>
-                        <div>  
-                            <span className='font-bold'>CARACTERÍSTICAS GERAIS</span>
-                        </div>
-                        <div> 
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Carga horária: 08 horas
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Horário: A combinar
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Validade: 01 ano
-                        </div>
-                        <div>
-                            <br/>
-                        </div>
-                
                     </div>
                     </div>
                 </div>

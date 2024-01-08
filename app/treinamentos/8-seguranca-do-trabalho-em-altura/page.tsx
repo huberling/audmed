@@ -27,7 +27,7 @@ export default function Treinamento8(){
             </li>
             <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-                Segurança do Trabalho em Altura                
+            Trabalho em Altura                
                 </li>
             </ol>
             </div>
@@ -82,216 +82,91 @@ export default function Treinamento8(){
                         <div className="entry-image alignleft">
                         <Image src={Treinamento08} alt=""/>
                         </div>
-                        <div>O Treinamento de Trabalho em Altura aborda os requisitos e as medidas de proteção as atividades realizadas em altura, com base na NR 35 envolvendo o planejamento, organização e a execução, de forma a garantir a segurança e a saúde dos trabalhadores envolvidos direta ou indiretamente.</div>    
+                        <div><span className='font-bold'>
+                            OBJETIVO
+                        </span></div>
+                        <div><br/></div> 
+                        <div>A NR 35 é uma norma regulamentadora, que versa sobre padrões de segurança para o trabalho em altura, ela garante que nenhum trabalho coloque em risco a vida e a integridade dos funcionários. </div>    
                         <div><br/></div>  
-                        <div>Trabalho em altura caracteriza-se como atividades executadas acima de 2,00 m (dois metros) do nível inferior, onde haja risco de queda.
-                        </div>  
-                        <div><br/></div>
-                        <div>O curso de aperfeiçoamento profissional NR-35 - Segurança nas Atividades com Trabalho em Altura - Inicial tem por objetivo conscientizar e desenvolver habilidades básicas para trabalhos seguros em alturas, garantindo a integridade física e a saúde dos envolvidos nas atividades.
-                        </div>
+                       
                         <div><br/></div>
                         <div><span className='font-bold mt-5'>
                         PÚBLICO ALVO
                         </span></div>    
                         <div><br/></div>    
-                        <div>Indivíduos sem nenhuma experiência e cuja realidade do trabalho em altura seja de baixa complexidade.</div>    
+                        <div>Engenheiros, Técnicos de segurança do trabalho, profissionais da área de segurança e profissionais envolvidos com trabalhos em altura em geral.</div>    
                         <div><br/></div>    
+                        <div>  
+                            <span className='font-bold'>PROGRAMA (PREVISTO NA NR 35)</span>
+                        </div>
+                        <div>   
+                            <br/>
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Normas e regulamentos aplicáveis ao trabalho em altura;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Planejamento, organização e metodologia para trabalho em altura;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            AR- Análise de Riscos e Condições Impeditivas;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Riscos de acidentes típicos em trabalho em altura (escadas, rampas e passarelas e etc.);
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Equipamentos de Proteção Individual para trabalho em altura: seleção, inspeção, conservação e limitação de uso;
+                        </div>     
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Condutas em situações de emergência, incluindo noções de técnicas de resgate e de primeiros socorros.
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Segurança na movimentação e transporte de materiais e pessoas;
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Riscos de acidentes típicos em trabalho em altura (escadas, rampas e passarelas e etc.);
+                        </div>    
+                        <div><br/>
+                        </div>  
                         <div><span className='font-bold'>
-                        REQUISITOS
+                        OBRIGAÇÔES DO EMPREGADOR
                         </span></div>  
                         <div><br/></div>  
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        O aluno deverá, no início do curso, ter no mínimo 18 anos de idade.
+                        Implementar as medidas de proteção especificadas nas normas regulamentares;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                        O aluno deverá ter completado a 4ª série do Nível Fundamental.
+                            Estabelecer procedimentos operacionais padrão para as operações de alta altitude da empresa;
                         </div>
                         <div> 
-                            <br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>PROGRAMA:</span>
-                        </div>
-                        <div>   
-                            <br/>
+                            - 
+                        <span className='whitespace-pre'>	</span>
+                        Cumprir as normas relativas à autorização de trabalhadores para o exercício das atividades;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            NR-35;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Objetivo;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Campo de aplicação;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Responsabilidades;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Normas relacionadas;
-                        </div>     
-                        <div><br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>TRABALHOS EM ALTURA</span>
-                            </div>
-                            <div>   
-                                <br/>
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Definição;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Tipos Acidentes;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Fator de queda;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Riscos e perigos;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Medidas de controle;
-                            </div> 
-                        <div>   
-                            <br/>
-                        </div>                   
-                        <div>  
-                            <span className='font-bold'>DOCUMENTAÇÃO</span>
-                            </div>
-                            <div>   
-                                <br/>
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Procedimento operacional;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Análise de riscos;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Permissão de trabalho;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Plano de atendimento emergencial;
-                            </div>
-                            <div><br/></div>                
-                        <div>  
-                            <span className='font-bold'>CONDIÇÃO IMPEDITIVA</span>
-                            </div>
-                            <div>   
-                                <br/>
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Principais condições impeditivas;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Suspensão de atividades iniciadas;
-                            </div>
-                            <div><br/></div>
-                        <div>  
-                            <span className='font-bold'>SISTEMA DE PROTEÇÂO DE QUEDAS - SPQ</span>
-                            </div>
-                            <div>   
-                                <br/>
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Função do SPQ;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Responsabilidades;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Zona Livre de Queda - ZLQ;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Fator de Queda;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Sistema de Proteção Coletiva Contra Quedas - SPCQ;
-                            </div> 
-                        <div>   
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Sistema de Proteção Individual Contra Quedas - SPIQ;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                SPIQ - Equipamentos de Proteção Individual (EPI);
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                SPIQ - Equipamentos auxiliares e acessórios;
-                            </div>
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                SPIQ - Recebimento, inspeção e uso dos elementos do SPIQ;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Tipos de bloqueios e sinalização de segurança;
-                            </div> 
-                            <div>     - 
-                                <span className='whitespace-pre'>	</span>
-                                Noções em situações de emergência e primeiros socorros;
-                            </div> 
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>  
-                        <span className='font-bold'>IN COMPANY</span>
-                        </div>
-                        <div>   
-                            <br/>
+                            Pré-avaliar as condições do local, planejar e implementar medidas de segurança;
                         </div>
                         <div> 
-                            Treinamentos oferecidos nas instalações do próprio cliente que se adéquam as reais necessidades de trabalho.
+                            - 
+                        <span className='whitespace-pre'>	</span>
+                        Antes de tomar as medidas de proteção necessárias, certifique-se de que nenhuma operação em alta altitude seja iniciada;
                         </div>
-                        <div>  
-                            <br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>CARACTERÍSTICAS GERAIS</span>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Sempre que um novo risco surgir e não puder ser eliminado imediatamente, suspenda o trabalho;
                         </div>
                         <div> 
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Carga horária: 08 horas - 01 dia
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Horário: Das 08:00 às 16:00 horas - 01 hora de almoço
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Validade: 02 anos
-                        </div>
-                        <div>
                             <br/>
                         </div>
                     </div>

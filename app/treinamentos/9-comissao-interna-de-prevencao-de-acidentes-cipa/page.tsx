@@ -128,27 +128,6 @@ export default function Treinamento9(){
                         <div>  
                             <br/>
                         </div>
-                        <div>  
-                            <span className='font-bold'>CARACTERÍSTICAS GERAIS</span>
-                        </div>
-                        <div> 
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Carga horária: De 8 a 20 horas
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Horário: A combinar
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Validade: 01 anos
-                        </div>
-                        <div>
-                            <br/>
-                        </div>
                     </div>
                 </div>
             </div>

@@ -90,10 +90,10 @@ export default function Treinamentos(){
                     </div>
                     <Link href="/treinamentos/5-treinamento-para-formacao-supervisor-de-espaco-confinado">
                         <h4 className="text-lg text-black font-semibold"><span className="badge">
-                        NR-33
+                        NR-12
                     </span>
-                    Treinamento para formação Supervisor de Espaço Confinado</h4></Link>
-                <p>Aprimorar conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</p>
+                    Adequação de Máquinas</h4></Link>
+                <p>É uma norma regulamentadora que estabelece requisitos mínimos para garantir a segurança dos trabalhadores que utilizam máquinas e equipamentos industriais.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
@@ -101,10 +101,11 @@ export default function Treinamentos(){
                     </div>
                     <Link href="/treinamentos/6-treinamento-da-nr-33-trabalhador-autoriza-e-vigia">
                         <h4 className="text-lg text-black font-semibold"><span className="badge">
-                        NR-33
+                        NR-06
                     </span>
-                    Treinamento da NR - 33 trabalhador autorizado e vigia</h4></Link>
-                <p>Aprimorar conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</p>                
+                    Equipamento de Proteção Individual(EPI)</h4>
+                    </Link>
+                <p>Regulamenta a execução do trabalho com uso de Equipamentos de Proteção Individual (EPI), sem estar condicionada a setores ou atividades econômicas específicas.</p>                
             </div>
             </div>
             <div className="row servicos bottommargin-sm ">
@@ -113,10 +114,10 @@ export default function Treinamentos(){
                         <Link href="/treinamentos/7-o-treinamento-de-trabalho-em-altura"><Image src={Treinamento7} className="bottommargin-sm" alt=""/></Link>
                     </div>
                     <Link href="/treinamentos/7-o-treinamento-de-trabalho-em-altura"><h4 className="text-lg text-black font-semibold"><span className="badge">
-                        NR-33
+                        NR-17
                     </span>
-                    O Treinamento de Trabalho em Altura</h4></Link>
-                    <p>Trabalho em altura caracteriza-se como atividades executadas acima de 2,00 m (dois metros) do nível inferior, onde haja risco de queda.</p>
+                    Ergonomia / AGP / AET</h4></Link>
+                    <p>Trata dos parâmetros necessários para garantir conforto, segurança e saúde para os funcionários, com o intuito de evitar que ocorram doenças causadas por esforço repetitivo.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no" >
                     <div className="feature-box fbox-center fbox-effect">

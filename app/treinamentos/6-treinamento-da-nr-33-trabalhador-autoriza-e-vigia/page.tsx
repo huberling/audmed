@@ -26,7 +26,7 @@ export default function Treinamento6(){
             </li>
             <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-                    Treinamento da NR-33 Trabalhador Autoriza e Vigia
+            Equipamento de Proteção Individual(EPI)
                 </li>
             </ol>
             </div>
@@ -85,159 +85,53 @@ export default function Treinamento6(){
                             OBJETIVO
                         </span></div>
                         <div><br/></div>
-                        <div>Aprimorar conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</div>    
+                        <div>O objetivo desta Norma Regulamentadora é estabelecer os requisitos para aprovação,
+                        comercialização, fornecimento e utilização de Equipamentos de Proteção Individual - EPI.</div>    
                         <div><br/></div>    
                         <div><span className="font-bold mt-5">
                         PÚBLICO ALVO
                         </span></div>    
                         <div><br/></div>    
-                        <div>Indivíduos com experiência prévia cuja atividade possa apresentar diversos níveis de complexidade.
+                        <div>Trabalhadores que utilizam os equipamentos, quanto às construtoras e empresas que os adquirem e aos fabricantes e importadores desses produtos.
                         </div>    
-                        <div><br/></div>    
+                        <div><br/>
+                        <br /></div>    
                         <div><span className='font-bold'>
-                            PROGRAMA (PREVISTO NA NR 33)
+                            PROGRAMA (PREVISTO NA NR 06)
                         </span></div>  
                         <div><br/></div>  
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        Definições
+                        Legislação;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Reconhecimento, avaliação e controle de riscos;
+                           Quais os tipos de EPI’s;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Funcionamento de equipamentos utilizados;
+                            Treinamento prático com os EPIs.
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Procedimentos e utilização da Permissão de Entrada e Trabalho;
+                            Modo de utilização dos EPIs;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Noções de resgate e primeiros socorros;
+                            Finalidade dos EPIs utilizados na empresa;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Identificação dos espaços confinados;
+                            Características técnicas e atenuações dos EPIs;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Critérios de indicação e uso de equipamentos para controle de riscos;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Conhecimentos sobre práticas seguras em espaços confinados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Legislação de segurança e saúde no trabalho;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Programa de proteção respiratória;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Área classNameificada;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Operações de salvamento.
+                            Periodicidade de troca, higienização e conservação dos EPIs;
                         </div>
                         <div> 
                             <br/>
                         </div>
-                        <div>  
-                            <span className='font-bold'>E-MAIS:</span>
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Estatísticas;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Considerações iniciais e durante o trabalho;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Principais motivos de acidentes em espaço confinado;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Normas e aspectos legais;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            NBR 14606 Postos de Serviço - Entrada em Espaço Confinado;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            NBR 14787 – Espaço Confinado – Prevenção de Acidentes;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Funcionamento de equipamentos utilizados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição, classNameificação, exigências e obrigações dos EPIs;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cuidado com os equipamentos;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Apresentação e utilização de equipamentos de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Metodologia de trabalho e posicionamento.
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>  
-                        <span className='font-bold'>IN COMPANY</span>
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div> 
-                            Treinamentos oferecidos nas instalações do próprio cliente que se adéquam as reais necessidades de trabalho.
-
-                        </div>
-                        <div>  
-                            <br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>CARACTERÍSTICAS GERAIS</span>
-                        </div>
-                        <div> 
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Carga horária: 08 horas
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Horário: A combinar
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Validade: 01 anos
-                        </div>
-                        <div>
-                            <br/>
-                        </div>
-                
                     </div>
                     </div>
                 </div>

@@ -118,27 +118,6 @@ export default function Treinamento4(){
                         <div> 
                             <br/>
                         </div>
-                        <div>  
-                            <span className='font-bold'>CARACTERÍSTICAS GERAIS</span>
-                        </div>
-                        <div> 
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Carga horária: 40 horas
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Horário: A combinar
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Validade: 01 ano
-                        </div>
-                        <div>
-                            <br/>
-                        </div>  
                     </div>
                 </div>
             </div>

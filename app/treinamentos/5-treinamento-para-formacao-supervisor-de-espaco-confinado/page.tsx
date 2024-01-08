@@ -26,8 +26,8 @@ export default function Treinamento5(){
             </li>
             <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-        Treinamento para formação Supervisor de Espaço Confinado           
-        </li>
+            Adequação de Máquinas        
+            </li>
             </ol>
             </div>
     </section>
@@ -85,223 +85,71 @@ export default function Treinamento5(){
                             OBJETIVO
                         </span></div>
                         <div><br/></div>
-                        <div>Introduzir, aprimorar e expandir conhecimentos e técnicas necessárias a uma sólida gestão dos trabalhos em espaço confinado em termos burocráticos, legais e práticos, conforme NR 33.</div>    
+                        <div>O objetivo do treinamento de Segurança em Maquinas e Equipamentos conforme a NR 12 é preparar os trabalhadores para realizar atividades e serviços com segurança e eficiência, visando a saúde dos colaboradores e a execução dos trabalhos utilizando métodos apropriados e precisos.</div>    
                         <div><br/></div>    
                         <div><span className='mt-5 font-bold'>
                         PÚBLICO ALVO
                         </span></div>    
                         <div><br/></div>    
                         <div>
-                            Indivíduos com funções gestão, monitoramento e coordenação de grupos e que possuam experiência trabalhos em espaço confinado.</div>    
+                        Empresas cujos funcionários realizem operação, manutenção, inspeção e demais intervenções em máquinas e equipamentos rotativos e abrasivos</div>    
                         <div><br/></div>    
                         <div><span className='font-bold'>
-                            PROGRAMA (PREVISTO NA NR 33)
+                            PROGRAMA (PREVISTO NA NR 12)
                         </span></div>  
                         <div><br/></div>  
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        Definições
+                            Norma Regulamentadora NR 12 – Conceitos;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Reconhecimento, avaliação e controle de riscos;
+                            Gestão dos Riscos em Máquinas e Equipamentos;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Funcionamento de equipamentos utilizados;
+                            Técnicas e normas de operação segura com equipamentos rotativos;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Procedimentos e utilização da Permissão de Entrada e Trabalho;
+                            Manual de operação;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Noções de resgate e primeiros socorros;
+                            Utilização de EPI (Equipamento de Proteção Individual) e EPC (Equipamento de Proteção Coletiva);
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Identificação dos espaços confinados;
+                            Medidas de Proteção de Máquinas;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Critérios de indicação e uso de equipamentos para controle de riscos;
+                            Aspectos Ergonômicos;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Conhecimentos sobre práticas seguras em espaços confinados;
+                            Condições Biomecânicas e Variáveis Antropométricas;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Legislação de segurança e saúde no trabalho;
+                            Noções de Primeiros socorros;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Programa de proteção respiratória;
+                            Manutenção preditiva, preventiva e corretiva;
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Área classNameificada;
+                            Riscos de acidentes no uso dos equipamentos rotativos (choques, cortes, esmagamentos, emprensamentos, perfurações, etc.);
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Operações de salvamento.
+                            Inspeção dos equipamentos – Check List diário;
                         </div>
                         <div> 
                             <br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>E-MAIS:</span>
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Estatísticas;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Considerações iniciais e durante o trabalho;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Principais motivos de acidentes em espaço confinado;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Normas e aspectos legais;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            NBR 14606 Postos de Serviço - Entrada em Espaço Confinado;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            NBR 14787 – Espaço Confinado – Prevenção de Acidentes;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Funcionamento de equipamentos utilizados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição, classNameificação, exigências e obrigações dos EPIs;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cuidado com os equipamentos;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Apresentação e utilização de equipamentos de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Metodologia de trabalho e posicionamento.
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Regras de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição dos espaços confinados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Identificação dos espaços confinados;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cadastramento e mapeamento;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Métodos de avaliação para cada contexto;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Riscos e medidas de controle;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Ações para entrada e permissões;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Metodologia de trabalho e posicionamento;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Exaustão e ventilação;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Testes atmosféricos com utilização de detector de gases;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Definição, classNameificação, exigências e obrigações dos EPIs;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Cuidado com os equipamentos;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Apresentação e utilização de equipamentos de segurança;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Ancoragens;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Técnicas de resgate;
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Primeiros socorros.
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div>  
-                        <span className='font-bold'>IN COMPANY</span>
-                        </div>
-                        <div>   
-                            <br/>
-                        </div>
-                        <div> 
-                            Treinamentos oferecidos nas instalações do próprio cliente que se adéquam as reais necessidades de trabalho.
-
-                        </div>
-                        <div>  
-                            <br/>
-                        </div>
-                        <div>  
-                            <span className='font-bold'>CARACTERÍSTICAS GERAIS</span>
-                        </div>
-                        <div> 
-                            <br/>
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Carga horária: 40 horas
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Horário: A combinar
-                        </div>
-                        <div>     - 
-                            <span className='whitespace-pre'>	</span>
-                            Validade: 01 anos
-                        </div>
-                        <div>
-                            <br/>
-                        </div>
-                
+                        </div>                
                     </div>
                     </div>
                 </div>

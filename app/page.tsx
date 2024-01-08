@@ -16,14 +16,16 @@ import Link from 'next/link';
 import Final from './components/final';
 import CookieBanner from './components/cookiebanner';
 import React from 'react';
+import CookieNotification from './components/cookies';
 
 
 
 const Home:React.FC = ()=> {
-  
+ 
+
   return (
    <>
- <CookieBanner/>
+   <CookieNotification/>
    <Navbar/>
    <main >
         <section id="background">
