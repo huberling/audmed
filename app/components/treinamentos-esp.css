@@ -36,7 +36,7 @@ img.alignleft, div.alignleft {
 }
 .entry-image img {
     border-radius: 5px;
-    
+    width: 28rem;
 }
 
 a img {

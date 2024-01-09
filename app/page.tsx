@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Servicos from '../public/serviços.png';
 import Image from 'next/image';
-import Treinamento3 from '../public/Treinamento3.jpg';
+import Nr35 from '../public/NR35.jpg';
 import DHL from '../public/clientes/dhl.png';
 import Intralox from '../public/clientes/intralox.png';
 import Robiel from '../public/clientes/robiel.png';
@@ -93,9 +93,9 @@ const Home:React.FC = ()=> {
     </div>
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/ppra"><Image className="img" src={Servicos} alt=""/></Link>
-            <Link href="/servicos/ppra"><h3 className="h3desc">PPRA - PROGRAMA DE PREVENÇÂO DE RISCOS AMBIENTAIS</h3></Link>
-            <p>O Programa de Prevenção de Riscos Ambientais (PPRA) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
+            <Link href="/servicos/pgr"><Image className="img" src={Servicos} alt=""/></Link>
+            <Link href="/servicos/pgr"><h3 className="h3desc">PGR - PROGRAMA DE GERENCIAMENTO DE RISCOS</h3></Link>
+            <p>O Programa de Gerenciamento de Riscos (PGR) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
         </div> 
     </div>     
         <div className="col-md-4">
@@ -112,13 +112,13 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>TREINAMENTOS</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre ml-4" src={Treinamento3} alt="" />
+                <Image className="imgtre ml-4" src={Nr35} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
-                <Link href="/treinamentos/8-seguranca-do-trabalho-em-altura" className='text-uppercase' >Segurança do Trabalho em Altura</Link></li>
+                <Link href="/treinamentos/nr-35-Seguranca-do-Trabalho-em-Altura" className='text-uppercase' >Segurança do Trabalho em Altura</Link></li>
                 <li className="list-group-item"><span className="badge badge-sucess">NR-05</span>
-                <Link href="/treinamentos/9-comissao-interna-de-prevencao-de-acidentes-cipa" className='text-uppercase'>Comissão Interna de Prevenção de Acidentes - CIPA</Link></li>
+                <Link href="/treinamentos/nr-05-Comissao-Interna-de-Prevencao-de-Acidentes-e-Assedio" className='text-uppercase'>Comissão Interna de Prevenção de Acidentes - CIPA</Link></li>
             </ul>
             <div className="link">
                 <Link href="/treinamentos" className='text-uppercases'>Saiba mais...</Link>

@@ -43,7 +43,7 @@ export default function PcmsoService(){
                                     <Link href="/servicos/ltcat" className="text-black">LTCAT - Laudo Técnico das Condições Ambientais de Trabalho</Link>
                                 </li>
                                 <li>
-                                    <Link href="/servicos/ppra" className="text-black">PPRA - Programa de Prevenção de Riscos Ambientais</Link>
+                                    <Link href="/servicos/pgr" className="text-black">PGR - Programa de Gerenciamento de Riscos</Link>
                                 </li>
                             </ul>
                         </div>

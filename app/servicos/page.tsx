@@ -41,9 +41,9 @@ return(
     </div>
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/ppra"><Image className="img" src={Servicos} alt=""/></Link>
-            <Link href="/servicos/ppra"><h3 className="h3desc">PPRA - PROGRAMA DE PREVENÇÂO DE RISCOS AMBIENTAIS</h3></Link>
-            <p>O Programa de Prevenção de Riscos Ambientais (PPRA) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
+            <Link href="/servicos/pgr"><Image className="img" src={Servicos} alt=""/></Link>
+            <Link href="/servicos/pgr"><h3 className="h3desc">PGR - PROGRAMA DE GERENCIAMENTO DE RISCOS</h3></Link>
+            <p>O Programa de Gerenciamento de Riscos (PGR) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
         </div> 
     </div>     
         <div className="col-md-4">

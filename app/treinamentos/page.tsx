@@ -3,15 +3,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../components/navbar';
 import Final from '../components/final';
 import Image from 'next/image';
-import Treinamento1 from '../../public/Treinamento1.jpg';
-import Treinamento2 from '../../public/Treinamento2.jpg';
-import Treinamento3 from '../../public/Treinamento3.jpg';
-import Treinamento4 from '../../public/Treinamento4.jpg';
-import Treinamento5 from '../../public/Treinamento5.jpg';
-import Treinamento6 from '../../public/Treinamento6.jpg';
-import Treinamento7 from '../../public/Treinamento7.jpg';
-import Treinamento8 from '../../public/Treinamento8.jpg';
-import Treinamento9 from '../../public/Treinamento9.jpg';
+import Cipa from '../../public/Cipa.jpg';
+import Nr06 from '../../public/NR06.jpg';
+import Nr10 from '../../public/NR10.jpg';
+import Nr11 from '../../public/NR11.jpg';
+import Nr12 from '../../public/NR12.png';
+import Nr13 from '../../public/NR13.jpg';
+import Nr17 from '../../public/NR17.jpeg';
+import Nr18 from '../../public/NR18.jpg';
+import Nr23 from '../../public/NR23.jpg';
+import Nr33 from '../../public/NR33.jpg';
+import Nr35 from '../../public/NR35.jpg';
 import Link from 'next/link';
 
 export default function Treinamentos(){
@@ -43,63 +45,63 @@ export default function Treinamentos(){
             <div className="row servicos bottommargin-sm ">
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/1-treinamento-para-formacao-nr-33-supervisor-de-espaco-confinado"><Image src={Treinamento1} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-33-Espaco-Confinado"><Image src={Nr33} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/1-treinamento-para-formacao-nr-33-supervisor-de-espaco-confinado">
+                    <Link href="/treinamentos/nr-33-Espaco-Confinado">
                         <h4 className="text-lg text-black font-semibold" ><span className="badge">
                         NR-33
                     </span>
-                    Treinamento para formação NR-33 Supervisor de espaço confinado</h4></Link>
-                <p>Introduzir, aprimorar e expandir conhecimentos e técnicas necessárias a uma sólida gestão dos trabalhos em espaço confinado em termos de burocráticos, legais e práticos, conforme NR-33.</p>
+                    Trabalho em Espaaço Confinado</h4></Link>
+                <p>A NR-33 é uma norma para trabalhos confinados, que estabelece medidas de prevenção, medidas administrativas, medidas pessoais, capacitação e medidas para situações de emergências.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no" >
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/2-treinamento-de-reciclagem-da-nr-33-trabalhador-autorizado-e-vigia"><Image src={Treinamento2} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-10-Seguranca-em-Instalacoes-Eletricas"><Image src={Nr10} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/2-treinamento-de-reciclagem-da-nr-33-trabalhador-autorizado-e-vigia"><h4 className="text-lg text-black font-semibold"><span className="badge">
-                        NR-33
+                    <Link href="/treinamentos/nr-10-Seguranca-em-Instalacoes-Eletricas"><h4 className="text-lg text-black font-semibold"><span className="badge">
+                        NR-10
                     </span>
-                    Treinamento de reciclagem da NR-33 trabalhador autorizado e vigia</h4></Link>
-                <p>Aprimorar conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</p>
+                    Segurança em instalações e serviços em eletricidade</h4></Link>
+                <p>Estabelece os requisitos e condições mínimas objetivando a implementação de medidas de controle e sistemas preventivos, de forma a garantir a segurança dos trabalhadores que direta, ou indiretamente, interajam em instalações elétricas.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/3-treinamento-para-formacao-nr-33-trabalhador-autorizado-e-vigia"><Image src={Treinamento3} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-23-Brigada-de-Incendio"><Image src={Nr23} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/3-treinamento-para-formacao-nr-33-trabalhador-autorizado-e-vigia"><h4 className="text-lg text-black font-semibold"><span className="badge">
+                    <Link href="/treinamentos/nr-23-Brigada-de-Incendio"><h4 className="text-lg text-black font-semibold"><span className="badge">
                         NR-23
                     </span>
                     Brigada de Incêndio</h4></Link>
-                <p>Introduzir conceitos básicos de segurança para realização de trabalhos em espaço confinado capacitando pessoas conforme NR 33.</p>                
+                <p>estabelece que os extintores de incêndio devem ser inspecionados periodicamente, conforme as orientações do fabricante e de acordo com o que estabelece a NBR 12962 - Inspeção, Manutenção e Recarga de Extintores de Incêndio.</p>                
             </div>
             </div>
             <div className="row servicos bottommargin-sm ">
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/4-treinamento-nr-33-espaco-confinado"><Image src={Treinamento4} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-13-Vasos-de-Pressao"><Image src={Nr13} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/4-treinamento-nr-33-espaco-confinado"><h4 className="text-lg text-black font-semibold"><span className="badge">
+                    <Link href="/treinamentos/nr-13-Vasos-de-Pressao"><h4 className="text-lg text-black font-semibold"><span className="badge">
                         NR-13
                     </span>
                     Vasos de Pressão</h4></Link>
-                <p>Espaço confinado é qualquer área ou ambiente não projetado para ocupação humana contínua, que possua meios limitados de entrada e saída.</p>
+                <p>NR-13 estabelece requisitos mínimos para gestão da integridade estrutural de caldeiras a vapor, vasos de pressão e suas tubulações de interligação nos aspectos relacionados à instalação, inspeção, operação e manutenção, visando a segurança e saúde dos trabalhadores.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no" >
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/5-treinamento-para-formacao-supervisor-de-espaco-confinado"><Image src={Treinamento5} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-12-Adequacao-de-Maquinas"><Image src={Nr12} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/5-treinamento-para-formacao-supervisor-de-espaco-confinado">
+                    <Link href="/treinamentos/nr-12-Adequacao-de-Maquinas">
                         <h4 className="text-lg text-black font-semibold"><span className="badge">
                         NR-12
                     </span>
                     Adequação de Máquinas</h4></Link>
-                <p>É uma norma regulamentadora que estabelece requisitos mínimos para garantir a segurança dos trabalhadores que utilizam máquinas e equipamentos industriais.</p>
+                <p>É uma norma regulamentadora estabelecida pelo governo federal para definir parâmetros técnicos e normas a serem seguidas para a proteção no uso de máquinas e equipamentos. </p>
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/6-treinamento-da-nr-33-trabalhador-autoriza-e-vigia"><Image src={Treinamento6} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-06-Equipamento-de-Protecao-Individual"><Image src={Nr06} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/6-treinamento-da-nr-33-trabalhador-autoriza-e-vigia">
+                    <Link href="/treinamentos/nr-06-Equipamento-de-Protecao-Individual">
                         <h4 className="text-lg text-black font-semibold"><span className="badge">
                         NR-06
                     </span>
@@ -111,9 +113,9 @@ export default function Treinamentos(){
             <div className="row servicos bottommargin-sm ">
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/7-o-treinamento-de-trabalho-em-altura"><Image src={Treinamento7} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-17-Ergonomia-AGP-AET"><Image src={Nr17} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/7-o-treinamento-de-trabalho-em-altura"><h4 className="text-lg text-black font-semibold"><span className="badge">
+                    <Link href="/treinamentos/nr-17-Ergonomia-AGP-AET"><h4 className="text-lg text-black font-semibold"><span className="badge">
                         NR-17
                     </span>
                     Ergonomia / AGP / AET</h4></Link>
@@ -121,9 +123,9 @@ export default function Treinamentos(){
                 </div>
                 <div className="col-md-4 bottommargin-no" >
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/8-seguranca-do-trabalho-em-altura"><Image src={Treinamento8} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-35-Seguranca-do-Trabalho-em-Altura"><Image src={Nr35} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/8-seguranca-do-trabalho-em-altura"><h4 className="text-lg text-black font-semibold"><span className="badge">
+                    <Link href="/treinamentos/nr-35-Seguranca-do-Trabalho-em-Altura"><h4 className="text-lg text-black font-semibold"><span className="badge">
                         NR-35
                     </span>
                     Segurança do Trabalho em Altura</h4></Link>
@@ -131,13 +133,35 @@ export default function Treinamentos(){
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
-                        <Link href="/treinamentos/9-comissao-interna-de-prevencao-de-acidentes-cipa"><Image src={Treinamento9} className="bottommargin-sm" alt=""/></Link>
+                        <Link href="/treinamentos/nr-05-Comissao-Interna-de-Prevencao-de-Acidentes-e-Assedio"><Image src={Cipa} className="bottommargin-sm h-64" alt=""/></Link>
                     </div>
-                    <Link href="/treinamentos/9-comissao-interna-de-prevencao-de-acidentes-cipa" ><h4 className="text-lg text-black font-bold"><span className="badge">
+                    <Link href="/treinamentos/nr-05-Comissao-Interna-de-Prevencao-de-Acidentes-e-Assedio" ><h4 className="text-lg text-black font-bold"><span className="badge">
                         NR-05
                     </span>
-                    Comissão Interna de Prevenção de Acidentes - CIPA</h4></Link>
-                <p>A brigada de incêndio é um grupo organizado de pessoas voluntárias ou não, treinadas e capacitadas para atuar na prevenção, combate a princípio de incêndio, abandono de área e prestação dos primeiros socorros, dentro de uma área pré-estabelecida.</p>                
+                    Comissão Interna de Prevenção de Acidentes e Assédio - CIPA</h4></Link>
+                <p>A NR5 é uma norma regulamentadora que trata especificamente de todos os aspectos relacionados à Comissão Interna de Prevenção de Acidentes – CIPA. Dessa forma, essa NR estipula todas as regras, condições e demais detalhes que devem ser obedecidos pelas empresas e trabalhadores envolvidos na CIPA.</p>                
+            </div>
+            </div>
+            <div className="row servicos bottommargin-sm ">
+                <div className="col-md-4 bottommargin-no">
+                    <div className="feature-box fbox-center fbox-effect">
+                        <Link href="/treinamentos/nr-11-Operacao-em-Empilhadeira"><Image src={Nr11} className="bottommargin-sm h-64" alt=""/></Link>
+                    </div>
+                    <Link href="/treinamentos/nr-11-Operacao-em-Empilhadeira" ><h4 className="text-lg text-black font-bold"><span className="badge">
+                        NR-11
+                    </span>
+                    Operação em Empilhadeira</h4></Link>
+                <p>A norma regulamentadora número 11, corresponde a regras de segurança cujo foco é dar apoio aos colaboradores que atuam com transporte, movimentação, armazenagem e manuseio de material.</p>                
+            </div>
+                <div className="col-md-4 bottommargin-no">
+                    <div className="feature-box fbox-center fbox-effect">
+                        <Link href="/treinamentos/nr-18-Seguranca-e-Saude-no-Trabalho-na-Industria-da-Construcao"><Image src={Nr18} className="bottommargin-sm h-64" alt=""/></Link>
+                    </div>
+                    <Link href="/treinamentos/nr-18-Seguranca-e-Saude-no-Trabalho-na-Industria-da-Construcao" ><h4 className="text-lg text-black font-bold"><span className="badge">
+                        NR-18
+                    </span>
+                    Segurança e Saúde no Trabalho na Industria da Construção</h4></Link>
+                <p>NR-18 é definida como Norma Setorial, ou seja, é uma norma que regulamenta a execução do trabalho em setores ou atividades econômicos específicos.</p>                
             </div>
             </div>
         </section> 
