@@ -4,7 +4,6 @@ import Navbar from '../../../components/navbar';
 import Final from '../../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
-import Blogs from '../../public/Treinamento8.jpg'
 
 export default function BlogDiversos(){
     return(

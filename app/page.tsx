@@ -14,9 +14,11 @@ import Lumegal from '../public/clientes/lumegal.jpg';
 import ESocial from '../public/esocial.jpg'
 import Link from 'next/link';
 import Final from './components/final';
-import CookieBanner from './components/cookiebanner';
 import React from 'react';
 import CookieNotification from './components/cookies';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 
 
@@ -62,10 +64,10 @@ const Home:React.FC = ()=> {
                         <h2 >Contato</h2>
                         <p className="opacity-6" >Estamos ansiosos pelo seu contato. Ligue agora e fale com um de nossos consultores</p>  
                 <div className='text-xl -mt-4'>
-<i className="fa-solid fa-phone" ></i> <b>(19) 3894-5066</b>
+                <FontAwesomeIcon icon={faPhone} className='text-base'></FontAwesomeIcon> <b>(19) 3894-5066</b>
 </div>     
 <div className='text-xl -mt-2'>
-<i className="fa-brands fa-whatsapp fa-xl"></i> <b>(19) 99249-2716</b>
+<FontAwesomeIcon icon={faWhatsapp} className='text-lg mt-2'></FontAwesomeIcon>  <b>(19) 99249-2716</b>
 </div>  
 </div>                  
 </div>
@@ -112,7 +114,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>TREINAMENTOS</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre ml-4" src={Nr35} alt="" />
+                <Image className="imgtre" src={Nr35} priority={true} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -127,7 +129,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre ml-4" src={ESocial} alt='' />
+                <Image className="imgtre" src={ESocial} alt='' />
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">

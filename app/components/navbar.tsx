@@ -26,7 +26,7 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({ href, children }) => (
   </Link>
 );
 
- const Navbar: React.FC = () => {
+const Navbar: React.FC = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const toggleMobileMenu = () => {
     setShowMobileMenu(!showMobileMenu);
@@ -34,14 +34,13 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({ href, children }) => (
 
   return (
     <>
-  
       <header className="flex justify-between items-center p-4 md:px-8">
         <div>
           <Image src={Logo} alt="Audmed Logo" />
         </div>
         <nav className="md:flex items-center space-x-4">
           <div className="md:hidden">
-            <button onClick={toggleMobileMenu} className='hamburguer'>☰</button>
+            <button onClick={toggleMobileMenu} className={`hamburguer ${showMobileMenu ? 'open' : ''}`}>☰</button>
           </div>
           {showMobileMenu && (
             <div className="overlay">
@@ -52,9 +51,9 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({ href, children }) => (
                   <NavLink href={'/'}>Home</NavLink>
                   <NavLink href={'/sobre'}>A Audmed</NavLink>
                   <NavLink href={'/servicos'}>Serviços</NavLink>
-                  <NavLink href={'/treinamentos'}>Treinamentos</NavLink>
                   <NavLink href={'/blog'}>Blog</NavLink>
                   <NavLink href={'/contatos'}>Contato</NavLink>
+                  <NavLink href={'/treinamentos'}>Treinamentos e Palestras</NavLink>
                   <ExternalLink href={'https://sistema.soc.com.br/WebSoc/'}><p>Área do Cliente</p></ExternalLink>
                 </div>
               </div>
@@ -65,7 +64,7 @@ const ExternalLink: React.FC<ExternalLinkProps> = ({ href, children }) => (
             <NavLink href={'/'}>Home</NavLink>
             <NavLink href={'/sobre'}>A Audmed</NavLink>
             <NavLink href={'/servicos'}>Serviços</NavLink>
-            <NavLink href={'/treinamentos'}>Treinamentos</NavLink>
+            <NavLink href={'/treinamentos'}>Treinamentos e Palestras</NavLink>
             <NavLink href={'/blog'}>Blog</NavLink>
             <NavLink href={'/contatos'}>Contato</NavLink>
             <ExternalLink href={'https://sistema.soc.com.br/WebSoc/'}><p>Área do Cliente</p></ExternalLink>

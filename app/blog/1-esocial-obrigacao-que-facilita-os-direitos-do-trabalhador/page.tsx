@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar';
 import Final from '../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
-import Blogs from '../../../public/Treinamento8.jpg'
+import Blogs from '../../../public/esocial.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
