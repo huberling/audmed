@@ -4,9 +4,9 @@ import Navbar from '../../components/navbar';
 import Final from '../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
-import Nr13 from '../../../public/NR13.jpg'
+import Nr11 from '../../../public/NR11.jpg'
 
-export default function Treinamento4(){
+export default function NR11(){
     const listStyle:React.CSSProperties = {
         listStyleType: 'square',
       }; 
@@ -16,7 +16,7 @@ export default function Treinamento4(){
         <section id="page-title">
         <div className="sobre">
             <h1 className="container">Treinamentos</h1>
-            <ol className="breadcrumb ">
+              <ol className="breadcrumb ">
             <li>
                 <Link href="/" className='hidden md:inline-block lg:inline-block'>Home</Link>
             </li>
@@ -26,8 +26,8 @@ export default function Treinamento4(){
             </li>
             <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-        Vasos de Pressão          
-        </li>
+            Operação em Empilhadeira
+                </li>
             </ol>
             </div>
     </section>
@@ -36,10 +36,10 @@ export default function Treinamento4(){
     <div className="content-padding">
         <div className="container roww clearflix">
             <div className="col-md-2 md:-ml-8 lg:-ml-8">
-                <h4 className='font-bold text-xl ml-3'>Outros Treinamentos:</h4>
+                <h4 className="font-bold text-xl">Outros Treinamentos:</h4>
                 <div className="outrosservice">
-                    <ul style={listStyle} className="text-sm">
-                    <li className="mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 ">
+                <ul style={listStyle} className="text-sm">
+                <li className="mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 ">
                         <Link href="/treinamentos/nr-05-Comissao-Interna-de-Prevencao-de-Acidentes-e-Assedio" className="text-black"><div>
                         Comissão Interna de Prevenção de Acidentes e Assédio</div></Link>
                         </li>
@@ -56,12 +56,12 @@ export default function Treinamento4(){
                         Operação em Empilhadeira</Link>
                         </li>
                         <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
-                        <Link href="/treinamentos/nr-11-Ponte-Rolante" className='text-black'>
-                        Ponte Rolante</Link>
-                        </li>
-                        <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
                         <Link href="/treinamentos/nr-12-Adequacao-de-Maquinas" className='text-black'>
                         Adequação de Máquinas</Link>
+                        </li>
+                        <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
+                        <Link href="/treinamentos/nr-13-Vasos-de-Pressao" className='text-black'>
+                        Vasos de Pressão</Link>
                         </li>
                         <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
                         <Link href="/treinamentos/nr-17-Ergonomia-AGP-AET" className='text-black'>
@@ -86,60 +86,84 @@ export default function Treinamento4(){
                     </ul>
                 </div>
             </div>
-            <div className="col-md-10 ml-4 md:ml-8 lg:ml-8">
+            <div className="col-md-10 ml-4 md:ml-8 lg:ml-8"  >
                 <div className="semmarginbotton">
                     <div className="clearflix">
                         <div className='relative mt-0'>
                         <div className="entry-image alignleft">
-                        <Image src={Nr13} alt=""/>
+                        <Image src={Nr11} alt=""/>
                         </div>
-                        <div><span className='font-bold '>
-                        OBJETIVO
+                        <div><span className='font-bold'>
+                            OBJETIVO
                         </span></div>
                         <div><br/></div>
-                        <div>O objetivo desta Norma Regulamentadora - NR é estabelecer requisitos mínimos
-                            para a gestão da integridade estrutural de caldeiras, vasos de pressão, suas tubulações
-                            de interligação e tanques metálicos de armazenamento nos aspectos relacionados à
-                            instalação, inspeção, operação e manutenção, visando a segurança e saúde dos
-                            trabalhadores.
-                        </div>       
-                        <div>
-                            <br/>
-                        </div>
-                        <div><span className='font-bold '>
-                        PÚBLICO ALVO
-                        </span></div>
-                        <div><br/></div> 
-                        <div>Operadores de Cadeiras, Operadores de Unidades de Processos, técnicos, engenheiros, gerentes e demais profissionais que atuam nas áreas de projeto, fabricação, montagem, operação, manutenção e inspeção de vasos e caldeiras.</div>    
+                        <div>O principal objetivo da NR11 é determinar os requisitos básicos de segurança para lidar com o manuseio, movimentação, armazenagem e transporte de cargas sem o risco de danos e acidentes no ambiente de trabalho.</div>    
                         <div><br/></div>    
-                        <div>  
-                            <span className='font-bold'>PROGRAMA (PREVISTO NA NR 13)</span>
+                        <div><span className="font-bold mt-5">
+                        PÚBLICO ALVO
+                        </span></div>    
+                        <div><br/></div>    
+                        <div>Profissionais que trabalham com transporte, movimentação, armazenagem e manuseio de material.</div>  
+                        <div><br/></div>    
+                        <div><span className='font-bold'>
+                            PROGRAMA (PREVISTO NA NR 11)
+                        </span></div>  
+                        <div><br/></div>  
+                        <div> 
+                            - 
+                        <span className='whitespace-pre'>	</span>
+                        Norma Regulamentadora NR11 (transporte, movimentação, armazenamento e manuseio de materiais);
                         </div>
-                        <ul style={listStyle}>
-                        <li className='-ml-4'>Pressão atmosférica;</li>
-                        <li className='-ml-4'>Pressão Interna de um vaso;</li>
-                        <li className='-ml-4'>Pressão manométrica, pressão relativa e pressão absoluta;</li>
-                        <li className='-ml-4'>Unidades de pressão;</li>
-                        <li className='-ml-4'>Calor e temperatura;</li>
-                        <li className='-ml-4'>Noções gerais: o que é calor, o que é temperatura;</li>
-                        <li className='-ml-4'>Modo de transferência de calor;</li>
-                        <li className='-ml-4'>Calor específico e calor sensível</li>
-                        <li className='-ml-4'>Transferência de calor a temperatura constante;</li>
-                        <li className='-ml-4'>Vapor saturado e vapor superaquecido.</li>
-                        </ul>            
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Tipos de empilhadeira;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Uso, guarda e conservação dos EPIs;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            EPIs obrigatórios para a operação da Empilhadeira;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Operador e suas obrigações;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Área da ação da máquina;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Operações de carga e descarga;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Procedimentos de segurança nas operações de movimentação, carga e descarga.
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Movimentação e elevação com equipamentos de guindar;
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Planejamento do trabalho; 
+                        </div>
                         <div> 
                             <br/>
                         </div>
+                    </div>
                     </div>
                 </div>
             </div>
             <div className="clear"></div>
         </div>       
     </div>
-    </div>
-            </section>
+   </section>
+  
         <Final/>
-        </main>
+        </main> 
         </>
     )
 }

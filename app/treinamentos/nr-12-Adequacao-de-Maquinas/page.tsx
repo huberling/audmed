@@ -56,6 +56,10 @@ export default function Treinamento5(){
                         Operação em Empilhadeira</Link>
                         </li>
                         <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
+                        <Link href="/treinamentos/nr-11-Ponte-Rolante" className='text-black'>
+                        Ponte Rolante</Link>
+                        </li>
+                        <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
                         <Link href="/treinamentos/nr-13-Vasos-de-Pressao" className='text-black'>
                         Vasos de Pressão</Link>
                         </li>
