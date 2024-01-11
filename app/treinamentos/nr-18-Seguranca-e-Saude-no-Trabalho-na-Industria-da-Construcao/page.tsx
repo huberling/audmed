@@ -93,7 +93,7 @@ export default function Treinamento7(){
                         <div>Esta Norma Regulamentadora - NR tem o objetivo de estabelecer diretrizes de ordem administrativa, de planejamento e de organização, que visam à implementação de medidas de controle e sistemas preventivos de segurança nos processos, nas condições e no meio ambiente de trabalho na indústria da construção.</div>
                         <div><br/></div>
                         <div><span className='font-bold mt-5'>
-                        PÚBLICO ALVO
+                        PÚBLICO ALVO 
                         </span></div>    
                         <div><br/></div>    
                         <div>Diretores, Gerentes, Engenheiros, Supervisores, Técnicos e Profissionais interessados em conhecer as normas e técnicas para o trabalho na Indústria da Construção.</div>    
