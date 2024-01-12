@@ -79,7 +79,7 @@ export default function Blog(){
             
             <div className="sidebar nobottommargin col_last clearfix col-md-2 ">
          
-                        <div className="widget clearfix -ml-6 ">
+                        <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
                             <h4>Categorias</h4>
                             <div className="widget_links ">
                                 <ul style={listStyle}>
@@ -91,10 +91,10 @@ export default function Blog(){
                                 </ul>
                             </div>
                         </div>
-        <div className="widget clearfix">
-            <h4 className='-ml-6'>Posts Recentes</h4>
-        <div className="spost clearfix roww">
-        <div className="entry-c">
+        <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
+            <h4 className=''>Posts Recentes</h4>
+        <div className="spost clearfix roww ">
+        <div className="entry-c ">
             <div className="entry-title">
         <h4><Link href="/blog/exames-ocupacionais-obrigatorios" className='md:hover:text-blue-500' >Exames ocupacionais obrigatórios:</Link></h4>
         </div>

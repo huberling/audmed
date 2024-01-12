@@ -55,14 +55,14 @@ const Home:React.FC = ()=> {
                 </div>
                 <div className="col-md-4 card2 ">
                     <div className="caard">
-                    <h2 className='mt-8'>Bem vindo a Audmed</h2>
-                    <p className='relative -mt-6'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
+                    <h2 className=''>Bem vindo a Audmed</h2>
+                    <p className='relative lg:-mt-6 md:-mt-6 -mt-9'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
                 </div>
                 </div>
                 <div className="col-md-4 card3">
                 <div className="carrd" >
                         <h2 >Contato</h2>
-                        <p className="opacity-6" >Estamos ansiosos pelo seu contato. Ligue agora e fale com um de nossos consultores</p>  
+                        <p className="opacity-6 -mt-4" >Estamos ansiosos pelo seu contato. Ligue agora e fale com um de nossos consultores</p>  
                 <div className='text-xl -mt-4'>
                 <FontAwesomeIcon icon={faPhone} className='text-base'></FontAwesomeIcon> <b>(19) 3894-5066</b>
 </div>     
@@ -114,7 +114,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>TREINAMENTOS</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre" src={Nr35} priority={true} alt="" />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto "  src={Nr35}  priority={true} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -129,7 +129,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre" src={ESocial} alt='' />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto" src={ESocial} alt='' />
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">

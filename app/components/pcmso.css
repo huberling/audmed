@@ -23,6 +23,7 @@
 }
 .single-post .entry-content .entry-image {
     max-width: 350px;
+    height: auto;
 }
 img.alignleft, div.alignleft {
     float: left;

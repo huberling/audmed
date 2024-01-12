@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar';
 import Final from '../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
-import Foto from '../../../public/servicosfts/ppra.jpg'
+import Foto from '../../../public/servicosfts/pgr.png'
 
 
 export default function PgrService(){
