@@ -3,18 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "../components/navbar"
 import Link from 'next/link';
 import Image from 'next/image';
-import DHL from '../../public/clientes/dhl.png';
-import Intralox from '../../public/clientes/intralox.png';
+import British from '../../public/clientes/british.jpg';
 import Robiel from '../../public/clientes/robiel.png';
-import Toyota from '../../public/clientes/toyota.jpg';
+import Hella from '../../public/clientes/Hella.png';
 import Schott from '../../public/clientes/schott-logo.png';
-import Tk from '../../public/clientes/tk-logistica.jpg';
-import Lumegal from '../../public/clientes/lumegal.jpg';
-import LogoClinica from '../../public/AUDMED LOGOTIPO.png';
-import { FacebookIcon, InstagramIcon } from 'lucide-react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import Final from '../components/final';
 
 export default function SobreClinica(){
@@ -105,14 +97,11 @@ export default function SobreClinica(){
     <div className="container mt-20">
         <h2 className='text-center font-thin text-3xl leading-6'>Empresas que confiam em nosso trabalho</h2>
         <div className="cont">
-            <Image className="clientes" src={DHL} alt=""/>
-            <Image className="clientes" src={Intralox} alt=""/>
-            <Image className="clientes" src={Robiel} alt=""/>
-            <Image className="clientes" src={Toyota} alt=""/>
-            <Image className="clientes" src={Schott} alt=""/>
-            <Image className="clientes" src={Tk} alt=""/>
-            <Image className="clientes" src={Lumegal} alt=""/>
-        </div>    
+       <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} alt="Robiel Logo" /></Link>
+       <Link href={'https://www.toyota.com.br/'}><Image className="clientes" src={British} alt="Bristish Logo" /></Link>
+       <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} alt="Schott Logo" /></Link>
+       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes" src={Hella} alt="Hella Logo" /></Link>
+        </div> 
     </div>
 </section>
 <Final/>

@@ -4,7 +4,9 @@ import Navbar from '../components/navbar';
 import Final from '../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
-import Blogs from '../../public/esocial.jpg'
+import Blogs from '../../public/blog/esocial.jpg';
+import MedicinaOcupacional from '../../public/blog/MedicinaOcupacional.webp';
+import ImportanciaEPC from '../../public/blog/ImportanciadoEPC.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -41,43 +43,68 @@ export default function Blog(){
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
                             <div className="entry-image">
-                                <Link href="/blog/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
+                                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
                             <div className="entry-title">
-                            <h2 className='mt-8'>eSOCial: obrigação que facilita os direitos do trabalhador</h2>
+                            <h2 className='mt-8'>E-Social: obrigação que facilita os direitos do trabalhador</h2>
                         </div>
                         <ul className="entry-meta clearfix -ml-5 -mt-8">
-                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>11 de junho de 2019</li>
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>11 de Junho de 2019</li>
                             <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
                         </ul>
-                        <div className="entry-content notopmargin">
-                            <p >Houveram algumas mudanças nas Normas Regulamentadoras (NR). O governo
+                        <div className="entry-content notopmargin mb-10">
+                            <p>Houveram algumas mudanças nas Normas Regulamentadoras (NR). O governo
                             pretende facilitar as NRs e focar na saúde e segurança do trabalhador. 
                             Principalmente, pelo alto índice de acidentes, doenças ocupacionais e 
                             mortes em locais de trabalho no Brasil.</p>
                             <div className="link">
-                <Link href="/blog/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className='text-uppercases'>Saiba mais...</Link>
-            </div>
+                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className='text-uppercases'>Saiba mais...</Link>
+                </div>
                             <p><br/></p>
-                            <p>Fonte:<Link href="https://ww2.soc.com.br/2019/06/obrigacao-que-facilita-os-direitos-do-trabalhador/" target="_blank">https://ww2.soc.com.br/2019/06/obrigacao-que-facilita-os-direitos-do-trabalhador/</Link></p>                                   
                             <div className="clear"></div>
                         </div>
-                    </div>
-                    
-                    <div className="panel panel-default">
-                        <div className="panel-heading">
-                            <h3 className="panel-title">Postado Por: <span><Link href="">SOC</Link></span></h3>
-                        </div>
-                        <div className="panel-body">
-                            <div className="author-image">
-                                <Image src={Blogs} alt="SOC" title="SOC" className="img-circle"/>
+                            <div className="entry-image">
+                                <Link href="/blog/categorias/seguranca-do-trabalho/importancia-do-EPC"><Image src={ImportanciaEPC} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
-                                                    </div>
+                            <div className="entry-title">
+                            <h2 className='mt-8'>A importância dos EPC – Equipamento de Proteção Coletivo</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>4 de Janeiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin mb-10">
+                            <p>Quando falamos sobre Segurança no Trabalho, falamos sobre o cuidado que deve ter para que os trabalhadores não sofram nenhum tipo de acidente, e com isso, falamos sobre os equipamentos de proteção: EPI e EPC. Os EPI’s são os Equipamentos de Proteção Individual, que são de uso próprio, como capacetes, luvas, roupas, e cada um tem o seu.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/seguranca-do-trabalho/importancia-do-EPC" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+                            <p><br/></p>
+                            <div className="clear"></div>
+                        </div>
+                            <div className="entry-image">
+                                <Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao"><Image src={MedicinaOcupacional} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                            </div>
+                            <div className="entry-title">
+                            <h2 className='mt-8'>Como a medicina ocupacional pode colaborar para o sucesso nas empresas</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>29 de Dezembro de 2023</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin ">
+                            <p>Muitas empresas ainda não sabem a dimensão que a medicina ocupacional pode tomar em uma empresa. Colocar esse fator como prioridade é um dos principais pilares para se alcançar o sucesso. Afinal, uma empresa que valoriza seus funcionários e se preocupa com a saúde e bem-estar de todos, é uma empresa bem-sucedida.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+                            <p><br/></p>
+                            <div className="clear"></div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
             
-            <div className="sidebar nobottommargin col_last clearfix col-md-2 ">
+            <div className="sidebar nobottommargin col_last clearfix col-md-2">
          
                         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
                             <h4>Categorias</h4>
@@ -93,37 +120,38 @@ export default function Blog(){
                         </div>
         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
             <h4 className=''>Posts Recentes</h4>
-        <div className="spost clearfix roww ">
-        <div className="entry-c ">
+            <div className="spost clearfix roww">
+                                   
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/importancia-do-EPC">A importância dos EPC – Equipamento de Proteção Coletivo</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>04 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                               <div className="spost clearfix roww">
+        <div className="entry-c">
             <div className="entry-title">
-        <h4><Link href="/blog/exames-ocupacionais-obrigatorios" className='md:hover:text-blue-500' >Exames ocupacionais obrigatórios:</Link></h4>
+        <h4><Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao" className='md:hover:text-blue-500' >Como a medicina ocupacional pode colaborar para o sucesso nas empresas </Link></h4>
         </div>
         <ul className="entry-meta">
-        <li>9 de dezembro de 2020</li>
+        <li>29 de Dezembro de 2023</li>
         </ul>
         </div>
         </div>
-                                    <div className="spost clearfix roww">
+        <div className="spost clearfix roww">
                                    
-                                    <div className="entry-c">
-                                        <div className="entry-title">
-                                            <h4><Link href="/blog/depressao-10-sinais-para-prestar-atencao-nos-colaboradores">Depressão: 10 sinais para prestar atenção nos colaboradores</Link></h4>
-                                        </div>
-                                        <ul className="entry-meta">
-                                            <li>8 de dezembro de 2020</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                                            <div className="spost clearfix roww">
-                                    <div className="entry-c">
-                                        <div className="entry-title">
-                                            <h4><Link href="/blog/exames-periodicos-entenda-sua-importancia-e-quem-precisa-fazer">Exames periódicos: entenda sua importância e quem precisa fazer</Link></h4>
-                                        </div>
-                                        <ul className="entry-meta">
-                                            <li>12 de novembro de 2020</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador">E-Social: Obrigação que facilita os direitos do trabalhador</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>11 de junho de 2019</li>
+                                       </ul>
+                                   </div>
+                               </div>
                                                     </div>
                     
                 </div>

@@ -34,12 +34,12 @@ const Navbar: React.FC = () => {
 
   return (
     <>
-      <header className="flex justify-between items-center p-4 md:px-8">
+      <header className="flex justify-between items-center p-4 lg:px-8">
         <div>
           <Image src={Logo} alt="Audmed Logo" />
         </div>
-        <nav className="md:flex items-center space-x-4">
-          <div className="md:hidden">
+        <nav className="lg:flex items-center space-x-4">
+          <div className="lg:hidden">
             <button onClick={toggleMobileMenu} className={`hamburguer ${showMobileMenu ? 'open' : ''}`}>☰</button>
           </div>
           {showMobileMenu && (
@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
               </div>
             </div>
           )}
-          <div className="hidden md:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center space-x-4">
             {/* Renderizar links aqui para o menu grande */}
             <NavLink href={'/'}>Home</NavLink>
             <NavLink href={'/sobre'}>A Audmed</NavLink>

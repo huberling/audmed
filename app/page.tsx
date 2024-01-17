@@ -4,14 +4,11 @@ import Navbar from './components/navbar';
 import Servicos from '../public/serviços.png';
 import Image from 'next/image';
 import Nr35 from '../public/NR35.jpg';
-import DHL from '../public/clientes/dhl.png';
-import Intralox from '../public/clientes/intralox.png';
 import Robiel from '../public/clientes/robiel.png';
-import Toyota from '../public/clientes/toyota.jpg';
+import Bristish from '../public/clientes/british.jpg';
 import Schott from '../public/clientes/schott-logo.png';
-import Tk from '../public/clientes/tk-logistica.jpg';
-import Lumegal from '../public/clientes/lumegal.jpg';
-import ESocial from '../public/esocial.jpg'
+import Hella from '../public/clientes/Hella.png';
+import ESocial from '../public/blog/esocial.jpg'
 import Link from 'next/link';
 import Final from './components/final';
 import React from 'react';
@@ -114,7 +111,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>TREINAMENTOS</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto "  src={Nr35}  priority={true} alt="" />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto"  src={Nr35}  priority={true} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -133,10 +130,10 @@ const Home:React.FC = ()=> {
             </div>
             <ul className="list-group" >
                 <li className="list-group-item">
-                <Link href="/blog/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className="text-uppercase">E-SOCIAL: OBRIGAÇÃO QUE FACILITA OS DIREITOS DO TRABALHADOR</Link></li>
+                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className="text-uppercase">E-SOCIAL: OBRIGAÇÃO QUE FACILITA OS DIREITOS DO TRABALHADOR</Link></li>
                 </ul>
             <div className="link">
-                <Link href="/treinamentos" className='text-uppercases'>Saiba mais...</Link>
+                <Link href="/blog/categorias/e-social" className='text-uppercases'>Saiba mais...</Link>
             </div>
         </div>
     </div>
@@ -160,14 +157,11 @@ const Home:React.FC = ()=> {
 <div className='container mt-40'>
     <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho</h2>
     <div className="cont">
-       <Link href={'https://www.dhl.com/br-pt/home.html'}><Image className="clientes" src={DHL} alt="DHL Logo" /></Link>
-       <Link href={'https://www.intralox.com/pt'}><Image className="clientes" src={Intralox} alt="Intralox Logo" /></Link>
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} alt="Robiel Logo" /></Link>
-       <Link href={'https://www.toyota.com.br/'}><Image className="clientes" src={Toyota} alt="Toyota Logo" /></Link>
+       <Link href={'https://www.toyota.com.br/'}><Image className="clientes" src={Bristish} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} alt="Schott Logo" /></Link>
-       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes" src={Tk} alt="TK Logística Logo" /></Link>
-       <Link href={'https://www.lumegal.com.br/'}><Image className="clientes" src={Lumegal} alt="Lumegal Logo" /></Link>
-    </div>    
+       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes" src={Hella} alt="Hella Logo" /></Link>
+        </div>    
 </div>
 <Final/>
 </main>

@@ -1,4 +1,4 @@
-import '../../components/e-social.css'
+import '../../../../components/e-social.css'
 export default function SobreLayout({children,} : {children: React.ReactNode}) {
     return (
         <div>

@@ -1,12 +1,11 @@
 "use client"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import Image from "next/image";
 import LogoClinica from '../../public/AUDMED LOGOTIPO.png'
-import { FacebookIcon, InstagramIcon } from 'lucide-react';
 
 export default function Final(){
     const listStyle:React.CSSProperties = {
@@ -21,7 +20,7 @@ export default function Final(){
     
         </div>
         <div className="col-md-3 mt-16 mb-16 font-family: 'Lato', sans-serif">
-            <h4>
+            <h4> 
                 <b className='ml-8 md:ml-5 lg:ml-5'>Informações de contato</b>
             </h4>
             <p className='md:mr-0 lg:mr-0 mr-6 ml-8 md:ml-5 lg:ml-5'><FontAwesomeIcon icon={faEnvelope} className="mr-1 ml-1" ></FontAwesomeIcon>E-mail:<Link href="mailto:adm@audmed.com.br" target="_blank" rel="noopener noreferrer">adm@audmed.com.br</Link></p>
@@ -40,19 +39,19 @@ export default function Final(){
             <Link href="/sobre">A Audmed</Link>
             </li>
             <li>
-            <Link href="/serviços">Serviços</Link>
+            <Link href="/servicos">Serviços</Link>
             </li>
             <li>
             <Link href="/treinamentos">Treinamentos</Link>
             </li>
             <li>
-            <Link href="https://sistema.soc.com.br/WebSoc/">Área do Cliente</Link>
-            </li>
-            <li>
-            <Link href="b/blog">Blog</Link>
+            <Link href="/blog">Blog</Link>
             </li>
             <li>
             <Link href="contatos">Contato</Link>
+            </li>
+            <li>
+            <Link href="https://sistema.soc.com.br/WebSoc/">Área do Cliente</Link>
             </li>
             </ul>
         </div>
@@ -60,8 +59,8 @@ export default function Final(){
             <h4><b className='ml-8 md:ml-5 lg:ml-5'>Siga a Audmed</b></h4>
             <p className='md:mr-0 lg:mr-0 mr-6 ml-8 md:ml-5 lg:ml-5'>Também postamos coisas legais aqui. Siga a AUDMED nas redes sociais.</p>
             <div className='roww'> 
-            <Link href="https://www.facebook.com/clinicaaudmed1" target='_blank'><FacebookIcon size={72} className='ml-20 md:ml-10 lg:ml-10 md:mt-0 lg:mt-0 mt-4 md:mb-0 lg:mb-0 -mb-12'/></Link>
-            <Link href="https://www.instagram.com/audmed.indaiatuba/" target='_blank'><InstagramIcon size={72} className='ml-20 md:ml-10 lg:ml-10 md:mt-0 lg:mt-0 mt-4 md:mb-0 lg:mb-0 -mb-8'/></Link>
+            <Link href="https://www.facebook.com/clinicaaudmed1" target='_blank'><FontAwesomeIcon icon={faFacebook} className='ml-20 md:ml-10 lg:ml-10 md:mt-0 lg:mt-0 mt-4 md:mb-0 lg:mb-0 -mb-12 text-7xl'></FontAwesomeIcon></Link>
+            <Link href="https://www.instagram.com/audmed.indaiatuba/" target='_blank'><FontAwesomeIcon icon={faInstagram} className='ml-20 md:ml-10 lg:ml-10 md:mt-0 lg:mt-0 mt-4 md:mb-0 lg:mb-0 -mb-12 text-7xl'></FontAwesomeIcon></Link>
             </div>
         </div>
         </div>

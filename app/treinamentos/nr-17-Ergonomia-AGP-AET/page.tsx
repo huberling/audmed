@@ -5,7 +5,7 @@ import Final from '../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import Nr17 from '../../../public/NR17.png'
+import Nr17 from '../../../public/NR17.jpeg'
 
 export default function Treinamento7(){
     const listStyle:React.CSSProperties = {

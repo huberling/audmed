@@ -1,17 +1,18 @@
 "use client"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '../../components/navbar';
-import Final from '../../components/final';
+import Navbar from '../../../../components/navbar';
+import Final from '../../../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
-import Blogs from '../../../public/esocial.jpg'
+import Blogs from '../../../../../public/blog/esocial.jpg';
+import Logo from '../../../../../public/blog/SOC.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons/faFolderOpen';
 
 
-export default function Blog(){
+export default function DireitosTrabalhador(){
     const listStyle:React.CSSProperties = {
         listStyleType: 'circle',
       };
@@ -97,7 +98,6 @@ export default function Blog(){
                             necessários e ambientes os quais são expostos.</p>
                             <p>O leiaute S- 2300 mostra os dados necessários de envio ao eSocial ao 
                             contratar um estagiário. E o leiaute S-2200 é sobre dados de Cadastramento Inicial/ Admissão /Ingresso de Trabalhador</p>
-                            <p className='link'><Link href="https://ww2.soc.com.br/2019/05/esocial-documentos-de-sst-que-voce-precisara/" className="text-uppercases">Saiba mais sobre dados.</Link></p>
                             <h3 className='font-bold text-black mt-5'>As últimas atualizações nas NRs</h3>
                             <br />
                             <p>No momento, as normas regulamentadoras que estão a sofrer mudanças são aquelas voltadas a saúde e segurança do trabalho.</p>
@@ -116,7 +116,7 @@ export default function Blog(){
                         </div>
                         <div className="panel-body">
                             <div className="author-image">
-                                <Image src={Blogs} alt="SOC" title="SOC" className="img-circle"/>
+                                <Image src={Logo} alt="SOC" title="SOC" className="img-circle"/>
                             </div>
                                                     </div>
                     </div>
@@ -139,37 +139,28 @@ export default function Blog(){
                         </div>
         <div className="widget clearfix">
             <h4 className='-ml-6'>Posts Recentes</h4>
-        <div className="spost clearfix roww">
+            <div className="spost clearfix roww">
+                                   
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/importancia-do-EPC">A importância dos EPC – Equipamento de Proteção Coletivo</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>04 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+            <div className="spost clearfix roww">
         <div className="entry-c">
             <div className="entry-title">
-        <h4><Link href="/blog/exames-ocupacionais-obrigatorios" className='md:hover:text-blue-500' >Exames ocupacionais obrigatórios:</Link></h4>
+        <h4><Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao" className='md:hover:text-blue-500' >Como a medicina ocupacional pode colaborar para o sucesso nas empresas </Link></h4>
         </div>
         <ul className="entry-meta">
-        <li>9 de dezembro de 2020</li>
+        <li>29 de Dezembro de 2023</li>
         </ul>
         </div>
         </div>
-                                    <div className="spost clearfix roww">
-                                   
-                                    <div className="entry-c">
-                                        <div className="entry-title">
-                                            <h4><Link href="/blog/depressao-10-sinais-para-prestar-atencao-nos-colaboradores">Depressão: 10 sinais para prestar atenção nos colaboradores</Link></h4>
-                                        </div>
-                                        <ul className="entry-meta">
-                                            <li>8 de dezembro de 2020</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                                            <div className="spost clearfix roww">
-                                    <div className="entry-c">
-                                        <div className="entry-title">
-                                            <h4><Link href="/blog/exames-periodicos-entenda-sua-importancia-e-quem-precisa-fazer">Exames periódicos: entenda sua importância e quem precisa fazer</Link></h4>
-                                        </div>
-                                        <ul className="entry-meta">
-                                            <li>12 de novembro de 2020</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                                  
                                                     </div>
                     
                 </div>

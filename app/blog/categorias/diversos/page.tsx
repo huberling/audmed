@@ -20,16 +20,16 @@ export default function BlogDiversos(){
             </li>
             <p className="pl-1 pr-1 text-gray-500 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-                 <Link href="/blog">  Blog </Link> 
+                 <Link href="/blog"> Blog </Link> 
                 </li>
                 <p className="pl-1 pr-1 text-gray-400 hidden md:inline-block lg:inline-block">/</p>
             <li className="ads hidden md:inline-block lg:inline-block">
-               Diversos            
+               Todos os posts            
             </li>
             </ol>
             </div>
         </section>
-    
+        
 
         <Final/>
         </>
