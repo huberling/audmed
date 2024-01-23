@@ -149,7 +149,7 @@ export default function Treinamentos() {
                         NR-11
                     </span>
                     Operação em Empilhadeira</h4></Link>
-                <p>O Treinamento de Operação de Empilhadeira tem por objetivo desenvolver capacidades para operar empilhadeira seguindo procedimentos, normas e legislação técnica de segurança, saúde e meio ambiente.</p>                
+                <p>O Treinamento de Operação de Empilhadeira tem porn objetivo desenvolver capacidades para operar empilhadeira seguindo procedimentos, normas e legislação técnica de segurança, saúde e meio ambiente.</p>                
             </div>
             <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
