@@ -53,7 +53,7 @@ const Home:React.FC = ()=> {
                 <div className="col-md-4 card2 ">
                     <div className="caard">
                     <h2 className=''>Bem vindo a Audmed</h2>
-                    <p className='relative lg:-mt-6 md:-mt-6 -mt-9'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
+                    <p className='relative lg:-mt-6 md:-mt-6 -mt-5'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
                 </div>
                 </div>
                 <div className="col-md-4 card3">
@@ -158,9 +158,9 @@ const Home:React.FC = ()=> {
     <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho</h2>
     <div className="cont">
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} width={100} height={100} alt="Robiel Logo" /></Link>
-       <Link href={'https://www.toyota.com.br/'}><Image className="clientes" src={Bristish} width={100} height={100} alt="Bristish Logo" /></Link>
+       <Link href={'https://www.toyota.com.br/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} width={100} height={100} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} width={100} height={100} alt="Schott Logo" /></Link>
-       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes" src={Hella} width={100} height={100} alt="Hella Logo" /></Link>
+       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Hella} width={100} height={100} alt="Hella Logo" /></Link>
         </div>    
 </div>
 <Final/>
