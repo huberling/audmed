@@ -95,12 +95,12 @@ export default function SobreClinica(){
 </section>
 <section>
     <div className="container mt-20">
-        <h2 className='text-center font-thin text-3xl leading-6'>Empresas que confiam em nosso trabalho</h2>
+        <h2 className='text-center font-thin text-3xl leading-6'>Empresas que confiam em nosso trabalho:</h2>
         <div className="cont">
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} alt="Robiel Logo" /></Link>
-       <Link href={'https://www.toyota.com.br/'}><Image className="clientes" src={British} alt="Bristish Logo" /></Link>
+       <Link href={'https://www.toyota.com.br/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={British} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} alt="Schott Logo" /></Link>
-       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes" src={Hella} alt="Hella Logo" /></Link>
+       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Hella} alt="Hella Logo" /></Link>
         </div> 
     </div>
 </section>

@@ -109,7 +109,7 @@ const Home:React.FC = ()=> {
     <div className="container mt-20" >
     <div className="roww">
         <div className="col-md-6">
-            <h2 className='ml-6 md:ml-3 lg:ml-3'>TREINAMENTOS</h2>
+            <h2 className='ml-6 md:ml-3 lg:ml-3'>Treinamentos</h2>
             <div className="fbox-media bottommargin-sm"> 
                 <Image className="imgtre md:ml-0 lg:ml-0 ml-auto"  src={Nr35} width={1000} height={100}  priority={true} alt="" />
             </div>
@@ -155,7 +155,7 @@ const Home:React.FC = ()=> {
         </div>
 </section>
 <div className='container mt-40'>
-    <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho</h2>
+    <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho:</h2>
     <div className="cont">
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} width={100} height={100} alt="Robiel Logo" /></Link>
        <Link href={'https://www.toyota.com.br/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} width={100} height={100} alt="Bristish Logo" /></Link>
