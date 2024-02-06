@@ -168,7 +168,6 @@ const CookieNotification: React.FC = () => {
       <div className="CookieMessage-content text-white max-w-4xl my-0 mx-auto pt-4 md:pt-5 lg:pt-5 pr-3 lg:pr-5 md:pr-5 pb-0 pl-3 md:pl-1 lg:pl-1 leading-6 text-xs">
         <p>
           Nós utilizamos cookies: Eles são usados para aprimorar a sua experiência. Ao fechar este banner ou continuar na página, você concorda com o uso dos cookies ativos. Você pode optar por rejeitar os cookies de terceiros.{' '}
-          <a href="https://exemplo/politicas-de-privacidade" className='text-white border-b-2 border-white'>Saiba mais</a>
         </p>
         <p>
           <Link id="cookie-notification-close" className="CookieMessage-button text-white inline-block py-1 px-5 rounded-md uppercase bg-blue-400 hover:bg-blue-500" href="#">
