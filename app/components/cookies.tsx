@@ -129,7 +129,7 @@ const CookieNotification: React.FC = () => {
 
         // Calcula a data de expiração em 1 dia
         const expirationDate = new Date();
-        expirationDate.setDate(expirationDate.getDate() + 1);
+        expirationDate.setDate(expirationDate.getDate() + 2);
 
       // Define o tempo de expiração para 1 dia
       expirationDate.setHours(0, 0, 0, 0);
