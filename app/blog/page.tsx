@@ -7,6 +7,7 @@ import Link from 'next/link';
 import Blogs from '../../public/blog/esocial.jpg';
 import MedicinaOcupacional from '../../public/blog/MedicinaOcupacional.webp';
 import ImportanciaEPC from '../../public/blog/ImportanciadoEPC.jpg';
+import Insalubridade from '../../public/blog/Insalubridade-SaudeOcupacional.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -42,6 +43,24 @@ export default function Blog(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade"><Image src={Insalubridade} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
+                    <div className="entry-title">
+                            <h2 className='mt-8'>Saiba como calcular o adicional de Insalubridade</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>24 de Janeiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>O adicional de insalubridade é um direito do trabalhador que exerce suas atividades em ambientes de risco, o que pode acabar prejudicando sua saúde.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+            <div className="clear"></div>
+                     <p><br/></p></div>
                             <div className="entry-image">
                                 <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
@@ -119,6 +138,16 @@ export default function Blog(){
         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
             <h4 className=''>Posts Recentes</h4>
             <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade">Saiba como calcular o adicional de Insalubridade</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>24 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+            <div className="spost clearfix roww">
                                    
                                    <div className="entry-c">
                                        <div className="entry-title">
@@ -155,6 +184,7 @@ export default function Blog(){
                 </div>
             </div>
         </div>
+        
         
         <Final/>
         </main>

@@ -42,6 +42,24 @@ export default function BlogSaudeOcupacional(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade"><Image src={Insalubridade} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
+                    <div className="entry-title">
+                            <h2 className='mt-8'>Saiba como calcular o adicional de Insalubridade</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>24 de Janeiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>O adicional de insalubridade é um direito do trabalhador que exerce suas atividades em ambientes de risco, o que pode acabar prejudicando sua saúde.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+            <div className="clear"></div>
+                     <p><br/></p>
                             <div className="entry-image">
                                 <Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao"><Image src={MedicinaOcupacional} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
                             </div>
@@ -59,23 +77,7 @@ export default function BlogSaudeOcupacional(){
             </div>
             <div className="clear"></div>
                      <p><br/></p>
-                     <div className="entry-image">
-                    <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade"><Image src={Insalubridade} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
-                    </div>
-                    <div className="entry-title">
-                            <h2 className='mt-8'>Saiba como calcular o adicional de Insalubridade</h2>
-                        </div>
-                        <ul className="entry-meta clearfix -ml-5 -mt-8">
-                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>24 de Janeiro de 2024</li>
-                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
-                        </ul>
-                        <div className="entry-content notopmargin">
-                            <p>O adicional de insalubridade é um direito do trabalhador que exerce suas atividades em ambientes de risco, o que pode acabar prejudicando sua saúde.</p>
-                            <div className="link">
-                <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade" className='text-uppercases'>Saiba mais...</Link>
-            </div>
-            <div/>
-                    <div className="clear"></div>
+                   
                     </div>
                         </div>
                     </div>
