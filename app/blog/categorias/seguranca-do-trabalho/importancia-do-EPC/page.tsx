@@ -132,7 +132,7 @@ export default function ImportanciadoEPC(){
                     
                     <div className="panel panel-default">
                         <div className="panel-heading">
-                            <h3 className="panel-title">Postado Por: <span><Link href="">SOC</Link></span></h3>
+                            <h3 className="panel-title">Postado Por: <span><Link href={'https://www.soc.com.br/'}>SOC</Link></span></h3>
                         </div>
                         <div className="panel-body">
                             <div className="author-image">
@@ -149,8 +149,6 @@ export default function ImportanciadoEPC(){
                             <h4>Categorias</h4>
                             <div className="widget_links ">
                                 <ul style={listStyle}>
-                                <li><Link href="/blog/categorias/dicas" className='text-black'>Dicas</Link></li>
-                                <li><Link href="/blog/categorias/diversos" className='text-black'>Diversos</Link></li>
                                 <li><Link href="/blog/categorias/e-social" className='text-black'>e-SOCIAL</Link></li>
                                 <li><Link href="/blog/categorias/saude-ocupacional" className='text-black'>Saúde Ocupacional</Link></li>
                                 <li><Link href="/blog/categorias/seguranca-do-trabalho" className='text-black'>Segurança do Trabalho</Link></li>
@@ -159,6 +157,16 @@ export default function ImportanciadoEPC(){
                         </div>
         <div className="widget clearfix">
             <h4 className='-ml-6'>Posts Recentes</h4>
+            <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade">Saiba como calcular o adicional de Insalubridade</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>24 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
         <div className="spost clearfix roww">
         <div className="entry-c">
             <div className="entry-title">

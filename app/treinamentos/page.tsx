@@ -248,7 +248,7 @@ export default function Treinamentos() {
                     </div>
                    <h4 className="text-lg text-black font-bold ml-1">
                     EPI e Riscos</h4>
-                <p>Destaca a importância do uso adequado de EPIs para prevenir acidentes e minimizar exposições a riscos ocupacionais. Explora os diferentes tipos de EPIs e aborda estratégias para identificar, avaliar e controlar os riscos no ambiente de trabalho.</p>                
+                <p className='-mt-1'>Destaca a importância do uso adequado de EPIs para prevenir acidentes e minimizar exposições a riscos ocupacionais. Explora os diferentes tipos de EPIs e aborda estratégias para identificar, avaliar e controlar os riscos no ambiente de trabalho.</p>                
             </div>
             <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
@@ -257,7 +257,7 @@ export default function Treinamentos() {
                         <h4 className="text-lg text-black font-semibold ml-1">
                     Ergonomia</h4>
                    
-                <p>Explora a importância da adaptação do ambiente de trabalho e das práticas laborais para otimizar o desempenho e prevenir problemas de saúde relacionados ao trabalho. Destaca conceitos-chave, como postura adequada, mobiliário ergonômico e organização do espaço, visando a promoção do bem-estar e eficiência no ambiente profissional.</p>                
+                <p className='-mt-1'>Explora a importância da adaptação do ambiente de trabalho e das práticas laborais para otimizar o desempenho e prevenir problemas de saúde relacionados ao trabalho. Destaca conceitos-chave, como postura adequada, mobiliário ergonômico e organização do espaço, visando a promoção do bem-estar e eficiência no ambiente profissional.</p>                
             </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
@@ -265,7 +265,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-semibold ml-1">
                     Primeiros Socorros</h4>
-                <p>A palestra sobre Primeiros Socorros abrange técnicas essenciais, incluindo RCP, controle de hemorragias, imobilização de fraturas e manejo de emergências médicas. Os participantes aprendem a agir de maneira eficaz em situações críticas, proporcionando assistência inicial até a chegada de ajuda profissional.</p>
+                <p className='-mt-1'>A palestra sobre Primeiros Socorros abrange técnicas essenciais, incluindo RCP, controle de hemorragias, imobilização de fraturas e manejo de emergências médicas. Os participantes aprendem a agir de maneira eficaz em situações críticas, proporcionando assistência inicial até a chegada de ajuda profissional.</p>
                 </div>
             
             <div className="row servicos bottommargin-sm ">
@@ -275,7 +275,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-bold ml-1">
                     Tabagismo e Alcoolismo</h4>
-                <p>O objetivo é proporcionar entendimento sobre os impactos negativos desses hábitos, destacando os danos à saúde física e mental, bem como os riscos de dependência. A palestra visa incentivar a conscientização sobre os benefícios de parar de fumar e reduzir o consumo de álcool, promovendo estilos de vida saudáveis. Além disso, aborda estratégias de prevenção, recursos disponíveis para tratamento e a importância do apoio social na superação dessas dependências. </p>                
+                <p className='-mt-1'>O objetivo é proporcionar entendimento sobre os impactos negativos desses hábitos, destacando os danos à saúde física e mental, bem como os riscos de dependência. A palestra visa incentivar a conscientização sobre os benefícios de parar de fumar e reduzir o consumo de álcool, promovendo estilos de vida saudáveis. Além disso, aborda estratégias de prevenção, recursos disponíveis para tratamento e a importância do apoio social na superação dessas dependências. </p>                
             </div>
             <div className="col-md-4 bottommargin-no" >
                     <div className="feature-box fbox-center fbox-effect">
@@ -283,7 +283,7 @@ export default function Treinamentos() {
                     </div>
                         <h4 className="text-lg text-black font-semibold ml-1">
                    IST / AIDS</h4>
-                <p>O objetivo é informar sobre práticas seguras, promover o uso de métodos preventivos, e desmistificar estigmas associados a essas doenças. Além disso, destaca-se a importância do diagnóstico precoce, acesso a tratamento e educação contínua para reduzir a propagação dessas infecções e melhorar a qualidade de vida das pessoas afetadas.</p>
+                <p className='-mt-1'>O objetivo é informar sobre práticas seguras, promover o uso de métodos preventivos, e desmistificar estigmas associados a essas doenças. Além disso, destaca-se a importância do diagnóstico precoce, acesso a tratamento e educação contínua para reduzir a propagação dessas infecções e melhorar a qualidade de vida das pessoas afetadas.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
@@ -291,7 +291,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-semibold ml-1">
                    Saúde Mental</h4>
-                <p>A pessoa precisa estar bem consigo mesma e aceitar as exigências da vida, o contrário impacta no seu raciocínio, comportamentos e no relacionamento interpessoal. Algumas características, como poder de persuasão, foco, frieza para tomar decisões, ousadia para assumir riscos e certa indiferença em relação à opinião alheia devem ser observadas e principalmente cuidadas</p>
+                <p className='-mt-1'>A pessoa precisa estar bem consigo mesma e aceitar as exigências da vida, o contrário impacta no seu raciocínio, comportamentos e no relacionamento interpessoal. Algumas características, como poder de persuasão, foco, frieza para tomar decisões, ousadia para assumir riscos e certa indiferença em relação à opinião alheia devem ser observadas e principalmente cuidadas</p>
                 </div>
             </div>
             <div className="row servicos bottommargin-sm ">
@@ -301,7 +301,7 @@ export default function Treinamentos() {
                     </div>
                    <h4 className="text-lg text-black font-semibold ml-1">
                     Assédio Sexual e Moral</h4>
-                    <p>Toda conduta abusiva, de natureza psicológica que atenta cintra a dignidade psiquica, de forma repetitiva e prolongada e que expõe o trabalhador a situações humilhantes e constrangedoras, capazes de causar ofensa à dignidade ou a integridade psíquica, que tenha por efeito excluir a posição do empregado ou deteriorar o ambiente de trabalho, durante o exercícios de suas funções.</p>
+                    <p className='-mt-1'>Toda conduta abusiva, de natureza psicológica que atenta cintra a dignidade psiquica, de forma repetitiva e prolongada e que expõe o trabalhador a situações humilhantes e constrangedoras, capazes de causar ofensa à dignidade ou a integridade psíquica, que tenha por efeito excluir a posição do empregado ou deteriorar o ambiente de trabalho, durante o exercícios de suas funções.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">
@@ -309,7 +309,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-bold ml-1">
                     Qualidade de Vida</h4>
-                <p>A Qualidade de Vida compreende um conjunto de condições e ações que contribuem para o Bem-Estar no trabalho, na vida social e familiar do trabalhador.</p> 
+                <p className='-mt-1'>A Qualidade de Vida compreende um conjunto de condições e ações que contribuem para o Bem-Estar no trabalho, na vida social e familiar do trabalhador.</p> 
                 <ul style={listStyle} className='-ml-3 -mt-3'>
                 <li>Alimentação</li>
                 <li>Diabetes</li>
@@ -323,7 +323,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-semibold ml-1">
                     Massoterapia</h4>
-                <p>As sessões de Quick Massage que auxiliam no melhor funcionamento do sistema respiratório, digestivo, além de melhorar a circulação sanguinea proporcionando Saúde e Bem-Estar.</p>                
+                <p className='-mt-1'>As sessões de Quick Massage que auxiliam no melhor funcionamento do sistema respiratório, digestivo, além de melhorar a circulação sanguinea proporcionando Saúde e Bem-Estar.</p>                
                 <ul style={listStyle} className='-ml-3 -mt-3'>
                 <li>Controle do Stress</li>
                 <li>Diminui a Ansiedade</li>
@@ -339,7 +339,7 @@ export default function Treinamentos() {
                     </div>
                         <h4 className="text-lg text-black font-semibold ml-1">
                     Ginastica Laboral</h4>
-                <p>A NR-33 é uma norma para trabalhos confinados, que estabelece medidas de prevenção, medidas administrativas, medidas pessoais, capacitação e medidas para situações de emergências.</p>
+                <p className='-mt-1'>A NR-33 é uma norma para trabalhos confinados, que estabelece medidas de prevenção, medidas administrativas, medidas pessoais, capacitação e medidas para situações de emergências.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no" >
                     <div className="feature-box fbox-center fbox-effect">
@@ -347,7 +347,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-semibold ml-1">
                     Meio Ambiente</h4>
-                <p>Torna-se cada vez mais exigentes e fundamental o nosso compromisso com a preservação do meio ambiente, os recursos naturais e necessaários para nossa sobrevivência.
+                <p className='-mt-1'>Torna-se cada vez mais exigentes e fundamental o nosso compromisso com a preservação do meio ambiente, os recursos naturais e necessaários para nossa sobrevivência.
                     Precisamos repensar, cuidar, recusar, reduzir, reciclar e reutilizar, juntos podemos construir um futuro mais limpo, saudavél e sustentável
                 </p>
                 </div>
@@ -357,7 +357,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-semibold ml-1">
                    Setembro Amarelo</h4>
-                <p>Segundo a Organização Mundial da Saúde (OMS), no mundo, ocorre um suicídio a cada 40 segundos. Estudos mostram que o estresse ocupa a segunda posição entre os problemas de saúde relacionados ao trabalho.</p>
+                <p className='-mt-1'>Segundo a Organização Mundial da Saúde (OMS), no mundo, ocorre um suicídio a cada 40 segundos. Estudos mostram que o estresse ocupa a segunda posição entre os problemas de saúde relacionados ao trabalho.</p>
                 </div>
             </div>
             <div className="row servicos bottommargin-sm ">
@@ -367,7 +367,7 @@ export default function Treinamentos() {
                     </div>
                         <h4 className="text-lg text-black font-semibold ml-2">
                     Outubro Rosa</h4>
-                <p>Objetivo de compartilhar informações e promover a conscientização sobre a doença, proporcionar maior acesso aos serviços de diagnóstico e de tratamento e contribuir para a redução da mortalidade.
+                <p className='-mt-1'>Objetivo de compartilhar informações e promover a conscientização sobre a doença, proporcionar maior acesso aos serviços de diagnóstico e de tratamento e contribuir para a redução da mortalidade.
                 </p>
                 <ul style={listStyle} className='-ml-3 -mt-3'>
                 <li>Anatomia da mama, Diagnóstico</li>
@@ -382,7 +382,7 @@ export default function Treinamentos() {
                     </div>
                     <h4 className="text-lg text-black font-semibold ml-1">
                     Novembro Azul</h4>
-                <p>Voltado para a conscientização do câncer de próstata e alertar os homens da importância do diagnóstico precoce.</p>
+                <p className='-mt-1'>Voltado para a conscientização do câncer de próstata e alertar os homens da importância do diagnóstico precoce.</p>
                 <ul style={listStyle} className='-ml-3 -mt-3'>
                 <li>Anatomia da próstata, Diagnóstico</li>
                 <li>Tipos de câncer de próstata, Autoexame</li>

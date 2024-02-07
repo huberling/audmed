@@ -37,7 +37,7 @@ export default function SobreClinica(){
         <div className="roww">
             <div className="descritivos col-md-5">
             <h3 className="text-lg font-semibold mb-7 leading-6 ml-4 md:ml-0 lg:ml-0">Nossa Empresa</h3>
-            <p className="text2 ml-4 md:ml-0 lg:ml-0 mr-4 md:mr-0 lg:mr-0">A Clínica Audmed, oferece ampla assessoria às empresas, para atender as exigências do Ministério do Trabalho e Emprego no que se refere à Medicina e Segurança do Trabalho. Através de nossa equipe e de nossos parceiros, primamos pela qualidade dos serviços prestados, realizando Assessoria às Pequenas, Médias e Grandes Empresas de Indaiatuba e Região. Estamos localizados na Rua: Ademar de Barros, n° 491 no Centro de Indaiatuba-SP, contando com infra-estrutura adequada para a realização de exames médicos ocupacionais e complementares.</p>
+            <p className="text2 ml-4 md:ml-0 lg:ml-0 mr-4 md:mr-0 lg:mr-0">A Clínica Audmed oferece ampla assessoria às empresas para atender às exigências do Ministério do Trabalho e Emprego, especialmente no que se refere à Medicina e Segurança do Trabalho. Por meio de nossa equipe e parceiros, primamos pela qualidade dos serviços prestados, proporcionando assessoria a pequenas, médias e grandes empresas em Indaiatuba e região. Estamos localizados na Rua Ademar de Barros, número 491, no Centro de Indaiatuba-SP, contando com infraestrutura adequada para a realização de exames médicos ocupacionais e complementares.  </p>
             </div>
             <div className="descritivos col-md-6 ml-12">
                 <h3 className="text-lg font-semibold mb-7 leading-6 ml-4 md:ml-0 lg:ml-0">Nossos Objetivos</h3> 
@@ -81,7 +81,7 @@ export default function SobreClinica(){
 <div className="foto" data-stellar-background-ratio="0.3">
     <div className="container clearfix">
         <div className="col-md-5 offset-md-6 text-white mr-8">
-              <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 20 ANOS</h2>
+              <h2 >AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 20 ANOS</h2>
               <ul>
                 <li>Conformidade com o e-Social</li>
                 <li>Localização com fácil acesso</li>

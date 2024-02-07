@@ -2,7 +2,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from '../../../components/navbar';
 import Final from '../../../components/final';
-import MedicinaOcupacional from '../../../../public/blog/MedicinaOcupacional.webp'
+import MedicinaOcupacional from '../../../../public/blog/MedicinaOcupacional.webp';
+import Insalubridade from '../../../../public/blog/Insalubridade-SaudeOcupacional.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -56,10 +57,27 @@ export default function BlogSaudeOcupacional(){
                             <div className="link">
                 <Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao" className='text-uppercases'>Saiba mais...</Link>
             </div>
-                            <p><br/></p>
-                            <div className="clear"></div>
+            <div className="clear"></div>
+                     <p><br/></p>
+                     <div className="entry-image">
+                    <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade"><Image src={Insalubridade} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
+                    <div className="entry-title">
+                            <h2 className='mt-8'>Saiba como calcular o adicional de Insalubridade</h2>
                         </div>
-                        
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>24 de Janeiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>O adicional de insalubridade é um direito do trabalhador que exerce suas atividades em ambientes de risco, o que pode acabar prejudicando sua saúde.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+                    <div className="clear"></div>
+                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -70,8 +88,7 @@ export default function BlogSaudeOcupacional(){
                             <h4>Categorias</h4>
                             <div className="widget_links ">
                                 <ul style={listStyle}>
-                                <li><Link href="/blog/categorias/dicas" className='text-black'>Dicas</Link></li>
-                                <li><Link href="/blog/categorias/diversos" className='text-black'>Diversos</Link></li>
+
                                 <li><Link href="/blog/categorias/e-social" className='text-black'>e-SOCIAL</Link></li>
                                 <li><Link href="/blog/categorias/saude-ocupacional" className='text-black'>Saúde Ocupacional</Link></li>
                                 <li><Link href="/blog/categorias/seguranca-do-trabalho" className='text-black'>Segurança do Trabalho</Link></li>

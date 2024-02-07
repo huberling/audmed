@@ -110,8 +110,6 @@ export default function Blog(){
                             <h4>Categorias</h4>
                             <div className="widget_links ">
                                 <ul style={listStyle}>
-                                <li><Link href="/blog/categorias/dicas" className='text-black'>Dicas</Link></li>
-                                <li><Link href="/blog/categorias/diversos" className='text-black'>Diversos</Link></li>
                                 <li><Link href="/blog/categorias/e-social" className='text-black'>e-SOCIAL</Link></li>
                                 <li><Link href="/blog/categorias/saude-ocupacional" className='text-black'>Saúde Ocupacional</Link></li>
                                 <li><Link href="/blog/categorias/seguranca-do-trabalho" className='text-black'>Segurança do Trabalho</Link></li>

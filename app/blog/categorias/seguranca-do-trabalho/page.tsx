@@ -74,8 +74,6 @@ export default function SegurançaDoTrabalho(){
                             <h4>Categorias</h4>
                             <div className="widget_links ">
                                 <ul style={listStyle}>
-                                <li><Link href="/blog/categorias/dicas" className='text-black'>Dicas</Link></li>
-                                <li><Link href="/blog/categorias/diversos" className='text-black'>Diversos</Link></li>
                                 <li><Link href="/blog/categorias/e-social" className='text-black'>e-SOCIAL</Link></li>
                                 <li><Link href="/blog/categorias/saude-ocupacional" className='text-black'>Saúde Ocupacional</Link></li>
                                 <li><Link href="/blog/categorias/seguranca-do-trabalho" className='text-black'>Segurança do Trabalho</Link></li>
@@ -84,6 +82,16 @@ export default function SegurançaDoTrabalho(){
                         </div>
         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
             <h4 className=''>Posts Recentes</h4>
+            <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade">Saiba como calcular o adicional de Insalubridade</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>24 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
             <div className="spost clearfix roww">
         <div className="entry-c">
             <div className="entry-title">
