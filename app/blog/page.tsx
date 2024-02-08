@@ -103,7 +103,7 @@ export default function Blog(){
                                 <Link href="/blog/categorias/e-social/multas-do-esocial"><Image src={Multas} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
                             <div className="entry-title">
-                            <h2 className='mt-8'>Obrigação que facilita os direitos do trabalhador</h2>
+                            <h2 className='mt-8'>Multas do eSocial: onde elas se aplicam e quais cuidados tomar</h2>
                         </div>
                         <ul className="entry-meta clearfix -ml-5 -mt-8">
                             <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>22 de março de 2023</li>
