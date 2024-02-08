@@ -51,7 +51,7 @@ export default function DireitosTrabalhador(){
                         <ul className="entry-meta clearfix -ml-5 ">
                             <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>11 de junho de 2019</li>
                             <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
-                            <li><FontAwesomeIcon icon={faFolderOpen} className="mr-1"></FontAwesomeIcon>Dicas,e-SOCIAL</li>
+                            <li><FontAwesomeIcon icon={faFolderOpen} className="mr-1"></FontAwesomeIcon>e-SOCIAL</li>
                         </ul>
                             <div className="entry-image">
                                 <Link href="#"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>

@@ -5,6 +5,7 @@ import Final from '../../../components/final';
 import Image from 'next/image';
 import Link from 'next/link';
 import Esocial from '../../../../public/blog/esocial.jpg'
+import Multas from '../../../../public/blog/MultasEsocial.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarDays, faUser } from '@fortawesome/free-solid-svg-icons';
 
@@ -42,13 +43,29 @@ export default function BlogEsocial(){
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
                             <div className="entry-image">
+                                <Link href="/blog/categorias/e-social/multas-do-esocial"><Image src={Multas} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
+                            </div>
+                            <div className="entry-title">
+                            <h2 className='mt-8'>Obrigação que facilita os direitos do trabalhador</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>22 de março de 2023</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>O eSocial(Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas), um dos pilares do Sistema Público de Escrituração Digital, é uma folha de pagamento digital vinculada ao software que as empresas já costumam utilizar, com a finalidade de cumprimento das obrigações acessórias unificando o envio de informações fiscais, trabalhistas e previdenciárias. Entretanto, quando não cumpridas, você poderá ter que lidar com as multas.</p>
+                            <div className="link mb-9">
+                <Link href="/blog/categorias/e-social/multas-do-esocial" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <br />
+            <div className="entry-image ">
                                 <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador"><Image src={Esocial} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
                             <div className="entry-title">
                             <h2 className='mt-8'>Obrigação que facilita os direitos do trabalhador</h2>
                         </div>
                         <ul className="entry-meta clearfix -ml-5 -mt-8">
-                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>4 de janeiro de 2024</li>
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>11 de junho de 2019</li>
                             <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
                         </ul>
                         <div className="entry-content notopmargin">
@@ -58,7 +75,7 @@ export default function BlogEsocial(){
                             mortes em locais de trabalho no Brasil.</p>
                             <div className="link">
                 <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className='text-uppercases'>Saiba mais...</Link>
-            </div>
+            </div></div>
                             <p><br/></p>
                             <div className="clear"></div>
                         </div>

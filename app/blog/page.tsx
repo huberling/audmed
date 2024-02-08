@@ -11,6 +11,7 @@ import Insalubridade from '../../public/blog/Insalubridade-SaudeOcupacional.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
+import Multas from '../../public/blog/MultasEsocial.jpg';
 import { faFolderOpen } from '@fortawesome/free-solid-svg-icons/faFolderOpen';
 
 
@@ -61,27 +62,7 @@ export default function Blog(){
             <div/>
             <div className="clear"></div>
                      <p><br/></p></div>
-                            <div className="entry-image">
-                                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
-                            </div>
-                            <div className="entry-title">
-                            <h2 className='mt-8'>E-Social: obrigação que facilita os direitos do trabalhador</h2>
-                        </div>
-                        <ul className="entry-meta clearfix -ml-5 -mt-8">
-                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>11 de Junho de 2019</li>
-                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
-                        </ul>
-                        <div className="entry-content notopmargin mb-10">
-                            <p>Houveram algumas mudanças nas Normas Regulamentadoras (NR). O governo
-                            pretende facilitar as NRs e focar na saúde e segurança do trabalhador. 
-                            Principalmente, pelo alto índice de acidentes, doenças ocupacionais e 
-                            mortes em locais de trabalho no Brasil.</p>
-                            <div className="link">
-                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className='text-uppercases'>Saiba mais...</Link>
-                </div>
-                            <p><br/></p>
-                            <div className="clear"></div>
-                        </div>
+                           
                             <div className="entry-image">
                                 <Link href="/blog/categorias/seguranca-do-trabalho/importancia-do-EPC"><Image src={ImportanciaEPC} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
                             </div>
@@ -115,6 +96,44 @@ export default function Blog(){
                             <div className="link">
                 <Link href="/blog/categorias/saude-ocupacional/medicina-ocupacional-colaboracao" className='text-uppercases'>Saiba mais...</Link>
             </div>
+                            <p><br/></p>
+                            <div className="clear"></div>
+                        </div>
+                        <div className="entry-image">
+                                <Link href="/blog/categorias/e-social/multas-do-esocial"><Image src={Multas} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
+                            </div>
+                            <div className="entry-title">
+                            <h2 className='mt-8'>Obrigação que facilita os direitos do trabalhador</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>22 de março de 2023</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>O eSocial(Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas), um dos pilares do Sistema Público de Escrituração Digital, é uma folha de pagamento digital vinculada ao software que as empresas já costumam utilizar, com a finalidade de cumprimento das obrigações acessórias unificando o envio de informações fiscais, trabalhistas e previdenciárias. Entretanto, quando não cumpridas, você poderá ter que lidar com as multas.</p>
+                            <div className="link mb-9">
+                <Link href="/blog/categorias/e-social/multas-do-esocial" className='text-uppercases'>Saiba mais...</Link>
+            </div></div>
+            <p><br/></p>
+
+            <div className="entry-image">
+                                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador"><Image src={Blogs} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
+                            </div>
+                            <div className="entry-title">
+                            <h2 className='mt-8'>E-Social: obrigação que facilita os direitos do trabalhador</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>11 de Junho de 2019</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin mb-10">
+                            <p>Houveram algumas mudanças nas Normas Regulamentadoras (NR). O governo
+                            pretende facilitar as NRs e focar na saúde e segurança do trabalhador. 
+                            Principalmente, pelo alto índice de acidentes, doenças ocupacionais e 
+                            mortes em locais de trabalho no Brasil.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className='text-uppercases'>Saiba mais...</Link>
+                </div>
                             <p><br/></p>
                             <div className="clear"></div>
                         </div>
