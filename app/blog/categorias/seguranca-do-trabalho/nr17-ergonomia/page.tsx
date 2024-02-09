@@ -8,7 +8,7 @@ import { faCalendarDays, faFolderOpen, faUser } from "@fortawesome/free-solid-sv
 import Logo from '../../../../../public/blog/SOC.png';
 import ErgonomiaNR17 from '../../../../../public/blog/Ergonomia-NR17.png'
 
-export default function(){
+export default function NR17Ergonomia(){
     const listStyle:React.CSSProperties = {
         listStyleType: 'circle',
       };
