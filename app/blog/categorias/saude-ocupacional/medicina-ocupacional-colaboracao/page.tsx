@@ -148,6 +148,16 @@ export default function MedicinaOcupacionalCola(){
                                        </ul>
                                    </div>
                                </div>
+                               <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/nr17-ergonomia">NR17: como a ergonomia pode afetar na rotina do trabalho</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>17 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
             <div className="spost clearfix roww">
                                    <div className="entry-c">
                                        <div className="entry-title">
@@ -155,6 +165,17 @@ export default function MedicinaOcupacionalCola(){
                                        </div>
                                        <ul className="entry-meta">
                                            <li>04 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                               <div className="spost clearfix roww">
+                                   
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/e-social/multas-do-esocial">Multas do eSocial: onde elas se aplicam e quais cuidados tomar</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>23 de março de 2023</li>
                                        </ul>
                                    </div>
                                </div>

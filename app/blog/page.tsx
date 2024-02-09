@@ -8,6 +8,7 @@ import Blogs from '../../public/blog/esocial.jpg';
 import MedicinaOcupacional from '../../public/blog/MedicinaOcupacional.webp';
 import ImportanciaEPC from '../../public/blog/ImportanciadoEPC.jpg';
 import Insalubridade from '../../public/blog/Insalubridade-SaudeOcupacional.jpg';
+import NR17Ergonomia from '../../public/blog/Ergonomia-NR17.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -58,6 +59,24 @@ export default function Blog(){
                             <p>O adicional de insalubridade é um direito do trabalhador que exerce suas atividades em ambientes de risco, o que pode acabar prejudicando sua saúde.</p>
                             <div className="link">
                 <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+            <div className="clear"></div>
+                     <p><br/></p></div>
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/seguranca-do-trabalho/nr17-ergonomia"><Image src={NR17Ergonomia} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
+                    <div className="entry-title">
+                            <h2 className='mt-8'>NR17: como a ergonomia pode afetar na rotina do trabalho</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>17 de Janeiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>O intuito dessa norma é estabelecer parâmetros, a fim de que as condições do empregado se adequem as suas necessidades físicas e psicológicas. Além disso, a norma define ações a serem implantadas no ambiente profissional, prevenindo doenças ocupacionaise preservando a segurança de todos, tendo resultado positivo no psicológico e em toda a rotina do funcionário.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/seguranca-do-trabalho/nr17-ergonomia" className='text-uppercases'>Saiba mais...</Link>
             </div>
             <div/>
             <div className="clear"></div>
@@ -166,6 +185,16 @@ export default function Blog(){
                                        </ul>
                                    </div>
                                </div>
+                               <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/nr17-ergonomia">NR17: como a ergonomia pode afetar na rotina do trabalho</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>17 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
             <div className="spost clearfix roww">
                                    
                                    <div className="entry-c">
@@ -187,6 +216,17 @@ export default function Blog(){
         </ul>
         </div>
         </div>
+        <div className="spost clearfix roww">
+                                   
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/e-social/multas-do-esocial">Multas do eSocial: onde elas se aplicam e quais cuidados tomar</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>23 de março de 2023</li>
+                                       </ul>
+                                   </div>
+                               </div>
         <div className="spost clearfix roww">
                                    
                                    <div className="entry-c">

@@ -123,14 +123,18 @@ const Home:React.FC = ()=> {
                 <Link href="/treinamentos" className='text-uppercases'>Saiba mais...</Link>
             </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-md-6 ">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
                 <Image className="imgtre md:ml-0 lg:ml-0 ml-auto" src={ESocial} width={1000} height={100} alt='' />
             </div>
-            <ul className="list-group" >
+            <ul className="list-group">
                 <li className="list-group-item">
                 <Link href="/blog/categorias/e-social/1-esocial-obrigacao-que-facilita-os-direitos-do-trabalhador" className="text-uppercase">E-SOCIAL: OBRIGAÇÃO QUE FACILITA OS DIREITOS DO TRABALHADOR</Link></li>
+                </ul>
+            <ul className="list-group" >
+                <li className="list-group-item">
+                <Link href="/blog/categorias/e-social/multas-do-esocial" className="text-uppercase ">MULTAS DO ESOCIAL: ONDE ELAS SE APLICAM E QUAIS CUIDADOS TOMAR</Link></li>
                 </ul>
             <div className="link">
                 <Link href="/blog/categorias/e-social" className='text-uppercases'>Saiba mais...</Link>

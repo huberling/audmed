@@ -108,6 +108,16 @@ export default function BlogEsocial(){
                                        </ul>
                                    </div>
                                </div>
+                               <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/nr17-ergonomia">NR17: como a ergonomia pode afetar na rotina do trabalho</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>17 de janeiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
             <div className="spost clearfix roww">
                                    
                                    <div className="entry-c">
