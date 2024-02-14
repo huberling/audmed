@@ -85,21 +85,21 @@ const Home:React.FC = ()=> {
         <div className="roww">
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/pcmso"><Image className="img" src={Servicos} alt="Serviço" width={100} height={100}/></Link>
+            <Link href="/servicos/pcmso"><Image className="img" src={Servicos} alt="Serviço" width={90} height={90}/></Link>
             <Link href="/servicos/pcmso"><h3 className="h3desc">PCMSO - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL.</h3></Link>
             <p>O Programa de Controle Médico de Saúde Ocupacional (PCMSO) tem como objetivo a promoção e a preservação da saúde dos trabalhadores</p>
         </div>      
     </div>
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/pgr"><Image className="img" src={Servicos} alt="" width={100} height={100}/></Link>
+            <Link href="/servicos/pgr"><Image className="img" src={Servicos} alt="" width={90} height={90}/></Link>
             <Link href="/servicos/pgr"><h3 className="h3desc">PGR - PROGRAMA DE GERENCIAMENTO DE RISCOS</h3></Link>
             <p>O Programa de Gerenciamento de Riscos (PGR) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
         </div> 
     </div>     
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/ltcat"><Image className="img" src={Servicos} alt="" width={100} height={100} /></Link>
+            <Link href="/servicos/ltcat"><Image className="img" src={Servicos} alt="" width={90} height={90} /></Link>
             <Link href="/servicos/ltcat"><h3 className="h3desc">LTCAT - LAUDO TÉCNICO DAS <br /> CONDIÇÕES AMBIENTAIS DE TRABALHO</h3></Link>
             <p>O LTCAT (Laudo Técnico de Condições Ambientais do Trabalho) é um documento com fins previdenciários, elaborado por Engenheiro de Segurança do Trabalho.</p>
         </div>  
@@ -111,7 +111,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>Treinamentos</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto"  src={Nr35} width={1000} height={100}  priority={true} alt="" />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto"  src={Nr35} width={1000} height={1000}  priority={true} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -126,7 +126,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6 ">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto" src={ESocial} width={1000} height={100} alt='' />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto" src={ESocial} width={1000} height={1000} alt='' />
             </div>
             <ul className="list-group">
                 <li className="list-group-item">
