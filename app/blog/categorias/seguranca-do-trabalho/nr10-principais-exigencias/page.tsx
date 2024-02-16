@@ -53,7 +53,7 @@ export default function Nr10Exigências(){
                         </ul>
                         <div className="entry-content notopmargin">
                             <h6 className='font-bold text-gray-400 mt-5'>A NR10 é a norma que diz sobre Segurança em instalações e serviços de eletricidade e é uma das mais extensas e detalhadas. Conheça algumas exigências e como as empresas devem se adaptar a elas.</h6>
-                            <p>A Norma Regulamentadora 10, ou NR10, É a norma que diz sobre "Segurança em instalações e serviços em eletricidade". Desse modo, estabelece requisitos e condições para que os profissionais possam atuar de forma segura nas instalações de serviços elétricos.</p>
+                            <p>A Norma Regulamentadora 10, ou NR10, É a norma que diz sobre Segurança em instalações e serviços em eletricidade. Desse modo, estabelece requisitos e condições para que os profissionais possam atuar de forma segura nas instalações de serviços elétricos.</p>
                             <p>Todas as empresas(setor público ou privado) que tenham quaisquer atividades que envolvem eletricidade devem adotar à esta norma. Sua atuação é ampla e passa por:</p>
                             <ul style={listStyle}>
                             <li>Planejamento de instalações elétricas;</li>

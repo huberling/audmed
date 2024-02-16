@@ -53,7 +53,7 @@ export default function Blog(){
                             <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
                         </ul>
                         <div className="entry-content notopmargin">
-                            <p>A Norma Regulamentadora 10, ou NR10, É a norma que diz sobre "Segurança em instalações e serviços em eletricidade". Desse modo, estabelece requisitos e condições para que os profissionais possam atuar de forma segura nas instalações de serviços elétricos.</p>
+                            <p>A Norma Regulamentadora 10, ou NR10, É a norma que diz sobre Segurança em instalações e serviços em eletricidade. Desse modo, estabelece requisitos e condições para que os profissionais possam atuar de forma segura nas instalações de serviços elétricos.</p>
                             <div className="link">
                 <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias" className='text-uppercases'>Saiba mais...</Link>
             </div>
