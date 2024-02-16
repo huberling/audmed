@@ -30,12 +30,12 @@ const Home:React.FC = ()=> {
         <section id="background">
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2 className='ml-7 md:ml-0 lg:ml-0 text-5xl md:text-6xl lg:text-6xl'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <h2 className='ml-7 md:ml-0 lg:ml-0 text-5xl md:text-6xl lg:text-6xl mt-64 md:mt-20 lg:mt-20'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
                 <p className='text-white text-2xl -mt-6 hidden md:inline-block lg:inline-block'>Nós cuidamos da saúde do seu funcionário</p>
             </div> 
         </div>
         </section>
-        <section id="card" className='-mt-80 md:-mt-96 lg:-mt-96'>
+        <section id="card" className=''>
             <div className="container">
                 <div className="col-md-4"  >
                     <div className="card1">
@@ -58,13 +58,13 @@ const Home:React.FC = ()=> {
                 </div>
                 <div className="col-md-4 card3">
                 <div className="carrd" >
-                        <h2 >Contato</h2>
+                        <h2>Contato</h2>
                         <p className="opacity-6 -mt-4" >Estamos ansiosos pelo seu contato. Ligue agora e fale com um de nossos consultores</p>  
                 <div className='text-xl -mt-4'>
                 <FontAwesomeIcon icon={faPhone} className='text-base'></FontAwesomeIcon> <b>(19) 3894-5066</b>
 </div>     
 <div className='text-xl -mt-2'>
-<FontAwesomeIcon icon={faWhatsapp} className='text-lg mt-2'></FontAwesomeIcon>  <b>(19) 99249-2716</b>
+<FontAwesomeIcon icon={faWhatsapp} className='text-lg mt-2'></FontAwesomeIcon> <b>(19) 99249-2716</b>
 </div>  
 </div>                  
 </div>

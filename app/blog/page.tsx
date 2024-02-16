@@ -45,6 +45,21 @@ export default function Blog(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
+                    <div className="entry-title">
+                           <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"> <h2 className='mt-8'>NR10: quais são as exigências para se adequar à Norma</h2></Link>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>09 de Fevereiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>A Norma Regulamentadora 10, ou NR10, É a norma que diz sobre 'Segurança em instalações e serviços em eletricidade'. Desse modo, estabelece requisitos e condições para que os profissionais possam atuar de forma segura nas instalações de serviços elétricos.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+            <div className="clear"></div>
+                     <p><br/></p></div>
                     <div className="entry-image">
                     <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade"><Image src={Insalubridade} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
                     </div>
@@ -176,6 +191,16 @@ export default function Blog(){
         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
             <h4 className=''>Posts Recentes</h4>
             <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias">NR10: quais são as exigências para se adequar à Norma</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>09 de fevereiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                               <div className="spost clearfix roww">
                                    <div className="entry-c">
                                        <div className="entry-title">
                                            <h4><Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade">Saiba como calcular o adicional de Insalubridade</Link></h4>
