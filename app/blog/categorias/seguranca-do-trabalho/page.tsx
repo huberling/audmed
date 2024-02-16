@@ -7,6 +7,7 @@ import Link from 'next/link';
 import ImportanciaEPC from '../../../../public/blog/ImportanciadoEPC.jpg';
 import NR17Ergonomia from '../../../../public/blog/Ergonomia-NR17.png'
 import Logo from '../../../../../public/blog/SOC.png';
+import NR10 from '../../../../public/blog/Nr10.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -46,7 +47,9 @@ export default function SegurançaDoTrabalho(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
-                   
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"><Image src={NR10} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
                     <div className="entry-title">
                            <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"> <h2 className='mt-8'>NR10: quais são as exigências para se adequar à Norma</h2></Link>
                         </div>
