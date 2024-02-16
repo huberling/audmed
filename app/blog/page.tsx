@@ -9,6 +9,7 @@ import MedicinaOcupacional from '../../public/blog/MedicinaOcupacional.webp';
 import ImportanciaEPC from '../../public/blog/ImportanciadoEPC.jpg';
 import Insalubridade from '../../public/blog/Insalubridade-SaudeOcupacional.jpg';
 import NR17Ergonomia from '../../public/blog/Ergonomia-NR17.png';
+import NR10 from '../../public/blog/Nr10.webp'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -45,8 +46,11 @@ export default function Blog(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"><Image src={NR10} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
                     <div className="entry-title">
-                           <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"> <h2 className='mt-8'>NR10: quais são as exigências para se adequar à Norma</h2></Link>
+                            <h2 className='mt-8'>NR10: quais são as exigências para se adequar à Norma</h2>
                         </div>
                         <ul className="entry-meta clearfix -ml-5 -mt-8">
                             <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>09 de Fevereiro de 2024</li>
