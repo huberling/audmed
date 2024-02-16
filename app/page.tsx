@@ -162,9 +162,9 @@ const Home:React.FC = ()=> {
     <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho:</h2>
     <div className="cont">
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} width={100} height={100} alt="Robiel Logo" /></Link>
-       <Link href={'https://www.toyota.com.br/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} width={100} height={100} alt="Bristish Logo" /></Link>
+       <Link href={'https://www.british.com.br/site/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} width={100} height={100} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} width={100} height={100} alt="Schott Logo" /></Link>
-       <Link href={'https://www.tklogistica.com.br/'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Hella} width={100} height={100} alt="Hella Logo" /></Link>
+       <Link href={'https://www.hella.com/hella-br/pt/Empresa-23.html'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Hella} width={100} height={100} alt="Hella Logo" /></Link>
         </div>    
 </div>
 <Final/>

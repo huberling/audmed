@@ -127,9 +127,10 @@ const CookieNotification: React.FC = () => {
       // Armazena no localStorage
       localStorage.setItem('cookiesAccepted', 'true');
 
+      const date1 =3;
         // Calcula a data de expiração em 1 dia
         const expirationDate = new Date();
-        expirationDate.setDate(expirationDate.getDate() + 2);
+        expirationDate.setDate(expirationDate.getDate() + date1);
 
       // Define o tempo de expiração para 1 dia
       expirationDate.setHours(0, 0, 0, 0);
