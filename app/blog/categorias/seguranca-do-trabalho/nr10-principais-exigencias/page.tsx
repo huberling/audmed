@@ -3,7 +3,6 @@ import React from "react";
 import Navbar from "@/app/components/navbar";
 import Final from "@/app/components/final";
 import Logo from '../../../../../public/blog/SOC.png';
-import NR10 from '../../../../../public/blog/Nr10.webp'
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays, faFolderOpen, faUser } from "@fortawesome/free-solid-svg-icons";
@@ -52,9 +51,7 @@ export default function Nr10Exigências(){
                             <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
                             <li><FontAwesomeIcon icon={faFolderOpen} className="mr-1"></FontAwesomeIcon>Segurança do Trabalho</li>
                         </ul>
-                        <div className="entry-image">
-                    <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"><Image src={NR10} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
-                    </div>
+                        
                         <div className="entry-content notopmargin">
                             <h6 className='font-bold text-gray-400 mt-5'>A NR10 é a norma que diz sobre Segurança em instalações e serviços de eletricidade e é uma das mais extensas e detalhadas. Conheça algumas exigências e como as empresas devem se adaptar a elas.</h6>
                             <p>A Norma Regulamentadora 10, ou NR10, É a norma que diz sobre Segurança em instalações e serviços em eletricidade. Desse modo, estabelece requisitos e condições para que os profissionais possam atuar de forma segura nas instalações de serviços elétricos.</p>
