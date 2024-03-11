@@ -56,23 +56,21 @@ export default function SobreClinica(){
 <div className="roww clçaa">
     <div className="descritivos2 col-md-4 -ml-6 mr-3 md:mr-0 lg:mr-0 md:-ml-12 lg:-ml-12">
         <h4 className='text-xl font-semibold'>MISSÃO</h4>       
-        <p className="text">Atender plenamente as necessidades e interesses dos nossos clientes, colaboradores e fornecedores no que se refere ao desenvolvimento, implantação e coordenação de Programas de Saúde, Segurança e Qualidade de Vida no Ambiente de Trabalho. Isso através do desenvolvimento de uma equipe de trabalho comprometida, integrada, bem informada e empática, com ênfase na lucratividade e qualidade. Diagnosticando e prevenindo nossos clientes de possíveis vulnerabilidades ocupacionais, agregando valores legais em forma de documentos oficiais que orientem às exposições ambientais e sugerindo plano de ações para alterações de pontos críticos, atendendo assim, às necessidades inerentes à atividade de cada cliente.</p>
+        <p className="text">Atuar no ramo da Medicina Ocupacional e Segurança do Trabalho com o objetivo de assegurar a integridade física dos colaboradores, com o máximo de exelência.</p>
     </div>
     <div className="descritivos2 desc1 col-md-4 -ml-7 md:mr-0 lg:mr-0 md:ml-11 lg:ml-11">
         <h4 className='text-xl font-semibold'>VISÃO</h4>
-        <p className="text">Melhorar continuamente a qualidade dos serviços prestados e ser conhecida como a melhor Empresa Prestadora, em excelência de qualidade de Serviços em Gestão Ocupacional.<br />
-            1- Promovendo a satisfação plena dos nossos clientes. <br />
-            2- Buscando a qualidade de vida crescente dos nossos funcionários e colaboradores, através da excelência em nossos serviços/ambiente de .</p>
+        <p className="text">Ser reconhecida pela exelência no ramo de nossas atividades, atendendo as necessidades e expectativas de nossos clientes e de seus colaboradores.</p>
         </div>  
     <div className="descritivos2 desc2 col-md-4 -ml-7 md:-mr-96 lg:-mr-96 md:ml-11 lg:ml-11">
         <h4 className='text-xl font-semibold'>VALORES</h4>
-        <p className="text">Pessoas em 1°lugar;<br/>
-        Prevenção;<br />
-            Qualidade Total: de vida, preservação do meio ambiente;<br />
+        <p className="text">Respeito;<br/>
             Ética;<br />
-            Comunicação Assertiva;<br />
-            Transparência;<br />
-            Reconhecimento de nossos colaboradores, principalmente os que buscam crescimento intelectual e psicossocial.</p>
+            Humildade;<br />
+            Foco no cliente;<br />
+            Inovação;<br />
+            Empatia;<br />
+            </p>
         </div>  
     </div>
 </div>
