@@ -9,7 +9,8 @@ import MedicinaOcupacional from '../../public/blog/MedicinaOcupacional.webp';
 import ImportanciaEPC from '../../public/blog/ImportanciadoEPC.jpg';
 import Insalubridade from '../../public/blog/Insalubridade-SaudeOcupacional.jpg';
 import NR17Ergonomia from '../../public/blog/Ergonomia-NR17.png';
-import NR10 from '../../public/blog/Nr10.webp'
+import NR10 from '../../public/blog/Nr10.webp';
+import PerdaAuditiva from '../../public/blog/perdaAuditiva.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -46,6 +47,24 @@ export default function Blog(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional"><Image src={PerdaAuditiva} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
+                    <div className="entry-title">
+                            <h2 className='mt-8'>Perda auditiva ocupacional e a importância da Audiometria</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>20 de Fevereiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>A Organização Mundial da Saúde (OMS) estimou que 1 a cada 4 pessoas terão problemas auditivos até 2050. Isso pode ocorrer a devido fatores e um dos motivos principais é o trabalho. A perda auditiva ocupacional é mais comum do que se imagina e precisa ser observada por todo.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+            <div className="clear"></div>
+                     <p><br/></p></div>
                     <div className="entry-image">
                     <Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias"><Image src={NR10} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
                     </div>
@@ -194,6 +213,16 @@ export default function Blog(){
                         </div>
         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
             <h4 className=''>Posts Recentes</h4>
+            <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional">Perda auditiva ocupacional e a importância da Audiometria</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>20 de fevereiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
             <div className="spost clearfix roww">
                                    <div className="entry-c">
                                        <div className="entry-title">

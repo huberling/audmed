@@ -4,6 +4,7 @@ import Navbar from '../../../components/navbar';
 import Final from '../../../components/final';
 import MedicinaOcupacional from '../../../../public/blog/MedicinaOcupacional.webp';
 import Insalubridade from '../../../../public/blog/Insalubridade-SaudeOcupacional.jpg';
+import PerdaAuditiva from '../../../../public/blog/perdaAuditiva.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -42,6 +43,24 @@ export default function BlogSaudeOcupacional(){
             <div className="postcontent nobottommargin clearfix w-full md:w-3/4">
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
+                    <div className="entry-image">
+                    <Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional"><Image src={PerdaAuditiva} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
+                    </div>
+                    <div className="entry-title">
+                            <h2 className='mt-8'>Perda auditiva ocupacional e a importância da Audiometria</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>20 de Fevereiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>A Organização Mundial da Saúde (OMS) estimou que 1 a cada 4 pessoas terão problemas auditivos até 2050. Isso pode ocorrer a devido fatores e um dos motivos principais é o trabalho. A perda auditiva ocupacional é mais comum do que se imagina e precisa ser observada por todo.</p>
+                            <div className="link">
+                <Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <div/>
+            <div className="clear"></div>
+                     <p><br/></p></div>
                     <div className="entry-image">
                     <Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade"><Image src={Insalubridade} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
                     </div>
