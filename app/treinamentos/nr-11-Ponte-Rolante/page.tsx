@@ -77,7 +77,7 @@ export default function NR11(){
                         </li>
                         <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
                         <Link href="/treinamentos/nr-33-Espaco-Confinado" className='text-black'>
-                        Esopaço Confinado</Link>
+                        Espaço Confinado</Link>
                         </li>
                         <li className='mb-2 ml-5 md:ml-0 lg:ml-0 mr-8 md:mr-8 lg:mr-8 '>
                         <Link href="/treinamentos/nr-35-Seguranca-do-Trabalho-em-Altura" className='text-black'>

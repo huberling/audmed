@@ -401,32 +401,3 @@ export default function Treinamentos() {
       </>
     );
 }
-// ... (seu código anterior)
-
-/*<main id="descricao ">
-  <section id="content">
-    <div className="titulo title">
-      <h1>{alternar ? 'TREINAMENTOS' : 'PALESTRAS'}</h1>
-      <span className='m-6 md:m-0 lg:m-0 '>A AUDMED oferece diferentes tipos de {alternar ? 'treinamentos' : 'palestras'} em medicina e <br /> segurança do trabalho</span>
-    </div>
-  </section>
-  <section className="container clearfix bottommargin padding">
-    <div className="row servicos bottommargin-sm ">
-      {/* Conteúdo específico para Treinamentos *//*}
-      {alternar && (
-        <>
-          {/* ... Código para exibir treinamentos *//*}
-        </>
-      )}
-
-      {/* Conteúdo específico para Palestras *//*}
-      {!alternar && (
-        <>
-          {/* ... Código para exibir palestras *//*}
-        </>
-      )}
-    </div>
-  </section>
-</main>
-
-// ... (seu código posterior)*/
