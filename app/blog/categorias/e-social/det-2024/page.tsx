@@ -82,7 +82,7 @@ export default function det2024(){
                                 <li className="mb-2">Verificar a regular transmissão e assegurar-se do efetivo recebimento das petições e documentos pelo sistema DET; e</li>
                                 <li className="mb-2">Informar e manter atualizado pelo menos o endereço postal eletrônico (e-mail), a fim de possibilitar o envio automático de mensagens com alertas, Desformando a existência de comunicações a serem recebidas por meio da caixa postal do DET.</li>
                             </ol>
-                                <p>Parágrafo único. "As mensagens de alerta descritas no inciso IV poderão ser disponibilizadas aos empregadores, adicionalmente, por meio de outros sistemas oficiais de prestação ou consultas de informações." (NR)</p>
+                                <p>Parágrafo único. As mensagens de alerta descritas no inciso IV poderão ser disponibilizadas aos empregadores, adicionalmente, por meio de outros sistemas oficiais de prestação ou consultas de informações. (NR)</p>
                                 <p>Art. 142. O empregador será considerado ciente da comunicação entregue na Caixa Postal do DET:</p>
                             <ol className="list-decimal">
                                 <li className="mb-2">No dia em que for realizada a consulta eletrônica de seu teor; ou</li>
