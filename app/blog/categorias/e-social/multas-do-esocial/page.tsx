@@ -129,6 +129,26 @@ return(
             <div className="spost clearfix roww">
                                    <div className="entry-c">
                                        <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional">Perda auditiva ocupacional e a importância da Audiometria</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>20 de fevereiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+            <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
+                                           <h4><Link href="/blog/categorias/seguranca-do-trabalho/nr10-principais-exigencias">NR10: quais são as exigências para se adequar à Norma</Link></h4>
+                                       </div>
+                                       <ul className="entry-meta">
+                                           <li>09 de fevereiro de 2024</li>
+                                       </ul>
+                                   </div>
+                               </div>
+            <div className="spost clearfix roww">
+                                   <div className="entry-c">
+                                       <div className="entry-title">
                                            <h4><Link href="/blog/categorias/saude-ocupacional/cauculo-de-insalubridade">Saiba como calcular o adicional de Insalubridade</Link></h4>
                                        </div>
                                        <ul className="entry-meta">

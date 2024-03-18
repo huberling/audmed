@@ -11,6 +11,7 @@ import Insalubridade from '../../public/blog/Insalubridade-SaudeOcupacional.jpg'
 import NR17Ergonomia from '../../public/blog/Ergonomia-NR17.png';
 import NR10 from '../../public/blog/Nr10.webp';
 import PerdaAuditiva from '../../public/blog/perdaAuditiva.jpg';
+import Inspecao from '../../public/blog/Capa-para-blog-DET.webp';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons';
 import { faUser } from '@fortawesome/free-solid-svg-icons/faUser';
@@ -48,13 +49,29 @@ export default function Blog(){
                 <div className="single-post nobottommargin">
                     <div className="entry clearfix">
                     <div className="entry-image">
+                                <Link href="/blog/categorias/e-social/det-2024"><Image src={Inspecao} alt="eSOCial: obrigação que facilita os direitos do trabalhador" title="eSOCial: obrigação que facilita os direitos do trabalhador" width={1000}/></Link>
+                            </div>
+                            <div className="entry-title">
+                            <h2 className='mt-8'>Inspeção do Trabalho por meio do DET começa a valer a partir do dia 1° de Março de 2024</h2>
+                        </div>
+                        <ul className="entry-meta clearfix -ml-5 -mt-8">
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>29 de fevereiro de 2024</li>
+                            <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
+                        </ul>
+                        <div className="entry-content notopmargin">
+                            <p>Empregadores e entidades pertencentes aos grupos 1 e 2 do eSocial precisarão utilizar o DET para comunicação eletrônica entre Auditores-Fiscais do Trabalho e empregadores a partir do dia 1° de Março. Outros grupos começarão a valer em Maio.</p>       
+                            <div className="link mb-9">
+                <Link href="/blog/categorias/e-social/det-2024" className='text-uppercases'>Saiba mais...</Link>
+            </div>
+            <br />
+                    <div className="entry-image">
                     <Link href="/blog/categorias/saude-ocupacional/perda-auditiva-ocupacional"><Image src={PerdaAuditiva} alt="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" title="Como a medicina ocupacional pode colaborar para o sucesso nas empresas" width={1000}/></Link>
                     </div>
                     <div className="entry-title">
                             <h2 className='mt-8'>Perda auditiva ocupacional e a importância da Audiometria</h2>
                         </div>
                         <ul className="entry-meta clearfix -ml-5 -mt-8">
-                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1 "></FontAwesomeIcon>20 de Fevereiro de 2024</li>
+                            <li><FontAwesomeIcon icon={faCalendarDays} className="mr-1"></FontAwesomeIcon>20 de Fevereiro de 2024</li>
                             <li><Link href={'https://www.soc.com.br/'}><FontAwesomeIcon icon={faUser} className="mr-1"></FontAwesomeIcon>SOC</Link></li>
                         </ul>
                         <div className="entry-content notopmargin">
@@ -198,7 +215,7 @@ export default function Blog(){
                     </div>
                 </div>
             </div>
-            
+            </div>
             <div className="sidebar nobottommargin col_last clearfix col-md-2">
          
                         <div className="widget clearfix -ml-20 md:-ml-6 lg:-ml-6">
