@@ -2,13 +2,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Image from 'next/image';
-const Servicos = '/serviços.png';
-const Nr35 = '/NR35.jpg';
-const Robiel = '/clientes/robiel.png';
-const Bristish = '/clientes/british.jpg';
-const Schott = '/clientes/schott-logo.png';
-const Hella = '/clientes/Hella.png';
-const ESocial = '/blog/esocial.jpg';
+import Servicos from '../public/serviços.png';
+import Nr35 from '../public/NR35.jpg';
+import Robiel from '../public/clientes/robiel.png';
+import Bristish from '../public/clientes/british.jpg';
+import Schott from '../public/clientes/schott-logo.png';
+import Hella from '../public/clientes/Hella.png';
+import ESocial from '../public/blog/esocial.jpg';
+import Intralox from '../public/clientes/intralox.png';
+import Valoren from '../public/clientes/valoren.png'
 import Link from 'next/link';
 import Final from './components/final';
 import React from 'react';
@@ -27,7 +29,7 @@ const Home:React.FC = ()=> {
    <CookieNotification/>
    <Navbar/>
    <main >
-        <section id="background">
+        <section id="background" className='w-full md:w-full 2xl:w-5/6'>
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
                 <h2 className='ml-7 md:ml-0 lg:ml-0 text-5xl md:text-6xl lg:text-6xl mt-64 md:mt-20 lg:mt-20'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
@@ -85,21 +87,21 @@ const Home:React.FC = ()=> {
         <div className="roww">
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/pcmso"><Image className="img" src={Servicos} alt="Serviço" width={90} height={90}/></Link>
+            <Link href="/servicos/pcmso"><Image className="img" src={Servicos} alt="Serviço" /></Link>
             <Link href="/servicos/pcmso"><h3 className="h3desc">PCMSO - PROGRAMA DE CONTROLE MÉDICO DE SAÚDE OCUPACIONAL.</h3></Link>
             <p>O Programa de Controle Médico de Saúde Ocupacional (PCMSO) tem como objetivo a promoção e a preservação da saúde dos trabalhadores</p>
         </div>      
     </div>
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/pgr"><Image className="img" src={Servicos} alt="" width={90} height={90}/></Link>
+            <Link href="/servicos/pgr"><Image className="img" src={Servicos} alt="" /></Link>
             <Link href="/servicos/pgr"><h3 className="h3desc">PGR - PROGRAMA DE GERENCIAMENTO DE RISCOS</h3></Link>
             <p>O Programa de Gerenciamento de Riscos (PGR) é um conjunto de ações visando à preservação da saúde e da integridade física dos trabalhadores.</p>
         </div> 
     </div>     
         <div className="col-md-4">
             <div className="feature-box fbox-center fbox-effect">
-            <Link href="/servicos/ltcat"><Image className="img" src={Servicos} alt="" width={90} height={90} /></Link>
+            <Link href="/servicos/ltcat"><Image className="img" src={Servicos} alt=""  /></Link>
             <Link href="/servicos/ltcat"><h3 className="h3desc">LTCAT - LAUDO TÉCNICO DAS <br /> CONDIÇÕES AMBIENTAIS DE TRABALHO</h3></Link>
             <p>O LTCAT (Laudo Técnico de Condições Ambientais do Trabalho) é um documento com fins previdenciários, elaborado por Engenheiro de Segurança do Trabalho.</p>
         </div>  
@@ -111,7 +113,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>Treinamentos</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto"  src={Nr35} width={1000} height={1000}  priority={true} alt="" />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto"  src={Nr35} priority={true} alt="" />
             </div>
             <ul className="list-group">
                 <li className="list-group-item"><span className="badge badge-sucess">NR-35</span>
@@ -126,7 +128,7 @@ const Home:React.FC = ()=> {
         <div className="col-md-6 ">
             <h2 className='ml-6 md:ml-3 lg:ml-3'>e-Social</h2>
             <div className="fbox-media bottommargin-sm"> 
-                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto" src={ESocial} width={1000} height={1000} alt='' />
+                <Image className="imgtre md:ml-0 lg:ml-0 ml-auto" src={ESocial}alt='' />
             </div>
             <ul className="list-group">
                 <li className="list-group-item">
@@ -159,18 +161,18 @@ const Home:React.FC = ()=> {
         </div>
 </section>
 <div className='container mt-40'>
-    <h2 className='text-center font-bold text-3xl leading-6 '>Empresas que confiam em nosso trabalho:</h2>
-    <div className="cont">
-       <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} width={100} height={100} alt="Robiel Logo" /></Link>
-       <Link href={'https://www.british.com.br/site/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} width={100} height={100} alt="Bristish Logo" /></Link>
-       <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} width={100} height={100} alt="Schott Logo" /></Link>
-       <Link href={'https://www.hella.com/hella-br/pt/Empresa-23.html'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Hella} width={100} height={100} alt="Hella Logo" /></Link>
+    <h2 className='text-center font-bold text-3xl leading-6 '>Principais Clientes:</h2>
+    <div className="cont w-full ml-12">
+       <Link href={'https://valoren.com.br/'}><Image className='clientes w-44 ' src={Valoren} alt=''/></Link>
+       <Link href={'https://www.intralox.com/pt'}><Image className="clientes w-40 h-40 ml-1xl:ml-12" src={Intralox} width={800} height={1000} alt="Robiel Logo" /></Link>
+       <Link href={'https://www.robiel.com/'}><Image className="clientes xl:ml-12 ml-4" src={Robiel} alt="Robiel Logo" /></Link>
+       <Link href={'https://www.british.com.br/site/'}><Image className="clientes ml-4 2xl:ml-16 lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} alt="Bristish Logo" /></Link>
+       <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes ml-4 2xl:ml-16" src={Schott} alt="Schott Logo" /></Link>
+       <Link href={'https://www.hella.com/hella-br/pt/Empresa-23.html'}><Image className="clientes ml-4 2xl:ml-16 lg:mt-0 md:mt-0 mt-10" src={Hella} alt="Hella Logo" /></Link>
         </div>    
 </div>
 <Final/>
 </main>
-
-
    </>
   );
 }

@@ -7,6 +7,8 @@ import British from '../../public/clientes/british.jpg';
 import Robiel from '../../public/clientes/robiel.png';
 import Hella from '../../public/clientes/Hella.png';
 import Schott from '../../public/clientes/schott-logo.png';
+import Valoren from '../../public/clientes/valoren.png';
+import Intralox from '../../public/clientes/intralox.png';
 import Final from '../components/final';
 
 export default function SobreClinica(){
@@ -95,6 +97,8 @@ export default function SobreClinica(){
     <div className="container mt-20">
         <h2 className='text-center font-thin text-3xl leading-6'>Empresas que confiam em nosso trabalho:</h2>
         <div className="cont">
+       <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Valoren} alt="Robiel Logo" /></Link>
+       <Link href={'https://www.british.com.br/site/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10 h-40" src={Intralox} alt="Bristish Logo" /></Link>
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Robiel} alt="Robiel Logo" /></Link>
        <Link href={'https://www.british.com.br/site/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={British} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} alt="Schott Logo" /></Link>

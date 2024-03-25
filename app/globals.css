@@ -377,15 +377,15 @@ a {
     margin: 0 0 20px 0;
 }
 .clientes{
-    width: 170px;   
+    width: 145px;   
     display: inline-block;
     position: relative;
-    margin-left:6rem;
     margin-bottom: 2rem;
-
+    margin-left: 2rem
+;
 }
 .cont{
-    margin: 3rem 2px 5rem 2px;
+    margin: 3rem 0 5rem 2px;
 }
 .clçaa{
     margin-left: 2rem;
