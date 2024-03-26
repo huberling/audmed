@@ -8,6 +8,7 @@
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 3s;
     }
    @media (max-width: 767px) {
         #background {
@@ -15,9 +16,22 @@
         }
     }
     @media (min-width: 768px) {
-        #background {
-            background-image: url("../public/Fachada\ clinica1.png");
+        @keyframes carouselAnim {
+            0%{ background-image: url("../public/teste.jfif");
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            50%{ background-image: url("../public/LUMEGAL\ FOTO\ 3.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+            100%{ background-image: url("../public/fotoTreinamento.jfif");
+                background-repeat: no-repeat;
+                background-size: cover;
+                }
         }
+      
     }
 
 li, p, b{
@@ -282,6 +296,7 @@ border-top-left-radius: 4px;
     left: 0; 
     background-image: url(../public/fundoo.jpg);
     background-position: 45% -135.037px;
+    background-size: cover;
     width: 100%;
     max-width: 100%;
     position: relative;
