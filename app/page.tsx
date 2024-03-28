@@ -2,6 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/navbar';
 import Image from 'next/image';
+import ESocials from '../public/esocial.png';
 import Servicos from '../public/serviços.png';
 import Nr35 from '../public/NR35.jpg';
 import Robiel from '../public/clientes/robiel.png';
@@ -30,12 +31,15 @@ const Home:React.FC = ()=> {
    <Navbar/>
    <main >
         <section id="background" className='w-full md:w-full 2xl:w-5/6'>
+        
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2 className='ml-7 md:ml-0 lg:ml-0 text-5xl md:text-6xl lg:text-6xl mt-64 md:mt-20 lg:mt-20'>MEDICINA E SEGURANÇA DO TRABALHO</h2>
-                <p className='text-white text-2xl -mt-6 hidden md:inline-block lg:inline-block'>Nós cuidamos da saúde do seu funcionário</p>
+                <h2 className='ml-7 md:ml-80 lg:ml-80 md:-mr-24 mr-0 lg:-mr-24 text-5xl md:text-6xl lg:text-6xl mt-52 md:mt-20 lg:mt-20 '>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <p className='text-black text-2xl -mt-6 hidden md:inline-block lg:inline-block pter' >Nós cuidamos da saúde do seu colaborador!</p>
             </div> 
         </div>
+        <Image src={ESocials} alt='' className='esocial h-28 w-48 -mt-96 md:-mt-72 lg:-mt-72 md:ml-8 lg:ml-8'/>
+
         </section>
         <section id="card" className=''>
             <div className="container">

@@ -1,44 +1,20 @@
 #background {
     margin: 0 auto;
+    margin-top: 2rem;
     animation-name: carouselAnim;
     animation-duration: 25s;
     animation-iteration-count: infinite;
     position: relative;
-    height: 36rem;
+    height: 38rem;  
     z-index: -1;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: 3s;
-    }
-   @media (max-width: 767px) {
-        #background {
-            background-image: url("../public/Fachada\ clinica.png");
-        }
-    }
-    @media (min-width: 768px) {
-        @keyframes carouselAnim {
-            0%{ background-image: url("../public/teste.jfif");
-            background-repeat: no-repeat;
-            background-size: cover;
-            }
-            50%{ background-image: url("../public/LUMEGAL\ FOTO\ 3.jpeg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            }
-
-            100%{ background-image: url("../public/fotoTreinamento.jfif");
-                background-repeat: no-repeat;
-                background-size: cover;
-                }
-        }
-      
-    }
-
+    background-image: url("../public/teste.png");
+}   
 li, p, b{
     font-size: 14px;
     line-height: 1.8;
     font-family: 'Lato', sans-serif;
-
 }
 #card{
     margin-top: -16.5rem;
@@ -59,14 +35,18 @@ li, p, b{
     text-transform: uppercase;
     font-weight: 700;
     line-height: 1;
+    text-align: center;
     margin-bottom: 30px;
-    color: #EEE;
+    color: #000000;
     text-shadow: 1px 1px 1px rgba(0,0,0,0.15);
 }
 .anotação{
     margin-top: 40px;
 }
-
+.pter{
+    margin-left: 48%;
+    margin-right: -20%;
+}
 .card1 {
     background-color: #559823;
     height: 224px;
@@ -77,7 +57,6 @@ li, p, b{
     z-index: -1;
     position: relative;
     box-shadow:  -1px -2px 37px -4px rgba(0,0,0,0.2);
-
 }
 .card2 {
     z-index: 666;
@@ -90,8 +69,6 @@ li, p, b{
     box-sizing: border-box;
     position: relative;
     box-shadow:  -1px -2px 37px -4px rgba(0,0,0,0.2);
-   
-
 }
 .card3 {
     float: right;
@@ -103,10 +80,7 @@ li, p, b{
     z-index: 2;
     position: relative;
     box-shadow:  -1px -2px 37px -4px rgba(0,0,0,0.2);
-
 }
-
-
 p{
     margin-bottom: 30px;
 }
@@ -122,13 +96,11 @@ p{
 .carrd{
     padding: 40px;
 }
-
 .content-1 {
     position: relative;
     padding: 30px 0;
 }
-.spancenter{
-    
+.spancenter{   
     position: relative !important;
     float: none !important;
     margin-left: auto !important;
@@ -203,7 +175,6 @@ p{
     overflow-clip-margin: content-box;
     margin-left: auto;
     margin-right: auto;
-   
 }
 .h3desc{
     margin-left: 15px;
@@ -231,7 +202,6 @@ p{
     letter-spacing: 1px;
     margin-bottom: 0;
     color: #333;
-    
 }
 .feature-box a{
     text-decoration: none;
