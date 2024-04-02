@@ -57,11 +57,11 @@ export default function PcmsoService(){
                                 </div>
                                 <div>O Programa de Controle Médico de Saúde Ocupacional (PCMSO) tem como objetivo a promoção e a preservação da saúde dos trabalhadores. Este programa tem caráter de prevenção, rastreamento e diagnóstico precoce dos agravos à saúde relacionados ao trabalho, inclusive de natureza subclínica, além da constatação da existência de casos de doenças profissionais ou danos irreversíveis à saúde dos trabalhadores. </div>                            
                                 <div><br/></div>    
-                                <div>Apesar de ser uma obrigação legal para proteção dos empregados, o programa serve também aos empregadores, pois um PCMSO bem elaborado e administrado é uma ferramenta vital contra passivos trabalhistas e responsabilidade cível e criminal dos administradores e proprietários das  empresas. 
+                                <div>Apesar de ser uma obrigação legal para proteção dos empregados, o programa serve também aos empregadores, pois um PCMSO bem elaborado e administrado é uma ferramenta vital contra passivos trabalhistas e responsabilidade cível e criminal dos administradores e proprietários das empresas. 
                                 </div>    
                                 <div><br/></div>
                                 <div>
-                                De acordo com a Norma Regulamentadora (NR-7), que normatiza este programa, tem obrigação de implantar o Programa de Controle Médico de Saúde Ocupacional – PCMSO todos os empregadores e instituições que admitam trabalhadores como empregados, independente mente do número de funcionários contratados.</div>  
+                                De acordo com a Norma Regulamentadora (NR-7), que normatiza este programa, tem obrigação de implantar o Programa de Controle Médico de Saúde Ocupacional – PCMSO todos os empregadores e instituições que admitam trabalhadores como empregados, independente mente do número de colaboradores contratados.</div>  
                             </div>
                             </div>
                         </div>

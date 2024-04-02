@@ -98,7 +98,7 @@ export default function Treinamento8(){
                             OBJETIVO
                         </span></div>
                         <div><br/></div> 
-                        <div>A NR 35 é uma norma regulamentadora, que versa sobre padrões de segurança para o trabalho em altura, ela garante que nenhum trabalho coloque em risco a vida e a integridade dos funcionários. </div>    
+                        <div>A NR 35 é uma norma regulamentadora, que versa sobre padrões de segurança para o trabalho em altura, ela garante que nenhum trabalho coloque em risco a vida e a integridade dos colaboradores. </div>    
                         <div><br/></div>  
                        
                         <div><br/></div>

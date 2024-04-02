@@ -192,7 +192,7 @@ export default function Treinamentos() {
                         NR-17
                     </span>
                     Ergonomia / AGP / AET</h4></Link>
-                    <p>Trata dos parâmetros necessários para garantir conforto, segurança e saúde para os funcionários, com o intuito de evitar que ocorram doenças causadas por esforço repetitivo.</p>
+                    <p>Trata dos parâmetros necessários para garantir conforto, segurança e saúde para os colaboradores, com o intuito de evitar que ocorram doenças causadas por esforço repetitivo.</p>
                 </div>
                 <div className="col-md-4 bottommargin-no">
                     <div className="feature-box fbox-center fbox-effect">

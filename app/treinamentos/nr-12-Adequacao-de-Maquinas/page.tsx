@@ -104,7 +104,7 @@ export default function Treinamento5(){
                         </span></div>    
                         <div><br/></div>    
                         <div>
-                        Empresas cujos funcionários realizem operação, manutenção, inspeção e demais intervenções em máquinas e equipamentos rotativos e abrasivos</div>    
+                        Empresas cujos colaboradores realizem operação, manutenção, inspeção e demais intervenções em máquinas e equipamentos rotativos e abrasivos</div>    
                         <div><br/></div>    
                         <div><span className='font-bold'>
                             PROGRAMA (PREVISTO NA NR 12)

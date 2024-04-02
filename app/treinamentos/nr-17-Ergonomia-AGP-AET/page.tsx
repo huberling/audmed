@@ -104,7 +104,7 @@ export default function Treinamento7(){
                         PÚBLICO ALVO
                         </span></div>    
                         <div><br/></div>    
-                        <div>Todos os funcionários de empresas que exercem o trabalho em atividades de teleatendimento/telemarketing, construção civil, comércio em geral, industria, logística e transportes e terminais portuários.</div>    
+                        <div>Todos os colaboradores de empresas que exercem o trabalho em atividades de teleatendimento/telemarketing, construção civil, comércio em geral, industria, logística e transportes e terminais portuários.</div>    
                         <div><br/></div>
                         <div>  
                             <span className='font-bold'>PROGRAMA(PREVISTO NA NR-17)</span>
