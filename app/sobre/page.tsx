@@ -31,7 +31,10 @@ export default function SobreClinica(){
         </ol>
         </div>
     </section>   
-    <main id="descricao">            
+    <main id="descricao">
+    <section className='-mt-10 mb-8'>
+       <Image src={Frente} alt='' className=' ml-auto mr-auto shadow-xl border-black h-96 w-full md:w-3/4 lg:w-2/4'/>
+       </section>            
         <section className="titulo">
             <h1>A AUDMED</h1>
             <span>Nós cuidamos da saúde de seus colaboradores.</span>
@@ -54,9 +57,7 @@ export default function SobreClinica(){
                 </div>
             </div>
        </section>
-       <section className='mb-16'>
-       <Image src={Frente} alt='' className=' ml-auto mr-auto shadow-xl border-black w-4/5 lg:w-2/4'/>
-       </section>
+       
        <section >
         <div className="container">
 <div className="roww clçaa">
