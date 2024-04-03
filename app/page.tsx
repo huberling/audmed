@@ -34,11 +34,11 @@ const Home:React.FC = ()=> {
         
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2 className='ml-7 md:ml-80 lg:ml-80 md:-mr-24 mr-0 lg:-mr-24 text-5xl md:text-6xl lg:text-6xl mt-52 md:mt-20 lg:mt-20 '>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <h2 className='ml-7 md:ml-80 lg:ml-80 md:-mr-1 mr-0 lg:-mr-24 text-5xl md:text-6xl lg:text-6xl mt-52 md:mt-20 lg:mt-20 '>MEDICINA E SEGURANÇA DO TRABALHO</h2>
                 <p className='text-black text-2xl -mt-6 hidden md:inline-block lg:inline-block pter' >Nós cuidamos da saúde do seu colaborador!</p>
             </div> 
         </div>
-        <Image src={ESocials} alt='' className='esocial h-28 w-48 -mt-6 md:-mt-52 lg:-mt-52 md:mr-8 lg:mr-8 float-right'/>
+        <Image src={ESocials} alt='' className='esocial md:h-28 lg:h-28 h-20 w-36 lg:w-48 md:w-48 -mt-96 ml-3 md:-mt-96 lg:-mt-72 md:ml-8 lg:ml-8 '/>
 
         </section>
         <section id="card" className=''>
@@ -59,7 +59,7 @@ const Home:React.FC = ()=> {
                 <div className="col-md-4 card2 ">
                     <div className="caard">
                     <h2 className=''>Bem vindo a Audmed</h2>
-                    <p className='relative lg:-mt-6 md:-mt-6 -mt-5'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
+                    <p className='relative lg:-mt-6 md:-mt-8 -mt-8'>Somos especializados em Medicina e Segurança do Trabalho. Nós cuidamos da saúde dos seus funcionários! Oferecemos uma varidade de serviços e treinamentos que resultem em benefícios para sua empresa e todo o quadro de colaboradores.</p>                   
                 </div>
                 </div>
                 <div className="col-md-4 card3">

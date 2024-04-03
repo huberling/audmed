@@ -9,6 +9,7 @@ import Hella from '../../public/clientes/Hella.png';
 import Schott from '../../public/clientes/schott-logo.png';
 import Valoren from '../../public/clientes/valoren.png';
 import Intralox from '../../public/clientes/intralox.png';
+import Frente from '../../public/Fachada clinica1.png';
 import Final from '../components/final';
 
 export default function SobreClinica(){
@@ -33,7 +34,7 @@ export default function SobreClinica(){
     <main id="descricao">            
         <section className="titulo">
             <h1>A AUDMED</h1>
-            <span>Nós cuidamos da saúde do seu colaboradores.</span>
+            <span>Nós cuidamos da saúde de seus colaboradores.</span>
         </section>
        <section className="container">
         <div className="roww">
@@ -52,6 +53,9 @@ export default function SobreClinica(){
                     Auxiliar no controle e redução dos índices de acidentes de trabalhos e de doenças profissionais;</p>
                 </div>
             </div>
+       </section>
+       <section className='mb-16'>
+       <Image src={Frente} alt='' className=' ml-auto mr-auto shadow-xl border-black w-4/5 lg:w-2/4'/>
        </section>
        <section >
         <div className="container">

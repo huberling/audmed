@@ -54,11 +54,7 @@
 .titulo{
     font-size: 25px;
 }
-.descritivos2{
-    display: inline-block;
-    margin-bottom: 1rem;
-    line-height: 1.8;
-}
+
 .descritivos2 h4{
     display: block;
     background: transparent;
