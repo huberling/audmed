@@ -38,7 +38,7 @@ const Home:React.FC = ()=> {
                 <p className='text-black text-2xl -mt-6 hidden md:inline-block lg:inline-block pter' >Nós cuidamos da saúde do seu colaborador!</p>
             </div> 
         </div>
-        <Image src={ESocials} alt='' className='esocial md:h-28 lg:h-28 h-20 w-36 lg:w-48 md:w-48 -mt-96 ml-3 md:-mt-96 lg:-mt-72 md:ml-8 lg:ml-8 '/>
+        <Image src={ESocials} alt='' className='esocial md:h-28 lg:h-28 h-20 w-36 lg:w-48 md:w-48 -mt-96 ml-3 md:-mt-96 lg:-mt-72 md:ml-8 lg:ml-8 relative'/>
 
         </section>
         <section id="card" className=''>
