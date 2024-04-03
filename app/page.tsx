@@ -34,7 +34,7 @@ const Home:React.FC = ()=> {
         
             <div className="container clearflix">
             <div className="roww anota anotação col-md-8" >
-                <h2 className='ml-7 md:ml-80 lg:ml-80 md:-mr-1 mr-0 lg:-mr-24 text-5xl md:text-6xl lg:text-6xl mt-52 md:mt-20 lg:mt-20 '>MEDICINA E SEGURANÇA DO TRABALHO</h2>
+                <h2 className='ml-7 md:ml-80 lg:ml-80 md:-mr-1 mr-0 lg:-mr-24 text-5xl md:text-6xl lg:text-6xl mt-56 md:mt-20 lg:mt-20 '>MEDICINA E SEGURANÇA DO TRABALHO</h2>
                 <p className='text-black text-2xl -mt-6 hidden md:inline-block lg:inline-block pter' >Nós cuidamos da saúde do seu colaborador!</p>
             </div> 
         </div>
