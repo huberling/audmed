@@ -40,10 +40,13 @@ export default function Final(){
             <Link href="/servicos">Serviços</Link>
             </li>
             <li>
-            <Link href="/treinamentos">Treinamentos</Link>
+            <Link href="/treinamentos">Treinamentos e Palestras</Link>
             </li>
             <li>
             <Link href="/blog">Blog</Link>
+            </li>
+            <li>
+            <Link href="/trabalhe-conosco">Trabalhe Conosco</Link>
             </li>
             <li>
             <Link href="contatos">Contato</Link>

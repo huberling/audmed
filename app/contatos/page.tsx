@@ -11,8 +11,7 @@ import Insta from '../../public/instagram.png'
 import Facebook from '../../public/facebook.png'
 import Telefone from '../../public/telefone.png'
 export default function Contatos(){
-
-   return(
+       return(
         <>
         <Navbar/>
         <section id="page-title">

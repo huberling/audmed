@@ -52,6 +52,7 @@ const Navbar: React.FC = () => {
                   <NavLink href={'/sobre'}>A Audmed</NavLink>
                   <NavLink href={'/servicos'}>Serviços</NavLink>
                   <NavLink href={'/blog'}>Blog</NavLink>
+                  <NavLink href={'/trabalhe-conosco'}>Trabalhe Conosco</NavLink>
                   <NavLink href={'/contatos'}>Contato</NavLink>
                   <NavLink href={'/treinamentos'}>Treinamentos e Palestras</NavLink>
                   <ExternalLink href={'https://sistema.soc.com.br/WebSoc/'}><p>Área do Cliente</p></ExternalLink>
@@ -59,13 +60,14 @@ const Navbar: React.FC = () => {
               </div>
             </div>
           )}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden lg:flex items-center lg:space-x-1 xl:space-x-4">
             {/* Renderizar links aqui para o menu grande */}
             <NavLink href={'/'}>Home</NavLink>
             <NavLink href={'/sobre'}>A Audmed</NavLink>
             <NavLink href={'/servicos'}>Serviços</NavLink>
             <NavLink href={'/treinamentos'}>Treinamentos e Palestras</NavLink>
             <NavLink href={'/blog'}>Blog</NavLink>
+            <NavLink href={'/trabalhe-conosco'}>Trabalhe Conosco</NavLink>
             <NavLink href={'/contatos'}>Contato</NavLink>
             <ExternalLink href={'https://sistema.soc.com.br/WebSoc/'}><p>Área do Cliente</p></ExternalLink>
           </div>
