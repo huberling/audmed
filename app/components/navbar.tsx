@@ -38,7 +38,7 @@ const Navbar: React.FC = () => {
         <div>
           <Image src={Logo} alt="Audmed Logo" />
         </div>
-        <nav className="lg:flex items-center space-x-4">
+        <nav className="lg:flex items-center lg:space-x-4">
           <div className="lg:hidden">
             <button onClick={toggleMobileMenu} className={`hamburguer ${showMobileMenu ? 'open' : ''}`}>☰</button>
           </div>
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
               </div>
             </div>
           )}
-          <div className="hidden lg:flex items-center lg:space-x-1 xl:space-x-4">
+          <div className="hidden lg:flex items-center sm:text-xs lg:space-x-1 xl:space-x-4">
             {/* Renderizar links aqui para o menu grande */}
             <NavLink href={'/'}>Home</NavLink>
             <NavLink href={'/sobre'}>A Audmed</NavLink>

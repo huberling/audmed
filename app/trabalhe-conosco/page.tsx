@@ -3,8 +3,8 @@ import Final from "../components/final";
 import Navbar from "../components/navbar";
 import Link from "next/link";
 import Image from "next/image";
-import func from '../../public/func.jpg'
-import img1 from '../../public/img1.avif'
+import func from '../../public/equipe.avif';
+import img1 from '../../public/img1.avif';
 export default function TrabalheConosco(){
 
     return(
@@ -32,7 +32,7 @@ export default function TrabalheConosco(){
     <section className="container md:flex">
         <div className="descritivos col-md-6">
             <h3 className="text-lg font-semibold mb-3 leading-6 ml-4 md:ml-0 lg:ml-0 md:mt-2">Nossa Missão</h3>
-            <p className="text2 ml-4 md:ml-0 lg:ml-0 mr-4 md:mr-0 lg:mr-0 ">Na Clínica Audmed, estamos constantemente em busca de novos talentos para se juntarem à nossa equipe dedicada a promover a saúde e a segurança no ambiente de trabalho</p>
+            <p className="text2 ml-4 md:ml-0 lg:ml-0 mr-4 md:mr-0 lg:mr-0 ">Na Clínica Audmed, estamos constantemente em busca de novos talentos para se juntarem à nossa equipe dedicada a promover a saúde e a segurança no ambiente de trabalho, com o objetivo de assegurar a integridade física dos colaboradores, com o máximo de excelência.</p>
         </div>
         <div className="descritivos col-md-4 ">
             <Image src={func} alt="" className="h-52 -mt-14 sm:-mt-2" priority/>
@@ -45,6 +45,7 @@ export default function TrabalheConosco(){
         <div className="descritivos col-md-6">
             <h3 className="text-lg font-semibold mb-3 leading-6 ml-4 md:ml-0 lg:ml-0 md:mt-2">Como se candidatar?</h3>
             <p className="text2 ml-4 md:ml-0 lg:ml-0 mr-4 md:mr-0 lg:mr-0 ">Para realizar sua candidatura, você deve enviar seu currículo no email abaixo (faça o envio do seu curriculo em arquivo PDF).</p>
+            <Link href="mailto:rh@audmed.com.br" ><p className="underline -mt-4 hover:text-blue-800" >rh@audmed.com.br</p></Link>
         </div>
         
     </section>
