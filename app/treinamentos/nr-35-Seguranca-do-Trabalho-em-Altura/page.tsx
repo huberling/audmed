@@ -154,29 +154,46 @@ export default function Treinamento8(){
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        Implementar as medidas de proteção especificadas nas normas regulamentares;
+                            Planejamento e Organização: o empregador deve planejar e organizar as atividades em altura de forma a garantir a segurança dos trabalhadores, realizando uma análise de risco detalhada e implementando medidas de controle apropiadas.
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Estabelecer procedimentos operacionais padrão para as operações de alta altitude da empresa;
+                            Fornecimento de Equipamentos: o empregador é responsável por fornecer equipamentos de proteção individual (EPIs) e coletiva (EPCs) adequados e em bom estado de conservação, além de garantir que sejam utilizados corretamente pelos trabalhadores.
                         </div>
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        Cumprir as normas relativas à autorização de trabalhadores para o exercício das atividades;
+                            Treinamento e Capacitação: o empregador deve fornecer treinamento e capacitação específicos sobre os riscos de medidas de segurança relacionadas ao trabalho em altura, garantindo que os trabalhadores estejam devidamente preparados para realizar suas atividades de forma segura.
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Pré-avaliar as condições do local, planejar e implementar medidas de segurança;
+                            Supervisão e Fiscalização: o empregador deve supervisionar as atividades em altura e fiscalizar o cumprimento das medidas de segurança, garantindo que os trabalhadores estejam seguindo os procedimentos estabelecidos.
                         </div>
                         <div> 
                             - 
                         <span className='whitespace-pre'>	</span>
-                        Antes de tomar as medidas de proteção necessárias, certifique-se de que nenhuma operação em alta altitude seja iniciada;
+                            Elaboração de Planos de Emergência: o empregador deve elaborar e treinar os trabalhadores em planos de emergência e resgate, garantindo que haja procedimentos claros para lidar com situações de risco ou acidentes durante o trabalho em altura.
+                        </div>
+                        <br />
+                        <div ><span className='font-bold '>
+                        OBRIGAÇÔES DO EMPREGADO
+                        </span></div>  
+                        <div><br/></div> 
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Participação em Treinamentos: o empregado deve participar dos treinamentos e capacitações oferecidos pelo empregador, aprendendo sobre os riscos e medidas de segurança relacionadas ao trabalho em altura.
                         </div>
                         <div>     - 
                             <span className='whitespace-pre'>	</span>
-                            Sempre que um novo risco surgir e não puder ser eliminado imediatamente, suspenda o trabalho;
+                            Utilização de Equipamentos de Proteção: o empregado é responsável por utilizar corretamente os equipamentos de proteção individual (EPIs) fornecidos pelo empregador, incluindo cintos de segurança, capacetes, luvas, entre outros.
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Seguir os procedimentos de Segurança: o empregado deve seguir os procedimentos de segurança estabelecidos pelo empregador, incluindo o cumprimento das normas de trabalho em altura, análise de risco e uso adequado de equipamentos.
+                        </div>
+                        <div>     - 
+                            <span className='whitespace-pre'>	</span>
+                            Comunicação de Riscos: o empregado deve comunicar ao empregador quaisquer situações de risco ou condições inseguras que identificar durante as atividades em altura, contribuindo para a prevenção de acidentes.
                         </div>
                         <div> 
                             <br/>

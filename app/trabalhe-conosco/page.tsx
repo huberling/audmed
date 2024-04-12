@@ -45,11 +45,9 @@ export default function TrabalheConosco(){
         <div className="descritivos col-md-6">
             <h3 className="text-lg font-semibold mb-3 leading-6 ml-4 md:ml-0 lg:ml-0 md:mt-2">Como se candidatar?</h3>
             <p className="text2 ml-4 md:ml-0 lg:ml-0 mr-4 md:mr-0 lg:mr-0 ">Para realizar sua candidatura, você deve enviar seu currículo no email abaixo (faça o envio do seu curriculo em arquivo PDF).</p>
-            <Link href="mailto:rh@audmed.com.br" ><p className="underline -mt-4 hover:text-blue-800" >rh@audmed.com.br</p></Link>
+            <Link href="mailto:rh@audmed.com.br" ><p className="underline -mt-4 ml-4 md:ml-0 hover:text-blue-800" >rh@audmed.com.br</p></Link>
         </div>
-        
     </section>
-    
        <Final/>
     </main>
         </>
