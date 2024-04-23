@@ -9,6 +9,7 @@ import Hella from '../../public/clientes/Hella.png';
 import Schott from '../../public/clientes/schott-logo.png';
 import Valoren from '../../public/clientes/valoren.png';
 import Intralox from '../../public/clientes/intralox.png';
+import Zarin from '../../public/clientes/Zarin.jpg';
 import Frente from '../../public/Fachada clinica1.png';
 import Final from '../components/final';
 
@@ -100,7 +101,7 @@ export default function SobreClinica(){
 </section>
 <section>
     <div className="container mt-20">
-        <h2 className='text-center font-thin text-3xl leading-6'>Empresas que confiam em nosso trabalho:</h2>
+        <h2 className='text-center font-thin text-3xl leading-6'>Algumas de nossas empresas clientes:</h2>
         <div className="cont">
        <Link href={'https://www.robiel.com/'}><Image className="clientes" src={Valoren} alt="Robiel Logo" /></Link>
        <Link href={'https://www.british.com.br/site/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10 h-40" src={Intralox} alt="Bristish Logo" /></Link>
@@ -108,6 +109,7 @@ export default function SobreClinica(){
        <Link href={'https://www.british.com.br/site/'}><Image className="clientes lg:-mt-0 md:-mt-0 -mt-10" src={British} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes" src={Schott} alt="Schott Logo" /></Link>
        <Link href={'https://www.hella.com/hella-br/pt/Empresa-23.html'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Hella} alt="Hella Logo" /></Link>
+       <Link href={'https://grupozarin.com.br/'}><Image className="clientes lg:mt-0 md:mt-0 mt-10" src={Zarin} alt="Zarin Logo" /></Link>
         </div> 
     </div>
 </section>

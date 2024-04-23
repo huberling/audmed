@@ -11,7 +11,8 @@ import Schott from '../public/clientes/schott-logo.png';
 import Hella from '../public/clientes/Hella.png';
 import ESocial from '../public/blog/esocial.jpg';
 import Intralox from '../public/clientes/intralox.png';
-import Valoren from '../public/clientes/valoren.png'
+import Valoren from '../public/clientes/valoren.png';
+import Zarin from '../public/clientes/Zarin.jpg'
 import Link from 'next/link';
 import Final from './components/final';
 import React from 'react';
@@ -165,7 +166,7 @@ const Home:React.FC = ()=> {
         </div>
 </section>
 <div className='container mt-40'>
-    <h2 className='text-center font-bold text-3xl leading-6 '>Principais Clientes:</h2>
+    <h2 className='text-center font-bold text-3xl leading-6 '>Algumas de nossas empresas clientes:</h2>
     <div className="cont w-full ml-12">
        <Link href={'https://valoren.com.br/'}><Image className='clientes w-44 ' src={Valoren} alt=''/></Link>
        <Link href={'https://www.intralox.com/pt'}><Image className="clientes w-40 h-40 ml-1xl:ml-12" src={Intralox} width={800} height={1000} alt="Robiel Logo" /></Link>
@@ -173,6 +174,7 @@ const Home:React.FC = ()=> {
        <Link href={'https://www.british.com.br/site/'}><Image className="clientes ml-4 2xl:ml-16 lg:-mt-0 md:-mt-0 -mt-10" src={Bristish} alt="Bristish Logo" /></Link>
        <Link href={'https://www.schott.com/pt-br/flat-glass'}><Image className="clientes ml-4 2xl:ml-16" src={Schott} alt="Schott Logo" /></Link>
        <Link href={'https://www.hella.com/hella-br/pt/Empresa-23.html'}><Image className="clientes ml-4 2xl:ml-16 lg:mt-0 md:mt-0 mt-10" src={Hella} alt="Hella Logo" /></Link>
+       <Link href={'https://grupozarin.com.br/'}><Image className="clientes ml-4 2xl:ml-16 lg:mt-0 md:mt-0 mt-10" src={Zarin} alt="Zarin Logo" /></Link>
         </div>    
 </div>
 <Final/>
