@@ -86,7 +86,7 @@ export default function SobreClinica(){
 <div className="foto" data-stellar-background-ratio="0.3">
     <div className="container clearfix">
         <div className="col-md-5 offset-md-6 text-black font-bold mr-8">
-              <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 20 ANOS</h2>
+              <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 25 ANOS</h2>
               <ul>
                 <li>Conformidade com o e-Social</li>
                 <li>Localização com fácil acesso</li>

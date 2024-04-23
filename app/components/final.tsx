@@ -31,7 +31,7 @@ export default function Final(){
             <h4><b className='ml-8 md:ml-5 lg:ml-5'>Navegação</b></h4>
             <ul style={listStyle} className="ml-8 md:ml-0 lg:ml-0">
             <li>
-            <Link  href="/">Home</Link>
+            <Link href="/">Home</Link>
             </li>
             <li>
             <Link href="/sobre">A Audmed</Link>

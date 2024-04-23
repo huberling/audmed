@@ -153,8 +153,8 @@ const Home:React.FC = ()=> {
         <div className="foto" data-stellar-background-ratio="0.3">
             <div className="container clearfix">
                 <div className='col-md-5 offset-md-6 text-white mr-8'>
-                      <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 20 ANOS</h2>
-                      <ul className='text-black -mt-4 -ml-8'>
+                      <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 25 ANOS</h2>
+                      <ul className='text-black -mt-4 -ml-8' >
                         <li>Conformidade com o e-Social</li>
                         <li>Localização com fácil acesso</li>
                         <li>Equipe de profissionais altamente capacitados</li>
