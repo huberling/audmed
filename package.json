@@ -23,7 +23,7 @@
     "js-cookie": "^3.0.5",
     "lucide-react": "^0.294.0",
     "metadata": "^0.1.0",
-    "next": "^14.0.4",
+    "next": "^14.1.1",
     "nodemailer": "^6.9.7",
     "npm": "^10.7.0",
     "react": "^18.2.0",
@@ -34,6 +34,7 @@
     "sharp": "^0.33.2"
   },
   "devDependencies": {
+    "next": "^14.1.1",
     "@types/cors": "^2.8.17",
     "@types/js-cookie": "^3.0.6",
     "@types/node": "^20.10.5",
