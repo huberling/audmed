@@ -14,7 +14,6 @@ import Frente from '../../public/Fachada clinica1.png';
 import Final from '../components/final';
 
 export default function SobreClinica(){
-    
     return(
         <>
         <Navbar/> 
@@ -61,7 +60,7 @@ export default function SobreClinica(){
        
        <section >
         <div className="container">
-<div className="roww clçaa">
+    <div className="roww clçaa">
     <div className="descritivos2 col-md-4 -ml-6 mr-3 md:mr-0 lg:mr-0 md:-ml-12 lg:-ml-12">
         <h4 className='text-xl font-semibold'>MISSÃO</h4>       
         <p className="text">Atuar no ramo da Medicina Ocupacional e Segurança do Trabalho com o objetivo de assegurar a integridade física dos colaboradores, com o máximo de excelência.</p>
@@ -81,10 +80,10 @@ export default function SobreClinica(){
             </p>
         </div>  
     </div>
-</div>
-</section>
-<section id="fotoo">
-<div className="foto" data-stellar-background-ratio="0.3">
+    </div>
+    </section>
+    <section id="fotoo">
+    <div className="foto" data-stellar-background-ratio="0.3">
     <div className="container clearfix">
         <div className="col-md-5 offset-md-6 text-black font-bold mr-8">
               <h2>AUDMED ATUA NA MEDICINA E SEGURANÇA DO TRABALHO HÁ 25 ANOS</h2>
@@ -97,9 +96,9 @@ export default function SobreClinica(){
               
         </div>
     </div>
-</div>
-</section>
-<section>
+    </div>
+    </section>
+    <section>
     <div className="container mt-20">
         <h2 className='text-center font-thin text-3xl leading-6'>Algumas de nossas empresas clientes:</h2>
         <div className="cont">

@@ -44,9 +44,13 @@ export default function LtcatService(){
                         <Link href="/servicos/pcmso" className='text-black'>
                         PCMSO - Programa de Controle Médico de Saúde Ocupacional</Link>
                         </li>
-                        <li>
+                        <li className='mb-2'>
                         <Link href="/servicos/pgr" className='text-black'>
                         PGR - Programa de Gerenciamento de Riscos</Link>
+                        </li>
+                        <li>
+                        <Link href="/servicos/esocial" className='text-black'>
+                        ESocial - Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas</Link>
                         </li>
                     </ul>
                 </div>

@@ -43,8 +43,12 @@ export default function PgrService(){
                                 <li className='mb-2'>
                                     <Link href="/servicos/ltcat" className='text-black'>LTCAT - Laudo Técnico das Condições Ambientais de Trabalho</Link>
                                 </li>
-                                <li>
+                                <li className='mb-2'>
                                     <Link href="/servicos/pcmso" className='text-black'>PCMSO - Programa de Controle Médico de Saúde Ocupacional</Link>
+                                </li>
+                                <li>
+                                    <Link href="/servicos/esocial" className='text-black'>
+                                    ESocial - Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas</Link>
                                 </li>
                             </ul>
                         </div>

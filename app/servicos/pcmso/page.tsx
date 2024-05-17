@@ -42,8 +42,12 @@ export default function PcmsoService(){
                                 <li className="mb-2">
                                     <Link href="/servicos/ltcat" className="text-black">LTCAT - Laudo Técnico das Condições Ambientais de Trabalho</Link>
                                 </li>
-                                <li>
+                                <li className='mb-2'>
                                     <Link href="/servicos/pgr" className="text-black">PGR - Programa de Gerenciamento de Riscos</Link>
+                                </li>
+                                <li>
+                                    <Link href="/servicos/esocial" className='text-black'>
+                                    ESocial - Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas</Link>
                                 </li>
                             </ul>
                         </div>
