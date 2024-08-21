@@ -63,7 +63,7 @@ export default function SobreClinica(){
     <div className="roww clçaa">
     <div className="descritivos2 col-md-4 -ml-6 mr-3 md:mr-0 lg:mr-0 md:-ml-12 lg:-ml-12">
         <h4 className='text-xl font-semibold'>MISSÃO</h4>       
-        <p className="text">Atuar no ramo da Medicina Ocupacional e Segurança do Trabalho com o objetivo de assegurar a integridade física dos colaboradores, com o máximo de excelência.</p>
+        <p className="text">Atuar no ramo da Medicina Ocupacional e Segurança do Trabalho com o objetivo de assegurar a integridade física e mental dos colaboradores, com o máximo de excelência.</p>
     </div>
     <div className="descritivos2 desc1 col-md-4 -ml-7 md:mr-0 lg:mr-0 md:ml-11 lg:ml-11">
         <h4 className='text-xl font-semibold'>VISÃO</h4>
@@ -71,7 +71,7 @@ export default function SobreClinica(){
         </div>  
     <div className="descritivos2 desc2 col-md-4 -ml-7 md:-mr-96 lg:-mr-96 md:ml-11 lg:ml-11">
         <h4 className='text-xl font-semibold'>VALORES</h4>
-        <p className="text">Respeito;<br/>
+        <p className="text">Pioneirismo;<br/>
             Ética;<br />
             Humildade;<br />
             Foco no cliente;<br />
